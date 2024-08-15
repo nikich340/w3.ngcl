@@ -65,4 +65,4 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453057;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453058;created in RedkitStringsDBEditor;DLC;;dlcngcl_name;;;;;;;;;;;;;MOD: NGCL;;;;
 2119453059;created in RedkitStringsDBEditor;DLC;;dlcngcl_description;;;;;;;;;;;;;MOD: NGCL (description);;;;
-2119453060;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_quest_giver.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453060;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_quest_giver.w2ent""";Entity display name;;;;;;;;;;;;;;;Redanian Officer;;;;

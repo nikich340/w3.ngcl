@@ -34,5 +34,12 @@
         "ep1",
         "bob"
     ],
-    "dirtyTileCellIndices": {}
+    "dirtyTileCellIndices": {
+        "levels\\novigrad\\novigrad.w2w": [
+            [
+                25,
+                32
+            ]
+        ]
+    }
 }

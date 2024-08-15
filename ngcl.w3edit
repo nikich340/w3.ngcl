@@ -1,11 +1,11 @@
 {
-    "name": "ngclquest",
+    "name": "ngcl",
     "modName": "",
     "version": "1.0",
     "gameVersion": "",
     "description": "New Quest for the Witcher 3",
     "thumbnail": "",
-    "author": "Nikich, Glassfish, Culorin, Lindrole",
+    "author": "Nikich, Glassfish, Culorin, Lindrole, SieeleLushen",
     "idSpace": 2119453000,
     "workshopId": 0,
     "succesfullyCooked": false,

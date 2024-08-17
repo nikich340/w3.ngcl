@@ -37,6 +37,10 @@
     "dirtyTileCellIndices": {
         "levels\\novigrad\\novigrad.w2w": [
             [
+                26,
+                28
+            ],
+            [
                 25,
                 32
             ]

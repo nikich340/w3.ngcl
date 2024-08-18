@@ -38,6 +38,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453096;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_bandit_corpses_09.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453097;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_witchhunter_corpse_04.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453098;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_witchhunter_corpse_09.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453099;"CJournalResource ""dlc\dlcngcl\journal\quests\mysteriousdisappearance.journal""";Journal;;;;;;;;;;;;;;;Wait until the officer woke up.;;;;
 1159068;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01159068;;;;;;;;;;;;;;;;;;
 1045431;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01045431;;;;;;;;;;;;;;;;;;
 547282;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;;;;;

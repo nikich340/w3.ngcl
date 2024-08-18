@@ -8,10 +8,16 @@ function NGCL_Notify_Shared(message : String) {
 }
 
 exec function topoint(pointName : String) {
-	if (pointName == "1") {
+	if (pointName == "1" || pointName == "board") {
 		thePlayer.Teleport( Vector(691.167969, 2014.068604, 32.415546) );
-	} else if (pointName == "2") {
+	} else if (pointName == "2" || pointName == "redanian") {
 		thePlayer.Teleport( Vector(449.05, 2232.24, 46.06) );
+	} else if (pointName == "3" || pointName == "crime") {
+		thePlayer.Teleport( Vector(605.82,1172.28,2.79) );
+	} else if (pointName == "4" || pointName == "vilmerius") {
+		thePlayer.Teleport( Vector(786.28, 2033.21, 14.74) );
+	} else if (pointName == "whale") {
+		thePlayer.Teleport( Vector(-737.5, -83.43, 1.41) );
 	}
 }
 

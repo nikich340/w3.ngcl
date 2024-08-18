@@ -37,3 +37,12 @@ exec function testanim(animName : name, blend : bool) {
 exec function getpos() {
 	NGCL_Notify_Shared( "PlayerPos: " + VecToString(thePlayer.GetWorldPosition()) );
 }
+
+exec function showfact(factName : String) {
+	if ( !FactsDoesExist(factName) ) {
+		NGCL_Notify_Shared("Fact does not exist: [" + factName + "]");
+	} else {
+		NGCL_Notify_Shared("Fact [" + factName + "] = " + FactsQuerySum(factName));
+	}
+}
+

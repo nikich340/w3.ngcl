@@ -32,6 +32,12 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 1188940;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01188940;;;;;;;;;;;;;;;;;;
 2119453091;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Comment;;;;;;;;;;;;;;;;;;;
 2119453092;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Comment;;;;;;;;;;;;;;;;;;;
+2119453093;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_corpse_04_redania_guard.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453094;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_corpse_09_redania_guard.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453095;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_corpse_11_redania_guard.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453096;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_bandit_corpses_09.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453097;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_witchhunter_corpse_04.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453098;"CEntityTemplate ""dlc\dlcngcl\data\entities\corpses\ngcl_witchhunter_corpse_09.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 1159068;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01159068;;;;;;;;;;;;;;;;;;
 1045431;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01045431;;;;;;;;;;;;;;;;;;
 547282;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;;;;;

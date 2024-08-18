@@ -13,7 +13,7 @@ exec function topoint(pointName : String) {
 	} else if (pointName == "2" || pointName == "redanian") {
 		thePlayer.Teleport( Vector(449.05, 2232.24, 46.06) );
 	} else if (pointName == "3" || pointName == "crime") {
-		thePlayer.Teleport( Vector(605.82,1172.28,2.79) );
+		thePlayer.Teleport( Vector(642.598, 1180.57, 8.33731) );
 	} else if (pointName == "4" || pointName == "vilmerius") {
 		thePlayer.Teleport( Vector(786.28, 2033.21, 14.74) );
 	} else if (pointName == "whale") {
@@ -45,4 +45,3 @@ exec function showfact(factName : String) {
 		NGCL_Notify_Shared("Fact [" + factName + "] = " + FactsQuerySum(factName));
 	}
 }
-

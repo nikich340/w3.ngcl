@@ -35,18 +35,10 @@
         "bob"
     ],
     "dirtyTileCellIndices": {
-        "levels\\novigrad\\novigrad.w2w": [
+        "dlc\\ngcl\\data\\levels\\ngcl_world_01\\ngcl_world_01.w2w": [
             [
-                25,
-                28
-            ],
-            [
-                26,
-                28
-            ],
-            [
-                25,
-                32
+                15,
+                16
             ]
         ]
     }

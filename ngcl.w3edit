@@ -1,6 +1,6 @@
 {
     "name": "ngcl",
-    "modName": "",
+    "modName": "A witcher can hide another",
     "version": "1.0",
     "gameVersion": "",
     "description": "New Quest for the Witcher 3",
@@ -39,6 +39,12 @@
             [
                 15,
                 16
+            ]
+        ],
+        "levels\\novigrad\\novigrad.w2w": [
+            [
+                26,
+                28
             ]
         ]
     }

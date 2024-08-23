@@ -45,3 +45,54 @@ exec function showfact(factName : String) {
 		NGCL_Notify_Shared("Fact [" + factName + "] = " + FactsQuerySum(factName));
 	}
 }
+
+exec function tobear() {
+	NGCL_SwitchToBearWitcher();
+}
+
+exec function togeralt(equipPrevArmor : bool) {
+	NGCL_SwitchToGeralt(equipPrevArmor);
+}
+
+exec function gpscene(inputName : String) {
+	var scene      : CStoryScene;
+	scene = (CStoryScene)LoadResource("dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene", true);
+	if (!scene)
+		NGCL_Notify_Shared("NULL scene!");
+
+	theGame.GetStorySceneSystem().PlayScene(scene, inputName);
+}
+
+exec function testname() {
+	thePlayer.displayName;
+}
+
+exec function testnpc(npcName : String, optional hostile : bool) {
+	var path : String;
+	var template : CEntityTemplate;
+	var npc : CNewNPC;
+	
+	if (npcName == "geralt1") {
+		path = "dlc\dlcngcl\data\entities\ngcl_geralt_npc.w2ent";
+	} else {
+		NGCL_Notify_Shared("Unknown npcName!");
+		return;
+	}
+	
+	template = (CEntityTemplate)LoadResource(path, true);
+	if (!template) {
+		NGCL_Notify_Shared("NULL template");
+		return;
+	}
+	
+	npc = (CNewNPC)theGame.CreateEntity(template, thePlayer.GetWorldPosition() + thePlayer.GetWorldForward() * 3.f);
+	if (!npc) {
+		NGCL_Notify_Shared("NULL entity");
+		return;
+	}
+	npc.AddTag('NGCL_Test');
+	
+	if (hostile) {
+		npc.SetTemporaryAttitudeGroup( 'hostile_to_player', AGP_Default );
+	}
+}

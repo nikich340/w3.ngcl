@@ -39,37 +39,37 @@ function NGCL_SwitchToBearWitcher() {
 	// equipment - armor
 	equipmentSlotEnums.PushBack(EES_Armor);
 	if (NGP)
-		equipmentItemNames.PushBack('NGCL NGP Bear Armor 4 with medallion');
+		equipmentItemNames.PushBack('NGP NGCL Bear Armor 4');
 	else
-		equipmentItemNames.PushBack('NGCL Bear Armor 4 with medallion');
+		equipmentItemNames.PushBack('NGCL Bear Armor 4');
 
 	// equipment - boots
 	equipmentSlotEnums.PushBack(EES_Boots);
 	if (NGP)
-		equipmentItemNames.PushBack('NGP Bear Boots 5');
+		equipmentItemNames.PushBack('NGP NGCL Bear Boots 5');
 	else
-		equipmentItemNames.PushBack('Bear Boots 5');
+		equipmentItemNames.PushBack('NGCL Bear Boots 5');
 	
 	// equipment - gloves
 	equipmentSlotEnums.PushBack(EES_Gloves);
 	if (NGP)
-		equipmentItemNames.PushBack('NGP Bear Gloves 5');
+		equipmentItemNames.PushBack('NGP NGCL Bear Gloves 5');
 	else
-		equipmentItemNames.PushBack('Bear Gloves 5');
+		equipmentItemNames.PushBack('NGCL Bear Gloves 5');
 	
 	// equipment - pants
 	equipmentSlotEnums.PushBack(EES_Pants);
 	if (NGP)
-		equipmentItemNames.PushBack('NGP Bear Pants 5');
+		equipmentItemNames.PushBack('NGP NGCL Bear Pants 5');
 	else
-		equipmentItemNames.PushBack('Bear Pants 5');
+		equipmentItemNames.PushBack('NGCL Bear Pants 5');
 	
 	// equipment - silver
 	equipmentSlotEnums.PushBack(EES_SilverSword);
 	if (NGP)
-		equipmentItemNames.PushBack('NGP Bear School silver sword 4');
+		equipmentItemNames.PushBack('NGP NGCL Bear School silver sword 4');
 	else
-		equipmentItemNames.PushBack('Bear School silver sword 4');
+		equipmentItemNames.PushBack('NGCL Bear School silver sword 4');
 	
 	// equipment - steel
 	equipmentSlotEnums.PushBack(EES_SteelSword);
@@ -77,7 +77,7 @@ function NGCL_SwitchToBearWitcher() {
 
 	// equipment - crossbow
 	equipmentSlotEnums.PushBack(EES_RangedWeapon);
-	equipmentItemNames.PushBack('Bear School Crossbow');
+	equipmentItemNames.PushBack('NGCL Bear School Crossbow');
 
 	// equipment - equip
 	savedDataObj.equipmentItemNames.Clear();

@@ -40,6 +40,20 @@
                 15,
                 16
             ]
+        ],
+        "dlc\\dlcngcl\\data\\levels\\ngcl_elven_lab\\ngcl_elven_lab.w2w": [
+            [
+                16,
+                16
+            ],
+            [
+                16,
+                17
+            ],
+            [
+                17,
+                17
+            ]
         ]
     }
 }

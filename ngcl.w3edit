@@ -1,6 +1,6 @@
 {
     "name": "ngcl",
-    "modName": "A witcher can hide another",
+    "modName": "",
     "version": "1.0",
     "gameVersion": "",
     "description": "New Quest for the Witcher 3",
@@ -39,16 +39,6 @@
             [
                 15,
                 16
-            ]
-        ],
-        "dlc\\dlcngcl\\data\\levels\\ngcl_elven_lab\\ngcl_elven_lab.w2w": [
-            [
-                16,
-                16
-            ],
-            [
-                16,
-                17
             ]
         ]
     }

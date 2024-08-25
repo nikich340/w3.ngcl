@@ -47,11 +47,13 @@ exec function showfact(factName : String) {
 }
 
 exec function tobear() {
-	NGCL_SwitchToBearWitcher();
+	theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
+	// NGCL_SwitchToBearWitcher();
 }
 
-exec function togeralt(equipPrevArmor : bool) {
-	NGCL_SwitchToGeralt(equipPrevArmor);
+exec function togeralt(optional equipPrevArmor : bool) {
+	theGame.ChangePlayer( "Geralt" );
+	// NGCL_SwitchToGeralt(equipPrevArmor);
 }
 
 exec function gpscene(inputName : String) {

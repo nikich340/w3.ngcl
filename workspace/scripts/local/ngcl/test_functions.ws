@@ -46,14 +46,70 @@ exec function showfact(factName : String) {
 	}
 }
 
-exec function tobear() {
+exec function tobear1() {
 	theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
-	// NGCL_SwitchToBearWitcher();
 }
 
-exec function togeralt(optional equipPrevArmor : bool) {
+exec function tobear2() {
+	var inv : CInventoryComponent;
+	var ids : array<SItemUniqueId>;
+	var equipmentSlotEnums : array<EEquipmentSlots>;
+	var equipmentItemNames : array<name>;
+	var   i : int;
+
+	thePlayer.abilityManager.RestoreStat(BCS_Vitality);
+
+	inv = thePlayer.GetInventory();
+	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+
+	// equipment - equip
+	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
+		//if ( inv.GetItemEquippedOnSlot(equipmentSlotEnums[i], id) )
+		//	savedDataObj.equipmentItemNames.PushBack( inv.GetItemName(id) );
+		ids.Clear();
+		ids = inv.AddAnItem(equipmentItemNames[i], 1);
+		thePlayer.EquipItem(ids[0]);
+	}
+	
+	FactsAdd("ngcl_avatar_active", 1);
+}
+
+exec function togeralt1() {
 	theGame.ChangePlayer( "Geralt" );
-	// NGCL_SwitchToGeralt(equipPrevArmor);
+}
+
+exec function togeralt2() {
+	var inv : CInventoryComponent;
+	var ids : array<SItemUniqueId>;
+	var equipmentSlotEnums : array<EEquipmentSlots>;
+	var equipmentItemNames : array<name>;
+	var result : bool;
+	var   i : int;
+	
+	thePlayer.abilityManager.RestoreStat(BCS_Vitality);
+	
+	inv = thePlayer.GetInventory();
+	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+
+	// hair - restore saved (TODO)
+	/*
+	ids = inv.GetItemsByCategory( 'hair' );
+	for ( i = 0; i < ids.Size(); i += 1 )
+	{
+		if ( inv.IsItemMounted(ids[i]) )
+			inv.UnmountItem(ids[i]);
+		inv.RemoveItem(ids[i], 1);
+	}
+	ids.Clear();
+	ids = inv.AddAnItem(savedDataObj.hairName, 1);
+	inv.MountItem(ids[0]);
+	*/
+
+	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
+		inv.RemoveItemByName(equipmentItemNames[i], 1);
+	}
+
+	FactsRemove("ngcl_avatar_active");
 }
 
 exec function gpscene(inputName : String) {

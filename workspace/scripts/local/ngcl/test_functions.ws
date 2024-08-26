@@ -61,6 +61,18 @@ exec function tobear2() {
 
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+	
+	// hair - set new hair
+	ids = inv.GetItemsByCategory( 'hair' );
+	for ( i = 0; i < ids.Size(); i += 1 )
+	{
+		if ( inv.IsItemMounted(ids[i]) )
+			inv.UnmountItem(ids[i]);
+		inv.RemoveItem(ids[i], 1);
+	}
+	ids.Clear();
+	ids = inv.AddAnItem('NGCL Ulvbjorn hair', 1);
+	inv.MountItem(ids[0]);
 
 	// equipment - equip
 	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
@@ -91,8 +103,7 @@ exec function togeralt2() {
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
 
-	// hair - restore saved (TODO)
-	/*
+	// hair - restore saved
 	ids = inv.GetItemsByCategory( 'hair' );
 	for ( i = 0; i < ids.Size(); i += 1 )
 	{
@@ -101,9 +112,9 @@ exec function togeralt2() {
 		inv.RemoveItem(ids[i], 1);
 	}
 	ids.Clear();
-	ids = inv.AddAnItem(savedDataObj.hairName, 1);
+	// TODO - use saved hair on Geralt NPC
+	ids = inv.AddAnItem('Preview Hair', 1);
 	inv.MountItem(ids[0]);
-	*/
 
 	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
 		inv.RemoveItemByName(equipmentItemNames[i], 1);
@@ -119,10 +130,6 @@ exec function gpscene(inputName : String) {
 		NGCL_Notify_Shared("NULL scene!");
 
 	theGame.GetStorySceneSystem().PlayScene(scene, inputName);
-}
-
-exec function testname() {
-	thePlayer.displayName;
 }
 
 exec function testnpc(npcName : String, optional hostile : bool) {

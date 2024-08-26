@@ -13,6 +13,18 @@ latent quest function NGCL_SwitchToBearWitcher_Q() {
 
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+	
+	// hair - set new hair
+	ids = inv.GetItemsByCategory( 'hair' );
+	for ( i = 0; i < ids.Size(); i += 1 )
+	{
+		if ( inv.IsItemMounted(ids[i]) )
+			inv.UnmountItem(ids[i]);
+		inv.RemoveItem(ids[i], 1);
+	}
+	ids.Clear();
+	ids = inv.AddAnItem('NGCL Ulvbjorn hair', 1);
+	inv.MountItem(ids[0]);
 
 	// equipment - equip
 	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
@@ -42,8 +54,7 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
 
-	// hair - restore saved (TODO)
-	/*
+	// hair - restore saved
 	ids = inv.GetItemsByCategory( 'hair' );
 	for ( i = 0; i < ids.Size(); i += 1 )
 	{
@@ -52,9 +63,9 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 		inv.RemoveItem(ids[i], 1);
 	}
 	ids.Clear();
-	ids = inv.AddAnItem(savedDataObj.hairName, 1);
+	// TODO - use saved hair on Geralt NPC
+	ids = inv.AddAnItem('Preview Hair', 1);
 	inv.MountItem(ids[0]);
-	*/
 
 	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
 		inv.RemoveItemByName(equipmentItemNames[i], 1);

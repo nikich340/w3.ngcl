@@ -21,6 +21,24 @@ exec function topoint(pointName : String) {
 	}
 }
 
+exec function toscene(sceneName : String, optional input : String) {
+	var scenePath : String;
+	var scene      : CStoryScene;
+
+	if (sceneName == "3a") {
+		scenePath = "dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene";
+	}
+	scene = (CStoryScene)LoadResource(scenePath, true);
+	if (!scene)
+		NGCL_Notify_Shared("NULL scene, check path: " + scenePath);
+	
+	if (StrLen(input) < 1)
+		input = "Input";
+	
+	// NGCL_Notify_Shared("[" + input + "] " + scene);
+	theGame.GetStorySceneSystem().PlayScene(scene, input);
+}
+
 exec function testanim(animName : name, blend : bool) {
 	var blendIn, blendOut : float;
 	

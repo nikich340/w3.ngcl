@@ -158,6 +158,8 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453199;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Find mitigating herbs near the hospital.;;;;
 2119453200;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Find an antidote for the white-haired witcher.;;;;
 2119453201;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Return the herbs to the medic.;;;;
+2119453202;CUSTOM;Item;;item_name_skates;;;;;;;;;;;;;Skates;;;;
+2119453203;CUSTOM;Item;;item_desc_skates;;;;;;;;;;;;;Skates;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;;;;;;;;;;;I need help.;;;;
 358273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_00358273;;;;;;;;;;;;;;;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;;;;;;;;;;;Hey Witcher! Come here.;;;;

@@ -162,6 +162,8 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453203;CUSTOM;Item;;item_desc_skates;;;;;;;;;;;;;A specisal thing to move over an ice;;;;
 2119453204;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453205;"CEntityTemplate ""dlc\dlcngcl\data\actionpoints\ngcl_geralt_poisoned_ap.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453206;CUSTOM;Maps;;map_location_ngcl_elven_lab;;;;;;;;;;;;;NGCL elven lab map;;;;
+2119453207;CUSTOM;Maps;;map_description_ngcl_elven_lab;;;;;;;;;;;;;NGCL elven lab description;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;;;;;;;;;;;I need help.;;;;
 358273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_00358273;;;;;;;;;;;;;;;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;;;;;;;;;;;Hey Witcher! Come here.;;;;

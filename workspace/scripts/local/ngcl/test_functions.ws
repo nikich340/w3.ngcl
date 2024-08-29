@@ -1,8 +1,8 @@
 quest function NGCL_Notify(message : String) {
-	NGCL_Notify_Shared(message);
+	NNS(message);
 }
 
-function NGCL_Notify_Shared(message : String) {
+function NNS(message : String) {
 	theGame.GetGuiManager().ShowNotification(message, 5000.f, false);
 	LogChannel('NGCL_Notify', "(" + FloatToStringPrec(theGame.GetEngineTimeAsSeconds(), 3) + "): " + message);
 }
@@ -30,12 +30,12 @@ exec function toscene(sceneName : String, optional input : String) {
 	}
 	scene = (CStoryScene)LoadResource(scenePath, true);
 	if (!scene)
-		NGCL_Notify_Shared("NULL scene, check path: " + scenePath);
+		NNS("NULL scene, check path: " + scenePath);
 	
 	if (StrLen(input) < 1)
 		input = "Input";
 	
-	// NGCL_Notify_Shared("[" + input + "] " + scene);
+	// NNS("[" + input + "] " + scene);
 	theGame.GetStorySceneSystem().PlayScene(scene, input);
 }
 
@@ -53,14 +53,47 @@ exec function testanim(animName : name, blend : bool) {
 }
 
 exec function getpos() {
-	NGCL_Notify_Shared( "PlayerPos: " + VecToString(thePlayer.GetWorldPosition()) );
+	NNS( "PlayerPos: " + VecToString(thePlayer.GetWorldPosition()) );
+}
+
+exec function topos(x : float, y : float, z : float) {
+	thePlayer.TeleportWithRotation( Vector(x,y,z), EulerAngles(0,0,0) );
+}
+
+// z = 2000, fov = 50
+exec function minimap_run(z : float, fov : float) {
+	var template : CEntityTemplate;
+	var cam : CStaticCamera;
+	
+	cam = (CStaticCamera)theGame.GetEntityByTag('NGCL_DEV_MinimapCamera');
+	if (!cam) {
+		template = (CEntityTemplate)LoadResource("dlc\dlcngcl\data\entities\ngcl_minimap_camera.w2ent", true);
+		cam = (CStaticCamera)theGame.CreateEntity(template, Vector(0,0,z));
+		cam.SetFov(fov);
+		cam.AddTag('NGCL_DEV_MinimapCamera');
+		NNS("CAMERA CREATED!");
+	} else {
+		NNS("CAMERA FOUND!");
+	}
+	cam.Run();
+}
+
+exec function minimap_stop() {
+	var cam : CStaticCamera;
+	
+	cam = (CStaticCamera)theGame.GetEntityByTag('NGCL_DEV_MinimapCamera');
+	if (!cam) {
+		NNS("NO CAMERA!");
+		return;
+	}
+	cam.Stop();
 }
 
 exec function showfact(factName : String) {
 	if ( !FactsDoesExist(factName) ) {
-		NGCL_Notify_Shared("Fact does not exist: [" + factName + "]");
+		NNS("Fact does not exist: [" + factName + "]");
 	} else {
-		NGCL_Notify_Shared("Fact [" + factName + "] = " + FactsQuerySum(factName));
+		NNS("Fact [" + factName + "] = " + FactsQuerySum(factName));
 	}
 }
 
@@ -145,7 +178,7 @@ exec function gpscene(inputName : String) {
 	var scene      : CStoryScene;
 	scene = (CStoryScene)LoadResource("dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene", true);
 	if (!scene)
-		NGCL_Notify_Shared("NULL scene!");
+		NNS("NULL scene!");
 
 	theGame.GetStorySceneSystem().PlayScene(scene, inputName);
 }
@@ -158,19 +191,19 @@ exec function testnpc(npcName : String, optional hostile : bool) {
 	if (npcName == "geralt1") {
 		path = "dlc\dlcngcl\data\entities\ngcl_geralt_npc.w2ent";
 	} else {
-		NGCL_Notify_Shared("Unknown npcName!");
+		NNS("Unknown npcName!");
 		return;
 	}
 	
 	template = (CEntityTemplate)LoadResource(path, true);
 	if (!template) {
-		NGCL_Notify_Shared("NULL template");
+		NNS("NULL template");
 		return;
 	}
 	
 	npc = (CNewNPC)theGame.CreateEntity(template, thePlayer.GetWorldPosition() + thePlayer.GetWorldForward() * 3.f);
 	if (!npc) {
-		NGCL_Notify_Shared("NULL entity");
+		NNS("NULL entity");
 		return;
 	}
 	npc.AddTag('NGCL_Test');
@@ -185,8 +218,8 @@ exec function test_music(eventName : String) {
 	
 	if ( !theSound.SoundIsBankLoaded(bankName) ) {
 		theSound.SoundLoadBank(bankName, false);
-		NGCL_Notify_Shared("SoundLoadBank");
+		NNS("SoundLoadBank");
 	}
-	NGCL_Notify_Shared("SoundEvent");
+	NNS("SoundEvent");
 	theSound.SoundEvent(eventName);
 }

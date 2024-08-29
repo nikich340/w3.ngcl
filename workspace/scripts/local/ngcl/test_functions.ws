@@ -213,13 +213,11 @@ exec function testnpc(npcName : String, optional hostile : bool) {
 	}
 }
 
-exec function test_music(eventName : String) {
-	var bankName : String = "music_skellige.bnk";
-	
+exec function music(bankName, eventName : String) {
 	if ( !theSound.SoundIsBankLoaded(bankName) ) {
 		theSound.SoundLoadBank(bankName, false);
-		NNS("SoundLoadBank");
+		NNS("SoundLoadBank -> " + bankName);
 	}
-	NNS("SoundEvent");
+	NNS("SoundEvent -> " + eventName);
 	theSound.SoundEvent(eventName);
 }

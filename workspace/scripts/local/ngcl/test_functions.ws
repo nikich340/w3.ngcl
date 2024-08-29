@@ -60,20 +60,20 @@ exec function topos(x : float, y : float, z : float) {
 	thePlayer.TeleportWithRotation( Vector(x,y,z), EulerAngles(0,0,0) );
 }
 
-// z = 2000, fov = 50
-exec function minimap_run(z : float, fov : float) {
+// z = 2260, fov = 50
+exec function minimap_run(z : float) {
 	var template : CEntityTemplate;
 	var cam : CStaticCamera;
 	
 	cam = (CStaticCamera)theGame.GetEntityByTag('NGCL_DEV_MinimapCamera');
 	if (!cam) {
 		template = (CEntityTemplate)LoadResource("dlc\dlcngcl\data\entities\ngcl_minimap_camera.w2ent", true);
-		cam = (CStaticCamera)theGame.CreateEntity(template, Vector(0,0,z));
-		cam.SetFov(fov);
+		cam = (CStaticCamera)theGame.CreateEntity(template, Vector(0,0,z), EulerAngles(-90, 0, 0));
 		cam.AddTag('NGCL_DEV_MinimapCamera');
 		NNS("CAMERA CREATED!");
 	} else {
 		NNS("CAMERA FOUND!");
+		cam.TeleportWithRotation(Vector(0,0,z), EulerAngles(-90, 0, 0));
 	}
 	cam.Run();
 }

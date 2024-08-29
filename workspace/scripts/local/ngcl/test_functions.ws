@@ -179,3 +179,14 @@ exec function testnpc(npcName : String, optional hostile : bool) {
 		npc.SetTemporaryAttitudeGroup( 'hostile_to_player', AGP_Default );
 	}
 }
+
+exec function test_music(eventName : String) {
+	var bankName : String = "music_skellige.bnk";
+	
+	if ( !theSound.SoundIsBankLoaded(bankName) ) {
+		theSound.SoundLoadBank(bankName, false);
+		NGCL_Notify_Shared("SoundLoadBank");
+	}
+	NGCL_Notify_Shared("SoundEvent");
+	theSound.SoundEvent(eventName);
+}

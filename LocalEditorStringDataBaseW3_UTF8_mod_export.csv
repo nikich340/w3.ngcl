@@ -173,7 +173,13 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;;;;;;;;;;;I need help.;;;;
 2119453214;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453215;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line text;GRLT_NGCL_2119453215;;;;;;;;;;;;;;Indeed. Here are your herbs. Didn't expect that I had to run around the entire hospital, to be honest.;;;;
+2119453216;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453217;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line text;NVAM1_NGCL_2119453217;;;;;;;;;;;;;;Please, master witcher, get the healing herbs.;;;;
 358273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_00358273;;;;;;;;;;;;;;;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;;;;;;;;;;;Hey Witcher! Come here.;;;;
+2119453218;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453219;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119453219;;;;;;;;;;;;;;It is done.;;;;
 2119453008;"CStoryScene ""dlc\ngcl\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;REOF1_NGCL_2119453008;;;;;;;;;;;;;;Come here.;;;;
+2119453220;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453221;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119453221;;;;;;;;;;;;;;Your friend will need to get an antidote though, and sooner rather than later.;;;;
 2119453010;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453010;;;;;;;;;;;;;;I sent my soldiers to patrol the forest east of Ursten.;;;;

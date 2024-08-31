@@ -123,3 +123,21 @@ function NGCL_GetBearEquipmentData(out equipmentSlotEnums : array<EEquipmentSlot
 	equipmentSlotEnums.PushBack(EES_RangedWeapon);
 	equipmentItemNames.PushBack('NGCL Bear School Crossbow');
 }
+
+quest function NGCL_SetEncounterEnabled( encounterTag : name, enable : bool )
+{
+	var encounter 				: CEncounter;
+	
+	encounter = (CEncounter)theGame.GetEntityByTag ( encounterTag );
+	if ( !encounter ) {
+		NNS("NGCL_SetEncounterEnabled: not found " + encounterTag);
+		return;
+	}
+	
+	encounter.EnableEncounter(enable);
+	if (!enable) {
+		encounter.ForceDespawnDetached();
+	} else {
+		encounter.EnterArea();
+	}
+}

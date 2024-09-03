@@ -152,6 +152,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453249;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453249;;;;;;;;;;;;;;I should explore the surroundings.;;;;
 2119453250;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453251;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453251;;;;;;;;;;;;;;Where am I?;;;;
+2119453252;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\lootable_crate_elven_camp_phase_5\crate_with_skate_new.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 1042370;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01042370;;;;;;;;;;;;;;;;;;
 465989;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_00465989;;;;;;;;;;;;;;;;;;
 1161191;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_01161191;;;;;;;;;;;;;;;;;;

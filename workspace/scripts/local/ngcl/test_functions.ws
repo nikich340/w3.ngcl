@@ -190,6 +190,8 @@ exec function testnpc(npcName : String, optional hostile : bool) {
 	
 	if (npcName == "geralt1") {
 		path = "dlc\dlcngcl\data\entities\ngcl_geralt_npc.w2ent";
+	} else if (npcName == "emilia") {
+		path = "dlc\dlcngcl\data\entities\ngcl_elven_sorceress.w2ent";
 	} else {
 		NNS("Unknown npcName!");
 		return;

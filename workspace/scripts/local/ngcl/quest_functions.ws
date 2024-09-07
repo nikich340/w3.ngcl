@@ -4,6 +4,7 @@ latent quest function NGCL_SwitchToBearWitcher_Q() {
 	var ids : array<SItemUniqueId>;
 	var equipmentSlotEnums : array<EEquipmentSlots>;
 	var equipmentItemNames : array<name>;
+	var headComponent : CHeadManagerComponent;
 	var   i : int;
 	
 	theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
@@ -13,6 +14,11 @@ latent quest function NGCL_SwitchToBearWitcher_Q() {
 
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+	
+	// head - remember
+	headComponent = (CHeadManagerComponent)thePlayer.GetComponentByClassName( 'CHeadManagerComponent' );
+	headComponent.SetCustomHead( 'NGCL Ulvbjorn head' );
+	thePlayer.RememberCustomHead( 'NGCL Ulvbjorn head' );
 	
 	// hair - set new hair
 	ids = inv.GetItemsByCategory( 'hair' );
@@ -44,6 +50,7 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	var equipmentSlotEnums : array<EEquipmentSlots>;
 	var equipmentItemNames : array<name>;
 	var result : bool;
+	var headComponent : CHeadManagerComponent;
 	var   i : int;
 	
 	theGame.ChangePlayer( "Geralt" );
@@ -53,6 +60,11 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	
 	inv = thePlayer.GetInventory();
 	NGCL_GetBearEquipmentData(equipmentSlotEnums, equipmentItemNames);
+	
+	// head - remember
+	headComponent = (CHeadManagerComponent)thePlayer.GetComponentByClassName( 'CHeadManagerComponent' );
+	headComponent.RemoveCustomHead();
+	thePlayer.ClearRememberedCustomHead();
 
 	// hair - restore saved
 	ids = inv.GetItemsByCategory( 'hair' );

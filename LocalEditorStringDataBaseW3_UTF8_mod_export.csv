@@ -173,6 +173,16 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453270;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Follow mushrooms' odour.;;;;
 2119453271;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Find back mushrooms' odour.;;;;
 2119453272;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Inspect elves' loot.;;;;
+2119453273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453274;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453274;;;;;;;;;;;;;;Given the size of this frozen lake, these ice skates will come in handy.;;;;
+2119453275;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b2_put_skates_nexts_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453276;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b2_put_skates_nexts_time.w2scene""";Line text;GRLT_NGCL_2119453276;;;;;;;;;;;;;;Given the size of this frozen lake, these ice skates will come in handy.;;;;
+2119453277;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453278;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453278;;;;;;;;;;;;;;Given the size of this frozen lake, these ice skates will come in handy.;;;;
+2119453279;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453280;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453280;;;;;;;;;;;;;;I don't need this anymore.;;;;
+2119453281;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c2_remove_skates_nexts_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453282;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c2_remove_skates_nexts_time.w2scene""";Line text;GRLT_NGCL_2119453282;;;;;;;;;;;;;;I don't need this anymore.;;;;
 1042370;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01042370;;;;;;;;;;;;;;;;;;
 465989;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_00465989;;;;;;;;;;;;;;;;;;
 1161191;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_01161191;;;;;;;;;;;;;;;;;;

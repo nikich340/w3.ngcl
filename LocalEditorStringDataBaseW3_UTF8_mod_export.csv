@@ -192,6 +192,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453287;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Find a way out.;;;;
 1161191;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_01161191;;;;;;;;;;;;;;;;;;
 2119453288;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Follow mushroom odour.;;;;
+2119453289;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\herbs\ngcs_medic_herbs.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;;;;;;;;;;;I need help.;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;;;;;;;;;;;Hey Witcher! Come here.;;;;
 1202623;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01202623;;;;;;;;;;;;;;;;;;

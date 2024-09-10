@@ -159,7 +159,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453256;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453256;;;;;;;;;;;;;;I should continue to follow this valley.;;;;
 2119453257;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Explore the surroundings.;;;;
 2119453258;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453259;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453259;;;;;;;;;;;;;;This icy river is really slippery;;;;
+2119453259;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453259;;;;;;;;;;;;;;This icy river is really slippery.;;;;
 2119453260;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453261;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453261;;;;;;;;;;;;;;Interesting these ice skates.;;;;
 2119453262;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

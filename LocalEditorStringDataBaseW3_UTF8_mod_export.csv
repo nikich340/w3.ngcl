@@ -110,10 +110,10 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453209;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\mushrooms\ngcl_glowing_mushrooms_lootable.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453210;created in RedkitStringsDBEditor;;;item_name_blue_mushroom;;;;;;;;;;;;;Blue mushroom;;;;
 2119453211;created in RedkitStringsDBEditor;;;item_desc_blue_mushroom;;;;;;;;;;;;;Strange glowing mushroom;;;;
-2119453212;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453213;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line text;NVAM1_NGCL_2119453213;;;;;;;;;;;;;;Ahh! There you are. You're white-haired friend is stable, you'll be pleased to hear.;;;;
-2119453214;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453215;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_does_procedure.w2scene""";Line text;GRLT_NGCL_2119453215;;;;;;;;;;;;;;Indeed. Here are your herbs. Didn't expect that I had to run around the entire hospital, to be honest.;;;;
+2119453212;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453213;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119453213;;;;;;;;;;;;;;Ahh! There you are. You're white-haired friend is stable, you'll be pleased to hear.;;;;
+2119453214;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453215;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119453215;;;;;;;;;;;;;;Indeed. Here are your herbs. Didn't expect that I had to run around the entire hospital, to be honest.;;;;
 2119453216;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453217;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line text;NVAM1_NGCL_2119453217;;;;;;;;;;;;;;Please, master witcher, get the healing herbs.;;;;
 2119453218;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -263,9 +263,8 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453025;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453025;;;;;;;;;;;;;;Si c'est bien payé.;;;;
 2119453342;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453342;;;;;;;;;;;;;;I don't need this anymore.;;;;
 1193794;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01193794;;;;;;;;;;;;;;;;;;
-2119453343;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05e_zoom_on_skates.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453343;"CEntityTemplate ""gameplay\abilities\sorceresses\soceress_arcane_missile.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453027;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453027;;;;;;;;;;;;;;Tout dépend qui demande.;;;;
-2119453344;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05e_zoom_on_skates.w2scene""";Line text;GRLT_NGCL_2119453344;;;;;;;;;;;;;;Given the size of this frozen lake, these ice skates will come in handy.;;;;
 2119453029;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;If it's well paid.;;;;
 2119453031;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;Why you asking me?;;;;
 2119453033;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453033;;;;;;;;;;;;;;Hum... I will have a look.;;;;

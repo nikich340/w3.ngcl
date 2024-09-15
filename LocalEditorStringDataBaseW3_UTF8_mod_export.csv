@@ -263,6 +263,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453025;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453025;;;;;;;;;;;;;;Si c'est bien payé.;;;;
 2119453342;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453342;;;;;;;;;;;;;;I don't need this anymore.;;;;
 1193794;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01193794;;;;;;;;;;;;;;;;;;
+2119453343;"CEntityTemplate ""gameplay\abilities\sorceresses\soceress_arcane_missile.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453027;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453027;;;;;;;;;;;;;;Tout dépend qui demande.;;;;
 2119453029;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;If it's well paid.;;;;
 2119453031;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;Why you asking me?;;;;

@@ -266,6 +266,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453343;"CEntityTemplate ""gameplay\abilities\sorceresses\soceress_arcane_missile.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453027;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453027;;;;;;;;;;;;;;Tout dépend qui demande.;;;;
 2119453344;"CEntityTemplate ""dlc\dlcngcl\data\gameplay\focus_mode_clues\ngcl_clue_blood_path.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453345;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\elven_camp_crate\ngcl_interactive_wall.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453029;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;If it's well paid.;;;;
 2119453031;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;Why you asking me?;;;;
 2119453033;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_2119453033;;;;;;;;;;;;;;Hum... I will have a look.;;;;

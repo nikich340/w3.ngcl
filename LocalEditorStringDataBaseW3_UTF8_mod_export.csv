@@ -269,6 +269,13 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453357;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Kill white bears.;;;;
 2119453358;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453359;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453359;;;;;;;;;;;;;;Glowing mushrooms? Someone is growing them here.;;;;
+2119453360;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\elven_camp_crate\ngcl_steelsword_scoiatael_loot.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119453361;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453362;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453362;;;;;;;;;;;;;;Well, well.. It's not for nothing that I spent time on the gravity trap.;;;;
+2119453363;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453364;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453364;;;;;;;;;;;;;;So I'm a prisoner now. Who are you and what do you want?;;;;
+2119453365;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453366;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453366;;;;;;;;;;;;;;The young-looking elven mage/sorceress tells him that he has been developing such weapon for a long time, which will change the course of decision in battles, even with the numerical superiority of the enemy. He is not Aen Saevherne, but Francesca herself taught him a bit. After several years of tedious work, he was able to obtain a particularly toxic mixture by mixing white-hot phosphorus crystals and Ergot seeds. He says that the witcher is very suitable for him to experiment.;;;;
 547282;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;;;;;
 1132243;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01132243;;;;;;;;;;;;;;;;;;
 1161191;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_01161191;;;;;;;;;;;;;;;;;;

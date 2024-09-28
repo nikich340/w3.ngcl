@@ -331,11 +331,11 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453417;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453418;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453418;;;;;;;;;;;;;;We will start with small doses to find out how your body copes with the poison,  and I'll find a counter to it.;;;;
 2119453419;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
-2119453420;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;This is a mistake, I've always been a supporter of the elves.;;;;
+2119453420;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;I've always been a supporter of the elves.;;;;
 2119453421;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
-2119453422;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;This is a mistake, I always remain neutral about elves.;;;;
+2119453422;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;I always remain neutral about elves.;;;;
 2119453423;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
-2119453424;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;Hate you all. I hope Dol Blatanna will die out completely soon.;;;;
+2119453424;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;;;;;;;;;;;I hate elves.;;;;
 2119453425;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453426;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453426;;;;;;;;;;;;;;This is a mistake, I always remain neutral about elves.;;;;
 2119453427;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

@@ -392,7 +392,11 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;;;;;;;;;;;I need help.;;;;
 2119453477;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Use crystal to activate the portal.;;;;
 2119453478;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Leave the laboratory.;;;;
+2119453479;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453480;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453480;;;;;;;;;;;;;;I shouldn't go there. I have to explore the coast.;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;;;;;;;;;;;Hey Witcher! Come here.;;;;
+2119453481;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453482;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453482;;;;;;;;;;;;;;I should return to the coast. Some traces must be there.;;;;
 2119453008;"CStoryScene ""dlc\ngcl\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;REOF1_NGCL_2119453008;;;;;;;;;;;;;;Come here.;;;;
 358273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_00358273;;;;;;;;;;;;;;;;;;
 2119453010;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453010;;;;;;;;;;;;;;I sent my soldiers to patrol the forest east of Ursten.;;;;

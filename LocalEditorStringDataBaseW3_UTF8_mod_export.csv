@@ -398,9 +398,15 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453481;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453482;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453482;;;;;;;;;;;;;;I should return to the coast. Some traces must be there.;;;;
 2119453008;"CStoryScene ""dlc\ngcl\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;REOF1_NGCL_2119453008;;;;;;;;;;;;;;Come here.;;;;
+2119453483;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 358273;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_00358273;;;;;;;;;;;;;;;;;;
+2119453484;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453484;;;;;;;;;;;;;;Very well, you signed the oath. Don't try to tell anyone what you've learned here.;;;;
 2119453010;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453010;;;;;;;;;;;;;;I sent my soldiers to patrol the forest east of Ursten.;;;;
+2119453485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453486;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453486;;;;;;;;;;;;;;Here's the antidote for one person, but it was made for an elf. I can't promise if it will help a witcher.;;;;
 2119453012;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453012;;;;;;;;;;;;;;I haven't had any news for several days.;;;;
+2119453487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453488;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453488;;;;;;;;;;;;;;I've activated the portal near the lab exit, use it to get back.;;;;
 2119453014;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453014;;;;;;;;;;;;;;Filling out contracts, that's what you witchers do for a living.;;;;
 2119453016;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;REOF1_NGCL_2119453016;;;;;;;;;;;;;;à vous les sorceleurs,;;;;
 2119453018;"CStoryScene ""dlc\ngcl\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;REOF1_NGCL_2119453018;;;;;;;;;;;;;;remplir des contrats.;;;;

@@ -609,6 +609,18 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453772;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453772;;;;;;;;;;;;;;He took the reward and left.;;;;
 2119453773;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453774;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453774;;;;;;;;;;;;;;And I have a feeling we won't be seeing him again any time soon.;;;;
+2119453775;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453776;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line text;GRLT_NGCL_2119453776;;;;;;;;;;;;;;Elves again...;;;;
+2119453777;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453778;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line text;GRLT_NGCL_2119453778;;;;;;;;;;;;;;So... Maybe I can find out where are they came from?;;;;
+2119453779;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453780;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line text;GRLT_NGCL_2119453780;;;;;;;;;;;;;;The tracks end here. What now?;;;;
+2119453781;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453782;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_whale.w2scene""";Line text;GRLT_NGCL_2119453782;;;;;;;;;;;;;;Probably the elves have done this. Poor thing.;;;;
+2119453783;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_pass.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453784;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_pass.w2scene""";Line text;GRLT_NGCL_2119453784;;;;;;;;;;;;;;Hmmm... Some kind of pass. I'll deal with it later.;;;;
+2119453785;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Deal with elves.;;;;
+2119453786;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Search for traces.;;;;
 590119;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_00590119;;;;;;;;;;;;;;;;;;
 1093302;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01093302;;;;;;;;;;;;;;;;;;
 1045431;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01045431;;;;;;;;;;;;;;;;;;

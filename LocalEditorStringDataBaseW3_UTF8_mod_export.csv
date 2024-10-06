@@ -193,8 +193,8 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453370;created in RedkitStringsDBEditor;Entity display name;;;;;;;;;;;;;;;Crucian;;;;
 2119453371;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04_05_horse.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453372;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04_05_horse.w2scene""";Line text;GRLT_NGCL_2119453372;;;;;;;;;;;;;;I have a long way to go. Need to saddle Crucian.;;;;
-2119453373;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04_05_arrived_to_coast.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453374;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04_05_arrived_to_coast.w2scene""";Line text;GRLT_NGCL_2119453374;;;;;;;;;;;;;;Seems I'm here.;;;;
+2119453373;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05e_arrived_to_coast.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453374;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05e_arrived_to_coast.w2scene""";Line text;GRLT_NGCL_2119453374;;;;;;;;;;;;;;It seems I'm there.;;;;
 2119453375;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453376;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453376;;;;;;;;;;;;;;Insightful. Promising…;;;;
 2119453377;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

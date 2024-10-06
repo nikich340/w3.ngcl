@@ -38,6 +38,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453216;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453217;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line text;NVAM1_NGCL_2119453217;;;;;;;;;;;;;;Please, master witcher, get the healing herbs.;;;;
 2119453218;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1074566;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01074566;;;;;;;;;;;;;;;;;;
 2119453219;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119453219;;;;;;;;;;;;;;It is done.;;;;
 2119453220;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453221;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119453221;;;;;;;;;;;;;;Your friend will need to get an antidote though, and sooner rather than later.;;;;
@@ -579,7 +580,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453757;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453758;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453759;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453760;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_2119453760;;;;;;;;;;;;;;Good, because you wouldn't have had anything.;;;;
+2119453760;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453760;;;;;;;;;;;;;;Good, because you wouldn't have had anything.;;;;
 2119453761;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453762;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453762;;;;;;;;;;;;;;Another witcher has already come and told me what I was interested in.;;;;
 2119453763;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -820,6 +821,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453173;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453174;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_2119453174;;;;;;;;;;;;;;Don't see any wounds, evidence of a fight.;;;;
 2119453175;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1003102;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01003102;;;;;;;;;;;;;;;;;;
 2119453176;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_2119453176;;;;;;;;;;;;;;Corpses look fresh. Curled out. Skin's unnaturally pale, but no blood loss.;;;;
 2119453177;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453178;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_2119453178;;;;;;;;;;;;;;Something happened, definitely, before they could attack.;;;;

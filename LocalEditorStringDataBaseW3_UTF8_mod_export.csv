@@ -289,7 +289,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453467;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453468;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453468;;;;;;;;;;;;;;That's not gonna happen. And for your filthy words, I'll cut out your tongue.;;;;
 2119453469;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453470;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453470;;;;;;;;;;;;;;She forgot that witchers have signs. Aard will help me get this door out.;;;;
+2119453470;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453470;;;;;;;;;;;;;;She underestimates witcher signs. Aard will help me get this door out.;;;;
 2119453471;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Use the portal to return in Novigrad.;;;;
 2119453472;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Use Aard to break the cage door.;;;;
 2119453473;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Find any ingridients of the venom.;;;;

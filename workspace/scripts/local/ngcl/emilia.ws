@@ -24,6 +24,9 @@ statemachine class NGCL_EmiliaNPC extends CNewNPC {
 	timer function ActivateShield(delta : float, id : int) {
 		var combatStorage  : CHumanAICombatStorage;
 		
+		if ( !IsAlive() )
+			return;
+		
 		shieldActive = true;
 		PlayEffect(shieldEffectName);
 		AddBuffImmunity_AllNegative('MagicShield', true);

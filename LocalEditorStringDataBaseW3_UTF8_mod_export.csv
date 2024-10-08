@@ -615,6 +615,9 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454221;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454222;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454222;;;;;;;;;;;;;;Wonder what this means…;;;;
 2119454223;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_geralt_player_base.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+2119454224;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05g_before_bossfight.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454225;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05g_before_bossfight.w2scene""";Line text;SOR1_NGCL_2119454225;;;;;;;;;;;;;;Dol gynvael en'leass dearme!;;;;
+2119454226;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_geralt_player_base.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 1003102;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01003102;;;;;;;;;;;;;;;;;;
 376493;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 376494;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_00376494;;;;;;;;;;;;;;;;;;
@@ -977,7 +980,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453403;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453404;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453404;;;;;;;;;;;;;;And maybe then I'll tell you what awaits you.;;;;
 2119453405;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453406;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453406;;;;;;;;;;;;;;I was trained by the Francesca Findabair, our Daisy of the Valleys. But now I'm improving myself in alchemy arts.;;;;
+2119453406;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453406;;;;;;;;;;;;;;I was trained by Francesca Findabair, our Daisy of the Valleys. But now I'm improving myself in alchemy arts.;;;;
 2119453407;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453408;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453408;;;;;;;;;;;;;;You see, I'm applying what I've learned to develop a substance that will enable elves to regain their rightful place.;;;;
 2119453409;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

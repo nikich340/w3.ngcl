@@ -620,6 +620,18 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454226;"""CEntityTemplate """"dlc\dlcngcl\data\entities\ngcl_geralt_player_base.w2ent""""""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119454227;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Request the reward at day time.;;;;
 2119454228;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;;;;;;;;;;;Coming back to the redanian officer at day time.;;;;
+2119454229;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454230;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;GRLT_NGCL_2119454230;;;;;;;;;;;;;;...well, you know everything now.;;;;
+2119454231;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454232;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454232;;;;;;;;;;;;;;I'll need the main bomb component.;;;;
+2119454233;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454234;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454234;;;;;;;;;;;;;;Given what you've described, it's probably a neurotoxin of mycelial origin.;;;;
+2119454235;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454236;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454236;;;;;;;;;;;;;;But first, I will have to stabilize him.;;;;
+2119454237;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454238;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454238;;;;;;;;;;;;;;For this I need medicinal herbs.;;;;
+2119454239;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454240;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454240;;;;;;;;;;;;;;You'll find them around the hospital.;;;;
 1003102;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01003102;;;;;;;;;;;;;;;;;;
 376493;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 376494;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_00376494;;;;;;;;;;;;;;;;;;

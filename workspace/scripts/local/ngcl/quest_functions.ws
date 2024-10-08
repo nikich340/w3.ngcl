@@ -170,3 +170,7 @@ quest function NGCL_SetSkating(enable : bool)
 quest function NGCL_PlayPlayerAnim(animName : name, blendIn : float, blendOut : float) {
 	thePlayer.GetRootAnimatedComponent().PlaySlotAnimationAsync( animName, 'PLAYER_SLOT', SAnimatedComponentSlotAnimationSettings(blendIn, blendOut));
 }
+
+quest function NGCL_ShowSkatingTutorial() {
+	NNS("Skating tutorial: TODO");
+}

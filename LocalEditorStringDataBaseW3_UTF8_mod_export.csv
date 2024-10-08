@@ -630,7 +630,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454236;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454236;;;;;;;;;;;;;;But his condition is worsening as we speak, witcher, can you please quickly fetch some medical herbs for a simple antitoxine for me? I will boil some water and observe him.;;;;
 2119454237;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454238;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454238;;;;;;;;;;;;;;They should be easily findable all around the house.;;;;
-1175790;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08b_geralt_restored.w2scene""";Line text;GRLT_NGCL_2119454340;;;;;;;;;;;;;;;;;;
+1175790;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08b_geralt_restored.w2scene""";Line text;GRLT_NGCL_01175790;;;;;;;;;;;;;;;;;;
 2119454239;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454240;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454240;;;;;;;;;;;;;;What is it?  Will he get better?;;;;
 2119454241;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

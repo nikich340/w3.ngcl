@@ -793,6 +793,8 @@ I sealed our agreement.;;;;
 2119454396;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454396;;;;;;;;;;;;;;He may be famous, but not at the Bear School.;;;;
 2119454397;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454398;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454398;;;;;;;;;;;;;;However, I'm going to do my best to find him this antidote.;;;;
+2119454399;created in RedkitStringsDBEditor;Item;;item_desc_medic_herbs;;;;;;;;;;;;;Special relaxing herbs;;;;
+2119454400;created in RedkitStringsDBEditor;Item;;item_name_medic_herbs;;;;;;;;;;;;;Curare herbs;;;;
 376493;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 376494;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_00376494;;;;;;;;;;;;;;;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;Мне нужна помощь.;;;;;;;;;;I need help.;;;;

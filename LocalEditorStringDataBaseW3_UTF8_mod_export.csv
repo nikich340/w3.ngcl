@@ -95,7 +95,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453805;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453806;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453806;;;;Ты смешон. Эти маленькие трюки – ничто в сравнении с настоящей магией.;;;;;;;;;;You're ridiculous. These little tricks are nothing compared to real magic.;;;;
 2119453807;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
+2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
 2119453809;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453810;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453811;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line text;GRLT_NGCL_2119453811;;;;Оу...;;;;;;;;;;Oh...;;;;
@@ -1311,11 +1311,11 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453480;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453480;;;;Я не должен туда идти. Мне нужно осмотреть побережье.;;;;;;;;;;I shouldn't go there. I have to explore the coast.;;;;
 2119453481;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453482;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453482;;;;Мне нужно вернуться на побережье. Там должны быть какие-нибудь следы.;;;;;;;;;;I should return to the coast. Some traces must be there.;;;;
-2119453483;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453483;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453484;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453484;;;;Очень хорошо, ты подписал договор. Даже не пытайся никому рассказать о том, что ты видел здесь.;;;;;;;;;;Very well, you signed the oath.;;;;
-2119453485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453486;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453486;;;;Вот одна доза противоядия. Но она была разработана для эльфа. Не могу обещать, что она сработает для ведьмака.;;;;;;;;;;Here's the antidote for one person, but it was made for an elf. I can't promise if it will help a witcher.;;;;
-2119453487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453488;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453488;;;;Я активировала портал рядом с выходом из лаборатории. Используй его.;;;;;;;;;;I've activated the portal near the lab exit, use it to get back.;;;;
 2119453489;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453490;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line text;NGCLG00_NGCL_2119453490;;;;Ты что тут делаешь, приблуда?!;;;;;;;;;;What're you doing here, vagrant?!;;;;

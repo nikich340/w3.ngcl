@@ -912,7 +912,7 @@ I sealed our agreement.;;;;
 2119453080;CUSTOM;Line text;;item_name_ngcl_officer_contract_text;;;Миссия первостепенной важности в ваших руках.<br>Реданская армия просит вас о помощи.<br>За подробной информацией обращайтесь к реданскому офицеру, ожидающему на пути к Храму Вечного Огня в течение дня.<br>;;;;;;;;;;A mission of the highest importance is within your reach.<br>The Redanian army requests your services.<br>For more information, a Redanian officer awaits you on the way to the Temple of Eternal Fire during the day.<br>;;;;
 1046713;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 1046714;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_01046714;;;;;;;;;;;;;;;;;;
-2119453082;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453082;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453082;;;;;;;;;;;;;;I knew we couldn't rely on witchers.;;;;
 2119453084;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line text;NGCLROF_NGCL_2119453084;;;;Эй, ведьмак! Подойди сюда.;;;;;;;;;;Hey Witcher! Come here.;;;;
 2119453086;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line text;NGCLROF_NGCL_2119453086;;;;Мне нужна помощь! Сюда!;;;;;;;;;;I need a help! Get over here.;;;;
 1046719;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

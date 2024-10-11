@@ -186,8 +186,13 @@ quest function NGCL_HandlePriscilla(hide : bool) {
 	}
 }
 
-quest function NGCL_PlayPlayerAnim(animName : name, blendIn : float, blendOut : float) {
-	thePlayer.GetRootAnimatedComponent().PlaySlotAnimationAsync( animName, 'PLAYER_SLOT', SAnimatedComponentSlotAnimationSettings(blendIn, blendOut));
+// player - PLAYER_SLOT
+// npc - NPC_ANIM_SLOT
+quest function NGCL_PlayAnim(entityTag : name, animName : name, slotName : name, blendIn : float, blendOut : float) {
+	var entity : CEntity;
+	
+	entity = theGame.GetEntityByTag(entityTag);
+	entity.GetRootAnimatedComponent().PlaySlotAnimationAsync( animName, slotName, SAnimatedComponentSlotAnimationSettings(blendIn, blendOut));
 }
 
 quest function NGCL_ShowSkatingTutorial() {

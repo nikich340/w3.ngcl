@@ -3,3 +3,9 @@
 04b voices to record
 04c no sound
 05f voices to record
+05j no sound
+05z_06 voices to record
+05z_06c voices to record + missing anims/dialogs
+06a voices to record + anims to create
+07a "blue mountain" voiceline to record
+08a missing lipsyncs

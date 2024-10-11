@@ -208,7 +208,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 1129064;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_01129064;;;;;;;;;;;;;;;;;;
 2119453884;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Вернуться в Новиград.;;;;;;;;;;Go back to Novigrad.;;;;
 2119453885;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;Ah!;;;;
+2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;AAAARGHH!;;;;
 2119453887;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Использовать телепорт.;;;;;;;;;;Use teleport.;;;;
 2119453888;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06d_gate_guards.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 1202623;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01202623;;;;;;;;;;;;;;;;;;
@@ -1440,7 +1440,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453599;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453600;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453600;;;;Есть ещё кое-что.;;;;;;;;;;There's more.;;;;
 2119453601;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Скоя'таэли проводили эксперименты, чтобы разработать...;;;;;;;;;;The Scoia'tael were carrying out experiments to develop…;;;;
+2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Скоя'таэли проводили эксперименты, чтобы разработать...;;;;;;;;;;It was a group of scoia'tael from Blue Moun…;;;;
 2119453603;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453604;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453604;;;;Что такое?;;;;;;;;;;What's happening?;;;;
 2119453605;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;

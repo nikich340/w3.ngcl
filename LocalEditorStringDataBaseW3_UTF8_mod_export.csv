@@ -819,7 +819,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454417;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454418;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454418;;;;;;;;;;;;;;All right.;;;;
 2119454419;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119454420;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454420;;;;;;;;;;;;;;Gald to see you again, witcher. I hope you've bring something new. Geralt's body is running low.;;;;
+2119454420;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454420;;;;;;;;;;;;;;Glad to see you again, witcher. I hope you've bring something new. Geralt's body is running low.;;;;
 2119454421;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454422;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454422;;;;;;;;;;;;;;Yeah, I found out something. But I made an oath I wouldn't talk about it. Here's one dose of the antidote. But it's meant for an elf.;;;;
 577948;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_00577948;;;;;;;;;;;;;;;;;;

@@ -8,3 +8,22 @@ class NGCL_CAICastArcaneExplosionSpecialAction extends CAICastArcaneExplosionSpe
 		params.OnCreated();
 	}
 }
+
+class NGCL_GeraltNPCApplyAppearanceInitializer extends ISpawnTreeScriptedInitializer
+{	
+	function Init( actor : CActor ) : bool
+	{
+		if ( actor )
+		{
+			if ( FactsQuerySum("ngcl_geralt_tracheostomy") > 0 )
+				actor.ApplyAppearance("doppler_geralt_tracheostomy");
+			else
+				actor.ApplyAppearance("doppler_geralt");
+		}
+		return true;
+	}
+	function GetEditorFriendlyName() : string
+	{
+		return "NGCL Geralt NPC Apply Appearance";
+	}
+};

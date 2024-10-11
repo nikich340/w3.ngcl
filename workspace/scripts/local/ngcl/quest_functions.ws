@@ -167,6 +167,25 @@ quest function NGCL_SetSkating(enable : bool)
 	NNS("NGCL_SetSkating = " + enable);
 }
 
+quest function NGCL_HandlePriscilla(hide : bool) {
+	var priscillaNPC : CNewNPC;
+	
+	priscillaNPC = (CNewNPC)theGame.GetEntityByTag('priscilla');
+	if (hide) {
+		// position of q308_blanka_injured_bed1
+		if ( priscillaNPC && VecDistanceSquared(priscillaNPC.GetWorldPosition(), Vector(776.736, 2041.56, 20.4375)) < 10.f ) {
+			// hide priscilla and mark this
+			FactsAdd("ngcl_priscilla_injured_hidden", 1);
+		}
+	} else {
+		if ( FactsQuerySum("ngcl_priscilla_injured_hidden") > 0 ) {
+			// unhide priscilla and remove mark
+			FactsAdd("ngcl_priscilla_injured_shown", 1);
+			FactsRemove("ngcl_priscilla_injured_hidden");
+		}
+	}
+}
+
 quest function NGCL_PlayPlayerAnim(animName : name, blendIn : float, blendOut : float) {
 	thePlayer.GetRootAnimatedComponent().PlaySlotAnimationAsync( animName, 'PLAYER_SLOT', SAnimatedComponentSlotAnimationSettings(blendIn, blendOut));
 }

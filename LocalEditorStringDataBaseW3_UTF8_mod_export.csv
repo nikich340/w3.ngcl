@@ -826,7 +826,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454423;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454424;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454424;;;;;;;;;;;;;;An elf? And you have made an oath? Curious, witcher, I wish I had gone with you.;;;;
 2119454425;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119454426;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454426;;;;;;;;;;;;;;But enough talking. I have to finalize the antidote quickly to make it suitable for a witcher's body.;;;;
+2119454426;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454426;;;;;;;;;;;;;;But enough talking. I have to finalize the antidote quickly to make it suitable for a witcher's body.;;;;
 2119454427;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454428;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454428;;;;;;;;;;;;;;Yeah, it was the Scoia'tael who started it all. They were led by a sorceress named Emilia, who was creating a deadly poison from mushrooms.;;;;
 2119454429;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

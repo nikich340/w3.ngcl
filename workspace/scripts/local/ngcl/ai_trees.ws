@@ -16,9 +16,27 @@ class NGCL_GeraltNPCApplyAppearanceInitializer extends ISpawnTreeScriptedInitial
 		if ( actor )
 		{
 			if ( FactsQuerySum("ngcl_geralt_tracheostomy") > 0 )
-				actor.ApplyAppearance("doppler_geralt_tracheostomy");
-			else
-				actor.ApplyAppearance("doppler_geralt");
+				if ( FactsQuerySum("q601_geralt_has_demon_mark") > 0 )
+					if ( FactsQuerySum("import_geralt_has_tattoo") > 0 )
+						actor.ApplyAppearance("doppler_geralt_tracheostomy_mark_tattoo");
+					else
+						actor.ApplyAppearance("doppler_geralt_tracheostomy_mark");
+				else
+					if ( FactsQuerySum("import_geralt_has_tattoo") > 0 )
+						actor.ApplyAppearance("doppler_geralt_tracheostomy_tattoo");
+					else
+						actor.ApplyAppearance("doppler_geralt_tracheostomy");
+			else 
+				if ( FactsQuerySum("q601_geralt_has_demon_mark") > 0 )
+					if ( FactsQuerySum("import_geralt_has_tattoo") > 0 )
+						actor.ApplyAppearance("doppler_geralt_mark_tattoo");
+					else
+						actor.ApplyAppearance("doppler_geralt_mark");
+				else
+					if ( FactsQuerySum("import_geralt_has_tattoo") > 0 )
+						actor.ApplyAppearance("doppler_geralt_tattoo");
+					else
+						actor.ApplyAppearance("doppler_geralt");
 		}
 		return true;
 	}

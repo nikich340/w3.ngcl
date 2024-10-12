@@ -1,11 +1,6 @@
 01c no sound
-x 04a voices to record
-x04b voices to record
 04c no sound
-x05f voices to record
 05j no sound
-x05z_06 voices to record
-x05z_06c voices to record + missing anims/dialogs
 x06a voices to record + anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 x06z_to_07 missing voiceline
 x07a "blue mountain" voiceline to record
@@ -16,5 +11,9 @@ x07a "blue mountain" voiceline to record
 Snow, mountains, elves... Looks like Blue Mountains.
 
 
-GRLT_NGCL_2119453196
-GRLT_NGCL_2119453808
+6a: missing voice : 
+NVAM1_NGCL_2119454495
+"What's happening?"
+
+
+

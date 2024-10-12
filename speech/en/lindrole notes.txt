@@ -14,12 +14,7 @@ scene where ulvbjorn come back with herbs to be improved.
 
 corpse near cage examination is still low !
 
-OBJECTIVE: find an ingridient <-- to be corrected
-
-remove the doubles <br> in the journal desc of AWCHA
-
 increase volume of Ulvbjorn fighting oneliners
-
 
 add a place of power in elven lab world
 

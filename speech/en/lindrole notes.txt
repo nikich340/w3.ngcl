@@ -2,17 +2,25 @@
 04c no sound
 05j no sound
 x06a anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-x06z_to_07 missing guardian voice xxxxxxxxxxxxxxx
+x06z_to_07 missing guardian voice xxxxxxxxxxxxxxx (+animation issue due to my redkit installation)
 08a missing lipsyncs
-08b anims to create
-
-05a gp voiceline blue mountain from ulvbjorn
-Snow, mountains, elves... Looks like Blue Mountains.
-
 
 6a: missing voice : 
 NVAM1_NGCL_2119454495
 "What's happening?"
 
 
+scene where ulvbjorn come back with herbs to be improved.
 
+corpse near cage examination is still low !
+
+OBJECTIVE: find an ingridient <-- to be corrected
+
+remove the doubles <br> in the journal desc of AWCHA
+
+increase volume of Ulvbjorn fighting oneliners
+
+
+add a place of power in elven lab world
+
+quest of phase 6 need to be created

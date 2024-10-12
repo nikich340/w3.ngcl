@@ -1,13 +1,12 @@
 01c no sound
 04c no sound
 05j no sound
-x06a voices to record + anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-x06z_to_07 missing voiceline
-x07a "blue mountain" voiceline to record
+x06a anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x06z_to_07 missing guardian voice xxxxxxxxxxxxxxx
 08a missing lipsyncs
 08b anims to create
 
-05x gp voiceleine blue mountain from ulvbjorn
+05a gp voiceline blue mountain from ulvbjorn
 Snow, mountains, elves... Looks like Blue Mountains.
 
 

@@ -1240,6 +1240,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453381;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
 2119453382;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;Освободи меня, длинноухая сволочь!;;;;;;;;;;Set me free, you elf bastard!;;;;
 2119453383;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1072599;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06z_to_07_gp_ulvbjorn.w2scene""";Line text;NGCLG00_NGCL_01072599;;;;;;;;;;;;;;;;;;
 2119453384;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453384;;;;Кто ты и что тебе нужно?;;;;;;;;;;Who are you and what do you want?;;;;
 2119453385;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453386;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453386;;;;Освободи меня, длинноухая сволочь!;;;;;;;;;;Set me free, you elven bastard!;;;;

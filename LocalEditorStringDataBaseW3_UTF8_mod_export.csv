@@ -208,7 +208,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 1129064;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_01129064;;;;;;;;;;;;;;;;;;
 2119453884;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Вернуться в Новиград.;;;;;;;;;;Go back to Novigrad.;;;;
 2119453885;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;AAAARGHH!;;;;
+2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;AAAARGHH!;;;;
 2119453887;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Использовать телепорт.;;;;;;;;;;Use teleport.;;;;
 2119453888;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06d_gate_guards.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 1202623;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01202623;;;;;;;;;;;;;;;;;;
@@ -827,6 +827,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454424;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454424;;;;;;;;;;;;;;An elf? And you have made an oath? Curious, witcher, I wish I had gone with you.;;;;
 2119454425;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454426;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454426;;;;;;;;;;;;;;But enough talking. I have to finalize the antidote quickly to make it suitable for a witcher's body.;;;;
+2119454426;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454426;;;;;;;;;;;;;;But enough talking. I have to finalize the antidote quickly to make it suitable for the witcher's body.;;;;
 2119454427;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454428;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454428;;;;;;;;;;;;;;Yeah, it was the Scoia'tael who started it all. They were led by a sorceress named Emilia, who was creating a deadly poison from mushrooms.;;;;
 2119454429;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -890,6 +891,9 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06z_to_07_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119454485;;;;;;;;;;;;;;I shouldn't go there. I need to see the redaninan officer on the temple island.;;;;
 2119454486;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119454487;;;;;;;;;;;;;;And watch out the guards. I suppose you have no pass. You might get into trouble.;;;;
+2119454488;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454489;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454490;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454490;;;;;;;;;;;;;;What the hell is happening?!;;;;
 1188940;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01188940;;;;;;;;;;;;;;;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;Мне нужна помощь.;;;;;;;;;;I need help.;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;Эй, ведьмак! Подойди сюда.;;;;;;;;;;Hey Witcher! Come here.;;;;

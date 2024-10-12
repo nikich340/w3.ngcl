@@ -1,5 +1,4 @@
 01c no sound
-x 03c missing voiceline
 x 04a voices to record
 x04b voices to record
 04c no sound
@@ -7,13 +6,14 @@ x05f voices to record
 05j no sound
 x05z_06 voices to record
 x05z_06c voices to record + missing anims/dialogs
-06a voices to record + anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-06z_to_07 missing voiceline
-07a "blue mountain" voiceline to record
+x06a voices to record + anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x06z_to_07 missing voiceline
+x07a "blue mountain" voiceline to record
 08a missing lipsyncs
 08b anims to create
 
 05x gp voiceleine blue mountain from ulvbjorn
+Snow, mountains, elves... Looks like Blue Mountains.
 
 
 GRLT_NGCL_2119453196

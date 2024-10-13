@@ -238,3 +238,7 @@ quest function NGCL_PlaySoundOnEntity(tag : name, eventName : String) {
 	ent = theGame.GetEntityByTag(tag);
 	ent.SoundEvent(eventName);
 }
+
+quest function NGCL_UnequipAllHorseItems() {
+	GetWitcherPlayer().GetHorseManager().RemoveAllItems();
+}

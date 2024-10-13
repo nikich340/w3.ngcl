@@ -8,8 +8,9 @@ latent quest function NGCL_SwitchToBearWitcher_Q() {
 	var   i : int;
 	
 	theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
-	while ( !((W3PlayerWitcher)thePlayer) )
+	while ( !thePlayer || !thePlayer.NGCL_IsUlvbjorn() )
 		SleepOneFrame();
+	Sleep(0.25f);
 	thePlayer.abilityManager.RestoreStat(BCS_Vitality);
 
 	inv = thePlayer.GetInventory();
@@ -61,9 +62,11 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	var headComponent : CHeadManagerComponent;
 	var   i : int;
 	
+	FactsRemove("ngcl_avatar_active");
 	theGame.ChangePlayer( "Geralt" );
-	while ( !((W3PlayerWitcher)thePlayer) )
+	while ( !thePlayer || thePlayer.NGCL_IsUlvbjorn() )
 		SleepOneFrame();
+	Sleep(0.25f);
 	thePlayer.abilityManager.RestoreStat(BCS_Vitality);
 	
 	inv = thePlayer.GetInventory();
@@ -96,8 +99,6 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 		thePlayer.RemoveTemporarySkill(S_Magic_s06);
 	}
 	*/
-
-	FactsRemove("ngcl_avatar_active");
 }
 
 function NGCL_GetBearEquipmentData(out equipmentSlotEnums : array<EEquipmentSlots>, out equipmentItemNames : array<name>) {

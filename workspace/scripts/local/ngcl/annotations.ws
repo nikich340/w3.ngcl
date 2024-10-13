@@ -7,3 +7,12 @@ function InitializeAreaMusic( worldArea : EAreaName ) {
 		SoundEvent( "mus_loc_faroe" );
 	}
 }
+
+@wrapMethod(W3PlayerWitcher)
+function OnSpawned( spawnData : SEntitySpawnData ) {
+	wrappedMethod( spawnData );
+	// NNS("PlayerSpawned: " + ToString());
+	if ( FactsQuerySum("ngcl_avatar_active") > 0 && !StrContains(this.ToString(), "ulvbjorn") ) {
+		theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
+	}
+}

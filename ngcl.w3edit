@@ -1,14 +1,14 @@
 {
     "name": "ngcl",
-    "modName": "NGCLS",
+    "modName": "A Witcher Can Hide Another",
     "version": "1.0",
     "gameVersion": "",
-    "description": "New Quest for the Witcher 3",
+    "description": "A Witcher Can Hide Another is a new quest story about Geralt getting into trouble and getting help from an unexpected side.",
     "thumbnail": "",
     "author": "Nikich, Glassfish, Culorin, Lindrole, SieeleLushen",
     "idSpace": 2119453000,
     "workshopId": 0,
-    "succesfullyCooked": false,
+    "succesfullyCooked": true,
     "dependencies": [],
     "excludedDlc": [
         "dlc1",

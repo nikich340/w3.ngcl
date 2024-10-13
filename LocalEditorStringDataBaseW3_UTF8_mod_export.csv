@@ -38,6 +38,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453749;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453750;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453750;;;;За наградой уже приходил другой ведьмак.;;;;;;;;;;Another witcher has already come and told me what I was interested in.;;;;
 2119453751;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1074566;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01074566;;;;;;;;;;;;;;;;;;
 2119453752;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;????_@@@@_2119453752;;;;;;;;;;;;;;;;;;
 2119453753;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453754;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -94,7 +95,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453805;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453806;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453806;;;;Ты смешон. Эти маленькие трюки – ничто в сравнении с настоящей магией.;;;;;;;;;;You're ridiculous. These little tricks are nothing compared to real magic.;;;;
 2119453807;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
+2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
 2119453809;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453810;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453811;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line text;GRLT_NGCL_2119453811;;;;Оу...;;;;;;;;;;Oh...;;;;
@@ -151,6 +152,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453862;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05h_gp_emilia.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453863;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05h_gp_emilia.w2scene""";Line text;GRLT_NGCL_2119453863;;;;Последний шанс сдаться.;;;;;;;;;;Last chance to give up.;;;;
 2119453864;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05h_gp_emilia.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1132243;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01132243;;;;;;;;;;;;;;;;;;
 2119453865;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05h_gp_emilia.w2scene""";Line text;GRLT_NGCL_2119453865;;;;Её погубила чрезмерная самоуверенность.;;;;;;;;;;She was ruined by her overconfidence.;;;;
 2119453866;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05i_gp_emilia_friendly.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453867;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05i_gp_emilia_friendly.w2scene""";Line text;SOR1_NGCL_2119453867;;;;Не беспокой меня.;;;;;;;;;;Don't bother me.;;;;
@@ -172,9 +174,10 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453883;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453883;;;;Светящиеся грибы? Кто-то выращивает их здесь.;;;;;;;;;;Glowing mushrooms? Someone is growing them here.;;;;
 2119453884;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Вернуться в Новиград.;;;;;;;;;;Go back to Novigrad.;;;;
 2119453885;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;AAAARGHH!;;;;
+2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453886;;;;Ах!;;;;;;;;;;AAAARGHH!;;;;
 2119453887;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Использовать телепорт.;;;;;;;;;;Use teleport.;;;;
 2119453888;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06d_gate_guards.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1202623;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01202623;;;;;;;;;;;;;;;;;;
 2119453889;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06c_gate_guards.w2scene""";Line text;GRLT_NGCL_2119453889;;;;Я...;;;;;;;;;;I...;;;;
 2119453890;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06c_gate_guards.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453891;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06c_gate_guards.w2scene""";Line text;NGCLG00_NGCL_2119453891;;;;А это не тот ведьмак, о котором говорил медик?;;;;;;;;;;Isn't he the witcher medic told about?;;;;
@@ -317,6 +320,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454028;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454028;;;;;;;;;;;;;;A storm, dammit.;;;;
 2119454029;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self;;;;
 2119454030;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454030;;;;;;;;;;;;;;Wind's howling.;;;;
+1161191;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03a_geralt_trapped.w2scene""";Line text;DDGT_NGCL_01161191;;;;;;;;;;;;;;;;;;
 2119454031;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self, complaining;;;;
 2119454032;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454032;;;;;;;;;;;;;;Ugh. Now snow.;;;;
 2119454033;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self;;;;
@@ -424,6 +428,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454135;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self, complaining under breath;;;;
 2119454136;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454136;;;;;;;;;;;;;;Damn. Got a feeling I'm forgetting about something.;;;;
 2119454137;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self;;;;
+547282;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Choice line;;;;;;;;;;;;;;;;;;;
 2119454138;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454138;;;;;;;;;;;;;;Should glance at the map…;;;;
 2119454139;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line comment;;;;;;;;;;;;;;;to self;;;;
 2119454140;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_ulvbjorn_vset.w2scene""";Line text;GRLT_NGCL_2119454140;;;;;;;;;;;;;;Maybe oughta turn around?;;;;
@@ -525,10 +530,12 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454236;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454236;;;;;;;;;;;;;;But his condition is worsening as we speak, witcher. Can you please quickly fetch some medical herbs for a simple antitoxine for me? I will boil some water and observe him.;;;;
 2119454237;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454238;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119454238;;;;;;;;;;;;;;They should be easy to find all around the hospital.;;;;
+1175790;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08b_geralt_restored.w2scene""";Line text;GRLT_NGCL_01175790;;;;;;;;;;;;;;;;;;
 2119454239;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454240;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454240;;;;;;;;;;;;;;What is it? Will he get better?;;;;
 2119454241;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454242;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119454242;;;;;;;;;;;;;;I'm not sure. The effect was mitigated, yes, but I fear I'll have to be less conservative to save him.;;;;
+1003102;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_01003102;;;;;;;;;;;;;;;;;;
 2119454243;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
 2119454244;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Choice line;;;;;;;;;;;;;;;Do the procedure.;;;;
 2119454245;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
@@ -653,6 +660,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454364;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119454364;;;;;;;;;;;;;;What is deadly, even for a witcher.;;;;
 2119454365;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454366;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454366;;;;;;;;;;;;;;Why did you call it dangerous?;;;;
+1207898;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01207898;;;;;;;;;;;;;;;;;;
 2119454367;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454368;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119454368;;;;;;;;;;;;;;During the incision, I could damage the thyroid vessels, causing him to bleed out, or the recurrent nerve, which would result in him losing his voice.;;;;
 2119454369;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -680,6 +688,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454391;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454392;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454392;;;;;;;;;;;;;;Absolutely not. Someone from the Wolf School, I suppose?;;;;
 2119454393;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+465989;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_00465989;;;;;;;;;;;;;;;;;;
 2119454394;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;NVAM1_NGCL_2119454394;;;;;;;;;;;;;;It's Geralt of Rivia, the famous White Wolf.;;;;
 2119454395;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454396;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119454396;;;;;;;;;;;;;;He may be famous, but not among the Bear School.;;;;
@@ -709,6 +718,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454420;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454420;;;;;;;;;;;;;;Glad to see you again, witcher. I hope you've brought something new. Geralt's body is running low.;;;;
 2119454421;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454422;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119454422;;;;;;;;;;;;;;Yeah, I found out something. But I made an oath that I wouldn't talk about it. Here's one dose of the antidote, but it's meant for an elf.;;;;
+577948;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_00577948;;;;;;;;;;;;;;;;;;
 2119454423;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454424;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;NVAM1_NGCL_2119454424;;;;;;;;;;;;;;An elf? And you have made an oath? Curious, witcher, I wish I had gone with you.;;;;
 2119454425;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -763,7 +773,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454474;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
 2119454475;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line;;;;;;;;;;;;;;;I've got the antidote, but I can't elaborate.;;;;
 2119454476;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
-2119454477;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line;;;;;;;;;;;;;;;It's all about the Scoia'tael from the Blue Mountains.;;;;
+2119454477;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Choice line;;;;;;;;;;;;;;;It's all about the Scoia'tael from the Blue Mountains.;;;;
 2119454478;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454479;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119454479;;;;;;;;;;;;;;So long.;;;;
 2119454480;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06z_to_07_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -819,6 +829,13 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454530;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_medic_vset.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454531;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_medic_vset.w2scene""";Line text;TMED13_NGCL_2119454531;;;;;;;;;;;;;;Glowing iris, irregular pupil, two swords… Diagnosis: witcher.;;;;
 2119454532;created in RedkitStringsDBEditor;;;ngcl_skating_tutorial_text;;;;;;;;;;;;;"Skating controls:<br><font color=""#FFA500"">[W]/[S]/[A]/[D] or [Pad LeftAxisX]/[Pad LeftAxisY]</font>: move directions<br><font color=""#FFA500"">[Left Control] or [Pad Triangle]</font>: drift<br><font color=""#FFA500"">[Alt] or [Pad RightTrigger]</font>: slow down<br><font color=""#FFA500"">[Left Mouse] or [Pad Square]</font>: attack<br><br>To stop skating, hold <font color=""#FFA500"">[Left Control] + [S]</font> or <font color=""#FFA500"">[Pad Triangle] + [Pad LeftAxisY back]</font>.";;;;
+2119454533;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454534;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454535;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454536;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454537;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454538;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1188940;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01188940;;;;;;;;;;;;;;;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;Мне нужна помощь.;;;;;;;;;;I need help.;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;Эй, ведьмак! Подойди сюда.;;;;;;;;;;Hey Witcher! Come here.;;;;
 2119453008;"CStoryScene ""dlc\ngcl\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;REOF1_NGCL_2119453008;;;;Подойди.;;;;;;;;;;Come here.;;;;
@@ -845,6 +862,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453049;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453049;;;;Это всё, о чём вы, ведьмаки, говорите.;;;;;;;;;;That's all you witchers ever talk about.;;;;
 2119453051;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453051;;;;Отлично! Возвращайся ко мне, когда разберёшься со всем этим.;;;;;;;;;;Perfect! Come and find me when you've cleared up this mess.;;;;
 2119453053;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453053;;;;Мне нужна помощь! Сюда!;;;;;;;;;;I need a help! Get over here.;;;;
+1193794;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01193794;;;;;;;;;;;;;;;;;;
 2119453058;created in RedkitStringsDBEditor;DLC;;dlcngcl_name;;;;;;;;;;;;;MOD: A Witcher Can Hide Another;;;;
 2119453059;created in RedkitStringsDBEditor;DLC;;dlcngcl_description;;;;;;;;;;;;;MOD: A Witcher Can Hide Another: is a new quest story about Geralt getting into trouble and getting help from an unexpected side.;;;;
 2119453060;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_quest_giver.w2ent""";Entity display name;;;;;Реданский офицер;;;;;;;;;;Redanian Officer;;;;
@@ -980,6 +998,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453215;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04b_medic_uses_herbs.w2scene""";Line text;GRLT_NGCL_2119453215;;;;В самом деле. Вот ваши травы. Буду честен: не ожидал, что ради них мне придётся оббежать весь госпиталь.;;;;;;;;;;Here are your herbs. I didn't expect to have to run around the entire hospital, to be honest.;;;;
 2119453216;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453217;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04c_medic_please_get_herbs.w2scene""";Line text;NVAM1_NGCL_2119453217;;;;Пожалуйства, мастер-ведьмак, найтите целебные травы.;;;;;;;;;;Please, master witcher, get the healing herbs.;;;;
+437631;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_00437631;;;;;;;;;;;;;;;;;;
 2119453218;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453219;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;NVAM1_NGCL_2119453219;;;;Готово.;;;;;;;;;;It is done.;;;;
 2119453220;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -1006,7 +1025,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453241;created in RedkitStringsDBEditor;;;item_desc_ngcl_portal_crystal;;;Блестящий кристалл без единой царапины;;;;;;;;;;A shiny crystal without flaws;;;;
 2119453242;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03c_gp_ulvbjorn_oneliners.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453243;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_03c_gp_ulvbjorn_oneliners.w2scene""";Line text;GRLT_NGCL_2119453243;;;;Надо проверить ведьмака. Возможно, он ещё жив.;;;;;;;;;;Need to check this witcher. Maybe he's still alive.;;;;
-2119453244;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;Исследовать окрестности.;;;;;;;;;;Explore the surroundings.;;;;
+2119453244;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Исследовать окрестности.;;;;;;;;;;Explore the surroundings.;;;;
 2119453245;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453245;;;;Где я?;;;;;;;;;;Where am I?;;;;
 2119453246;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453247;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453247;;;;Эта замёрзшая река действительно скользкая.;;;;;;;;;;This icy river is really slippery.;;;;
@@ -1061,6 +1080,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453296;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line text;NGCLROF_NGCL_2119453296;;;;Я отправил своих солдат патрулировать лес к востоку от Урстена.;;;;;;;;;;I sent my soldiers to patrol the forest east of Ursten.;;;;
 2119453297;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453298;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line text;NGCLROF_NGCL_2119453298;;;;Уже несколько дней я не получал от них вестей.;;;;;;;;;;I haven't had any news for several days.;;;;
+1093302;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01093302;;;;;;;;;;;;;;;;;;
 2119453299;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453300;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Line text;NGCLROF_NGCL_2119453300;;;;Выполнение контрактов – это то, чем вы, ведьмаки, зарабатываете на жизнь. ;;;;;;;;;;Filling out contracts, that's what you witchers do for a living.;;;;
 2119453301;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05b1_put_skates_first_time.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
@@ -1106,6 +1126,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453341;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453342;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05c1_remove_skates_first_time.w2scene""";Line text;GRLT_NGCL_2119453342;;;;Мне больше это не нужно.;;;;;;;;;;I don't need this anymore.;;;;
 2119453343;"CEntityTemplate ""gameplay\abilities\sorceresses\soceress_arcane_missile.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
+1088550;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01088550;;;;;;;;;;;;;;;;;;
 2119453344;"CEntityTemplate ""dlc\dlcngcl\data\gameplay\focus_mode_clues\ngcl_clue_blood_path.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453345;"CEntityTemplate ""dlc\dlcngcl\data\entities\items\elven_camp_crate\ngcl_interactive_wall.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453346;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -1146,6 +1167,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453381;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
 2119453382;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Choice line;;;;;Освободи меня, длинноухая сволочь!;;;;;;;;;;Set me free, you elf bastard!;;;;
 2119453383;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1072599;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06z_to_07_gp_ulvbjorn.w2scene""";Line text;NGCLG00_NGCL_01072599;;;;;;;;;;;;;;;;;;
 2119453384;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453384;;;;Кто ты и что тебе нужно?;;;;;;;;;;Who are you and what do you want?;;;;
 2119453385;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453386;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453386;;;;Освободи меня, длинноухая сволочь!;;;;;;;;;;Set me free, you elven bastard!;;;;
@@ -1160,6 +1182,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453395;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453396;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;????_@@@@_2119453396;;;;Великая эльфийская чародейка.;;;;;;;;;;Great elf witch.;;;;
 2119453397;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1045431;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01045431;;;;;;;;;;;;;;;;;;
 2119453398;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453398;;;;Сбавь тон, ты, ничтожная лабораторная крыса.;;;;;;;;;;Lower your insignificant tone, lab rat.;;;;
 2119453399;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453400;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453400;;;;Меня зовут Эмилия.;;;;;;;;;;My name is Emilia.;;;;
@@ -1245,11 +1268,11 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453480;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453480;;;;Я не должен туда идти. Мне нужно осмотреть побережье.;;;;;;;;;;I shouldn't go there. I have to explore the coast.;;;;
 2119453481;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453482;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453482;;;;Мне нужно вернуться на побережье. Там должны быть какие-нибудь следы.;;;;;;;;;;I should return to the coast. Some traces must be there.;;;;
-2119453483;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453483;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453484;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453484;;;;Очень хорошо, ты подписал договор. Даже не пытайся никому рассказать о том, что ты видел здесь.;;;;;;;;;;Very well, you signed the oath.;;;;
-2119453485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453485;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453486;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453486;;;;Вот одна доза противоядия. Но она была разработана для эльфа. Не могу обещать, что она сработает для ведьмака.;;;;;;;;;;Here's the antidote for one person, but it was made for an elf. I can't promise if it will help a witcher.;;;;
-2119453487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119453487;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453488;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453488;;;;Я активировала портал рядом с выходом из лаборатории. Используй его.;;;;;;;;;;I've activated the portal near the lab exit, use it to get back.;;;;
 2119453489;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453490;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_kicking_out.w2scene""";Line text;NGCLG00_NGCL_2119453490;;;;Ты что тут делаешь, приблуда?!;;;;;;;;;;What're you doing here, vagrant?!;;;;
@@ -1268,6 +1291,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453503;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453504;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453504;;;;Мне нужна помощь.;;;;;;;;;;I need help.;;;;
 2119453505;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+1159068;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01159068;;;;;;;;;;;;;;;;;;
 2119453506;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453506;;;;Я отправил своих солдат патрулировать лес к востоку от Урстена.;;;;;;;;;;I sent my soldiers to patrol the forest east of Ursten.;;;;
 2119453507;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453508;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453508;;;;Уже несколько дней я не получал от них вестей.;;;;;;;;;;I haven't had any news for several days.;;;;
@@ -1293,10 +1317,12 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453528;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453528;;;;Тебе хорошо заплатят, если ты разгадаешь эту тайну.;;;;;;;;;;You'll be well paid if you unravel this mystery.;;;;
 2119453529;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453530;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453530;;;;Почему ты просишь об этом меня?;;;;;;;;;;Why're you asking me?;;;;
+1029574;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01029574;;;;;;;;;;;;;;;;;;
 2119453531;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453532;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453532;;;;Не могу представить, чтобы я обратился за помощью к своему начальству из-за того, что потерял своих солдат.;;;;;;;;;;I can't imagine asking my superior for help because I've lost my troops.;;;;
 2119453533;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453534;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453534;;;;Ты слывёшь не очень разговорчивым, так что...;;;;;;;;;;You have a reputation for not being very talkative, so…;;;;
+1042370;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01042370;;;;;;;;;;;;;;;;;;
 2119453535;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453536;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453536;;;;Если ты найдёшь моих ребят, я тебе заплачу, и все будут довольны!;;;;;;;;;;You find my boys, I pay you, and everyone's happy!;;;;
 2119453537;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -1309,6 +1335,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453544;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453544;;;;;;;;;;;;;;;;;;
 2119453545;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453546;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453546;;;;Это ты выписал контракт ведьмаку Геральту из Ривии?;;;;;;;;;;It was you who gave the contract to the witcher Geralt of Rivia?;;;;
+1007204;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06c_gate_guards.w2scene""";Line text;NGCLG00_NGCL_01007204;;;;;;;;;;;;;;;;;;
 2119453547;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453548;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453548;;;;Зависит от того, что ты хочешь от меня.;;;;;;;;;;It depends... what do you want from me?;;;;
 2119453549;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -1364,7 +1391,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453599;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453600;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453600;;;;Есть ещё кое-что.;;;;;;;;;;There's more.;;;;
 2119453601;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Скоя'таэли проводили эксперименты, чтобы разработать...;;;;;;;;;;It was a group of scoia'tael from Blue Mountains…;;;;
+2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Скоя'таэли проводили эксперименты, чтобы разработать...;;;;;;;;;;It was a group of scoia'tael from Blue Mountains…;;;;
 2119453603;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453604;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453604;;;;Что такое?;;;;;;;;;;What's happening?;;;;
 2119453605;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
@@ -1471,6 +1498,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453706;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453706;;;;Вот твоя награда.;;;;;;;;;;Here's your reward.;;;;
 2119453707;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453708;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;GRLT_NGCL_2119453708;;;;Не так уж много.;;;;;;;;;;That's not much.;;;;
+505280;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_00505280;;;;;;;;;;;;;;;;;;
 2119453709;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453710;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line text;NGCLROF_NGCL_2119453710;;;;Достаточно за расследование, которое мог провести любой горожанин.;;;;;;;;;;That's enough of an investigation for any villager.;;;;
 2119453711;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_08a_geralt_back_to_officer.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

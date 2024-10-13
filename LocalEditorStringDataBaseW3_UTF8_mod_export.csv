@@ -95,7 +95,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453805;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453806;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;SOR1_NGCL_2119453806;;;;Ты смешон. Эти маленькие трюки – ничто в сравнении с настоящей магией.;;;;;;;;;;You're ridiculous. These little tricks are nothing compared to real magic.;;;;
 2119453807;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05f_ulvbjorn_in_cage.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
+2119453808;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04a_examine_geralt.w2scene""";Line text;GRLT_NGCL_2119453808;;;;Хорошо.;;;;;;;;;;All right.;;;;
 2119453809;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453810;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453811;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_04z_05g_teleport.w2scene""";Line text;GRLT_NGCL_2119453811;;;;Оу...;;;;;;;;;;Oh...;;;;
@@ -835,6 +835,10 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454536;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454537;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454538;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01c_gp_officer_after_fail.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454539;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454540;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454541;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
+2119454542;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 1188940;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;GRLT_NGCL_01188940;;;;;;;;;;;;;;;;;;
 2119453002;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01b_officer_encounter.w2scene""";Line text;NGCLROF_NGCL_2119453002;;;;Мне нужна помощь.;;;;;;;;;;I need help.;;;;
 2119453006;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_01a_gp_officer_call_geralt.w2scene""";Line text;NGCLROF_NGCL_2119453006;;;;Эй, ведьмак! Подойди сюда.;;;;;;;;;;Hey Witcher! Come here.;;;;
@@ -1138,7 +1142,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453352;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453353;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453353;;;;Побережье в той стороне? Мне нужно торопиться.;;;;;;;;;;Is the coast this way? I need to hurry up.;;;;
 2119453354;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453355;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_travelling_warning.w2scene""";Line text;GRLT_NGCL_2119453355;;;;Хм... Кажется, мне нужно идти другим путём.;;;;;;;;;;Hmm... It seems I should go the other way.;;;;
+2119453355;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06_gp_comments.w2scene""";Line text;GRLT_NGCL_2119453355;;;;Хм... Кажется, мне нужно идти другим путём.;;;;;;;;;;Hmm... It seems I should go the other way.;;;;
 2119453356;"CEntityTemplate ""dlc\dlcngcl\data\entities\ngcl_white_bear.w2ent""";Entity display name;;;;;;;;;;;;;;;;;;;
 2119453357;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Убить белого медведя.;;;;;;;;;;Kill white bears.;;;;
 2119453358;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;

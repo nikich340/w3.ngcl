@@ -41,6 +41,11 @@
                 16
             ]
         ],
-        "dlc\\dlcngcl\\data\\levels\\ngcl_elven_lab\\ngcl_elven_lab.w2w": []
+        "levels\\novigrad\\novigrad.w2w": [
+            [
+                26,
+                28
+            ]
+        ]
     }
 }

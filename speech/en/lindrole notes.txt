@@ -1,7 +1,6 @@
 01c no sound
 04c no sound
 05j no sound
-x06a anims to create xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 x06z_to_07 missing guardian voice xxxxxxxxxxxxxxx (+animation issue due to my redkit installation)
 08a missing lipsyncs
 

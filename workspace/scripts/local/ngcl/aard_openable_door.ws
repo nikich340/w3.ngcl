@@ -14,7 +14,7 @@ class NGCL_AardOpenableDoor extends W3NewDoor {
 		var doorComponent : CDoorComponent;
 		
 		aardHitsCount += 1;
-		// NNS("OnAardHit: aardHitsCount = " + aardHitsCount);
+		// NGCL_Notify_Shared("OnAardHit: aardHitsCount = " + aardHitsCount);
 		if (isOpenableByAard && aardHitsCount >= isOpenableByAardHits) {
 			doorComponent = (CDoorComponent)GetComponentByClassName( 'CDoorComponent' );
 			doorComponent.SetEnabled( true );

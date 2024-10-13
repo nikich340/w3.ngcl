@@ -170,7 +170,7 @@ quest function NGCL_SetEncounterEnabled( encounterTag : name, enable : bool )
 	
 	encounter = (CEncounter)theGame.GetEntityByTag ( encounterTag );
 	if ( !encounter ) {
-		NNS("NGCL_SetEncounterEnabled: not found " + encounterTag);
+		NGCL_Notify_Shared("NGCL_SetEncounterEnabled: not found " + encounterTag);
 		return;
 	}
 	
@@ -197,7 +197,7 @@ quest function NGCL_SetSkating(enable : bool)
 	{
 		thePlayer.GotoState('Exploration');
 	}
-	NNS("NGCL_SetSkating = " + enable);
+	NGCL_Notify_Shared("NGCL_SetSkating = " + enable);
 }
 
 quest function NGCL_HandlePriscilla(hide : bool) {

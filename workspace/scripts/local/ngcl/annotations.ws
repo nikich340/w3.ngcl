@@ -1,7 +1,7 @@
 @wrapMethod(CScriptSoundSystem)
 function InitializeAreaMusic( worldArea : EAreaName ) {
 	wrappedMethod( worldArea );
-	// NNS("InitializeAreaMusic: worldArea = " + worldArea + ", skellige loaded = " + theSound.SoundIsBankLoaded("music_skellige.bnk"));
+	// NGCL_Notify_Shared("InitializeAreaMusic: worldArea = " + worldArea + ", skellige loaded = " + theSound.SoundIsBankLoaded("music_skellige.bnk"));
 	if (worldArea == AN_HubSlot_17) {
 		SoundEvent( "play_music_skellige" );
 		SoundEvent( "mus_loc_faroe" );
@@ -16,7 +16,7 @@ function NGCL_IsUlvbjorn() : bool {
 @wrapMethod(W3PlayerWitcher)
 function OnSpawned( spawnData : SEntitySpawnData ) {
 	wrappedMethod( spawnData );
-	// NNS("PlayerSpawned: " + ToString());
+	// NGCL_Notify_Shared("PlayerSpawned: " + ToString());
 	if ( FactsQuerySum("ngcl_avatar_active") > 0 && !NGCL_IsUlvbjorn() ) {
 		theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
 	}

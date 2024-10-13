@@ -46,7 +46,7 @@ class NGCL_GeraltNPCApplyAppearanceInitializer extends ISpawnTreeScriptedInitial
 				}
 			}
 		}
-		NNS("NGCL_GeraltNPCApplyAppearanceInitializer -> " + appearanceName);
+		NGCL_Notify_Shared("NGCL_GeraltNPCApplyAppearanceInitializer -> " + appearanceName);
 		actor.ApplyAppearance(appearanceName);
 		return true;
 	}

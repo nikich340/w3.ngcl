@@ -14,7 +14,7 @@ class CNGCL_LocalizedStringStorage extends CEntity {
 				return stringValues[i];
 			}
 		}
-		NNS("CNGCL_LocalizedStringStorage: id NOT found: " + IntToString(id));
+		NGCL_Notify_Shared("CNGCL_LocalizedStringStorage: id NOT found: " + IntToString(id));
 		return null;
 	}
 }

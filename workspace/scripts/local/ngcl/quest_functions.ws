@@ -183,14 +183,8 @@ quest function NGCL_SetEncounterEnabled( encounterTag : name, enable : bool )
 }
 
 latent quest function NGCL_EnsureUlvbjornLoaded() {
-	while (true) {
+	while ( !thePlayer || !thePlayer.NGCL_IsUlvbjorn() )
 		SleepOneFrame();
-		if ( !((W3PlayerWitcher)thePlayer) )
-			continue;
-		if ( !StrContains(thePlayer.ToString(), "ulvbjorn") )
-			continue;
-		break;
-	}
 }
 
 quest function NGCL_SetSkating(enable : bool)

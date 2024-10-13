@@ -8,11 +8,24 @@ function InitializeAreaMusic( worldArea : EAreaName ) {
 	}
 }
 
+@addMethod(CR4Player)
+function NGCL_IsUlvbjorn() : bool {
+	return StrContains(this.ToString(), "ulvbjorn");
+}
+
 @wrapMethod(W3PlayerWitcher)
 function OnSpawned( spawnData : SEntitySpawnData ) {
 	wrappedMethod( spawnData );
 	// NNS("PlayerSpawned: " + ToString());
-	if ( FactsQuerySum("ngcl_avatar_active") > 0 && !StrContains(this.ToString(), "ulvbjorn") ) {
+	if ( FactsQuerySum("ngcl_avatar_active") > 0 && !NGCL_IsUlvbjorn() ) {
 		theGame.ChangePlayer( "ngcl_ulvbjorn_player" );
 	}
+}
+
+@wrapMethod(W3PlayerWitcher)
+function GetEncumbrance() : float {
+	if ( NGCL_IsUlvbjorn() ) {
+		return 0.f;
+	}
+	return wrappedMethod();
 }

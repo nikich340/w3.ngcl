@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_ngcl_random_skates_no_knock" ID="{B4612A00-60F5-45DC-A282-D0FB09926DBE}">
+					<ChildrenList>
+						<Action Name="" ID="{E3699FDF-A29A-4383-A909-2B1473419092}" ShortID="157351624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="random_skates_b_container" ID="{7995FD24-2845-4552-A260-03DAB050404A}" WorkUnitID="{396A0280-5D1F-467D-8A65-CF8A46D4FF91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

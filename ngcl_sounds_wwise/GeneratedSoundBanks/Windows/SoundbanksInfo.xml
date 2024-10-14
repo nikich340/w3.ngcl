@@ -64,7 +64,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4209171010" Language="SFX" Hash="474861512">
+		<SoundBank Id="4209171010" Language="SFX" Hash="3038114849">
 			<ObjectPath>\SoundBanks\Default Work Unit\ngcl_quest</ObjectPath>
 			<ShortName>ngcl_quest</ShortName>
 			<Path>ngcl_quest.bnk</Path>
@@ -90,6 +90,30 @@
 						<File Id="1056478187" Language="SFX">
 							<ShortName>ngcl_ice_skates2.wav</ShortName>
 							<Path>SFX\ngcl_ice_skates2_A8560E5F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1456827309" Name="play_ngcl_random_skates_no_knock" ObjectPath="\Events\Default Work Unit\play_ngcl_random_skates_no_knock">
+					<IncludedMemoryFiles>
+						<File Id="290234282" Language="SFX">
+							<ShortName>ngcl_ice_skates4b.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates4b_A8560E5F.wem</Path>
+						</File>
+						<File Id="299665583" Language="SFX">
+							<ShortName>ngcl_ice_skates2b.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates2b_A8560E5F.wem</Path>
+						</File>
+						<File Id="505089507" Language="SFX">
+							<ShortName>ngcl_ice_skates3b.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates3b_A8560E5F.wem</Path>
+						</File>
+						<File Id="505212018" Language="SFX">
+							<ShortName>ngcl_ice_skates1b.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates1b_A8560E5F.wem</Path>
+						</File>
+						<File Id="595006647" Language="SFX">
+							<ShortName>ngcl_ice_skates5b.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates5b_A8560E5F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -6,6 +6,7 @@
 				<SoundBank Name="ngcl_quest" ID="{1193634E-E849-4B8D-B1A3-C43CE292284C}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_ngcl_random_skates" ID="{F1186E08-D421-44C3-90C2-42D63691F347}" WorkUnitID="{D9B1F72E-0E16-418C-A25A-F9EA16E32375}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_ngcl_random_skates_no_knock" ID="{B4612A00-60F5-45DC-A282-D0FB09926DBE}" WorkUnitID="{D9B1F72E-0E16-418C-A25A-F9EA16E32375}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

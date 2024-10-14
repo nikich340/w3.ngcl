@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Triggers\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Switches\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\States\default_states.wwu" DateLow="1718691552" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\States\Default Work Unit.wwu" DateLow="1718614141" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\SoundBanks\Default Work Unit.wwu" DateLow="1718635612" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Queries\Factory Queries.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Queries\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Presets\Factory Spatial Audio.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Presets\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\ngcl_sounds_wwise.wproj" DateLow="1718693024" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Modulators\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Metadata\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718695080" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Game Parameters\global_control.wwu" DateLow="1718614283" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Game Parameters\Default Work Unit.wwu" DateLow="1718614245" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Events\Default Work Unit.wwu" DateLow="1718635492" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory McDSP Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Filters.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Delay.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1707279180" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Factory Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Effects\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1718693480" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Audio Devices\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Attenuations\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\w3.tools\w3.sound_editing_tools\ngcl_sounds_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718693953" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Triggers\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Switches\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\States\default_states.wwu" DateLow="1718691552" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\States\Default Work Unit.wwu" DateLow="1718614141" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\SoundBanks\Default Work Unit.wwu" DateLow="1728893900" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Queries\Factory Queries.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Queries\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Presets\Factory Spatial Audio.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Presets\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\ngcl_sounds_wwise.wproj" DateLow="1718693024" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\ngcl_sounds_wwise.Aynerahn.wsettings" DateLow="1728893900" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Modulators\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Metadata\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1718695080" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Game Parameters\global_control.wwu" DateLow="1718614283" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Game Parameters\Default Work Unit.wwu" DateLow="1718614245" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Events\Default Work Unit.wwu" DateLow="1728893880" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory McDSP Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Filters.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Delay.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1707279180" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Factory Effects.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Effects\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1718693480" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Audio Devices\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Attenuations\Default Work Unit.wwu" DateLow="1686024912" DateHigh="0"/>
+	<ValidationCacheItem File="D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1728893845" DateHigh="0"/>
+</ValidationCache>

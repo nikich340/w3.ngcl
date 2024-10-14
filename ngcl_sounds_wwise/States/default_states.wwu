@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F188714-B44F-4BE0-914D-94FD5F076ACC}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="default_states" ID="{5F188714-B44F-4BE0-914D-94FD5F076ACC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="game_state" ID="{60805198-9349-49ED-B8C9-51416AC933DA}">
+					<ChildrenList>
+						<State Name="None" ID="{939D7E38-5F49-4E2B-A534-E347648F3C16}"/>
+						<State Name="exploration" ID="{00F16F86-FEE2-456B-A998-524A4AFD1DE4}"/>
+						<State Name="exploration_night" ID="{42AC560C-C819-448F-8DA5-8162CA8536A0}"/>
+						<State Name="focus_exploration" ID="{80BCDD0F-1F04-47D6-B35B-E3559A573DC4}"/>
+						<State Name="focus_exploration_night" ID="{AF7C4A48-9840-4EB3-9E01-053B0FCF0392}"/>
+						<State Name="combat" ID="{ED2193DA-D655-4103-AE75-90E3E4FB8B68}"/>
+						<State Name="combat_monster_hunt" ID="{0B3B90CD-A1D7-4561-A492-D0112495B325}"/>
+						<State Name="dialog_scene" ID="{ED718861-AE1B-4650-A0E8-CFA6578C5F5F}"/>
+						<State Name="dialog_scene_night" ID="{A7553800-798D-4317-A72D-5C7E4E874160}"/>
+						<State Name="cutscene" ID="{471477FE-532A-4791-87DB-557C6314C516}"/>
+						<State Name="minigames" ID="{7C30DF19-7C47-4361-BBCA-4F492F092F6D}"/>
+						<State Name="death" ID="{9C6791C4-7F8D-4BA7-9839-12D59B795006}"/>
+						<State Name="movie" ID="{C1322D19-8058-49E3-89D4-F0531E092265}"/>
+						<State Name="boat" ID="{C5615F90-524E-46B4-B1A0-0BF18FCD1954}"/>
+						<State Name="music_only" ID="{DD7DE09D-9870-4432-A61A-9069428F6BE1}"/>
+						<State Name="underwater" ID="{AC7EDE27-C1B0-4EC0-9B9C-A8DBD2E9977A}"/>
+						<State Name="underwater_combat" ID="{437C00F0-A515-413C-A6F7-A0C788F4260F}"/>
+						<State Name="underwater_focus" ID="{F9C5C984-CE39-413B-9657-A5CE1077AFF3}"/>
+						<State Name="underwater_combat_focus" ID="{35332F27-D91E-4FA8-B71E-B331F1029533}"/>
+						<State Name="pause" ID="{0D444E7A-CE07-4F40-A49D-3537BCD0C006}"/>
+						<State Name="gwent" ID="{F51CEB9B-F18C-4F04-8104-6D2493127619}"/>
+						<State Name="interior" ID="{F9550DB5-C0BF-4401-B498-68A2030CC68B}"/>
+						<State Name="menu" ID="{01B2137E-11D8-445C-BBB2-36C0A4D6AEC6}"/>
+						<State Name="quest" ID="{B9C923FD-ED7E-4C81-AD1D-A296ABD1C719}"/>
+						<State Name="focus_combat" ID="{158D313E-EA05-4728-8E37-5CA663C0721F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="mixing_state" ID="{B0444D67-5A90-4374-BC38-C5C129E79935}">
+					<ChildrenList>
+						<State Name="None" ID="{B8956582-1FB3-4871-A0DD-7C009972CF6A}"/>
+						<State Name="blackscreen" ID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+						<State Name="menu" ID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+						<State Name="suspend" ID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

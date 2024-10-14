@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3499760055">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1534528548" Name="VO" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO"/>
+				<AuxBus Id="1584604251" Name="Focus_DSP" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Focus_DSP"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1262518116" Name="menu_volume_sounds" ObjectPath="\Game Parameters\global_control\menu_volume_sounds"/>
+				<GameParameter Id="1322396954" Name="menu_volume_master" ObjectPath="\Game Parameters\global_control\menu_volume_master"/>
+				<GameParameter Id="3299253673" Name="menu_volume_music" ObjectPath="\Game Parameters\global_control\menu_volume_music"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="game_state" ObjectPath="\States\default_states\game_state" GUID="{60805198-9349-49ED-B8C9-51416AC933DA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\default_states\game_state\None" GUID="{939D7E38-5F49-4E2B-A534-E347648F3C16}"/>
+						<State Id="2582085496" Name="exploration" ObjectPath="\States\default_states\game_state\exploration" GUID="{00F16F86-FEE2-456B-A998-524A4AFD1DE4}"/>
+						<State Id="3817056875" Name="exploration_night" ObjectPath="\States\default_states\game_state\exploration_night" GUID="{42AC560C-C819-448F-8DA5-8162CA8536A0}"/>
+						<State Id="3985602033" Name="focus_exploration" ObjectPath="\States\default_states\game_state\focus_exploration" GUID="{80BCDD0F-1F04-47D6-B35B-E3559A573DC4}"/>
+						<State Id="1432638110" Name="focus_exploration_night" ObjectPath="\States\default_states\game_state\focus_exploration_night" GUID="{AF7C4A48-9840-4EB3-9E01-053B0FCF0392}"/>
+						<State Id="2764240573" Name="combat" ObjectPath="\States\default_states\game_state\combat" GUID="{ED2193DA-D655-4103-AE75-90E3E4FB8B68}"/>
+						<State Id="219614594" Name="combat_monster_hunt" ObjectPath="\States\default_states\game_state\combat_monster_hunt" GUID="{0B3B90CD-A1D7-4561-A492-D0112495B325}"/>
+						<State Id="3757878140" Name="dialog_scene" ObjectPath="\States\default_states\game_state\dialog_scene" GUID="{ED718861-AE1B-4650-A0E8-CFA6578C5F5F}"/>
+						<State Id="360867343" Name="dialog_scene_night" ObjectPath="\States\default_states\game_state\dialog_scene_night" GUID="{A7553800-798D-4317-A72D-5C7E4E874160}"/>
+						<State Id="1182958561" Name="cutscene" ObjectPath="\States\default_states\game_state\cutscene" GUID="{471477FE-532A-4791-87DB-557C6314C516}"/>
+						<State Id="2823808769" Name="minigames" ObjectPath="\States\default_states\game_state\minigames" GUID="{7C30DF19-7C47-4361-BBCA-4F492F092F6D}"/>
+						<State Id="779278001" Name="death" ObjectPath="\States\default_states\game_state\death" GUID="{9C6791C4-7F8D-4BA7-9839-12D59B795006}"/>
+						<State Id="1227356799" Name="movie" ObjectPath="\States\default_states\game_state\movie" GUID="{C1322D19-8058-49E3-89D4-F0531E092265}"/>
+						<State Id="1795056175" Name="boat" ObjectPath="\States\default_states\game_state\boat" GUID="{C5615F90-524E-46B4-B1A0-0BF18FCD1954}"/>
+						<State Id="2249704819" Name="music_only" ObjectPath="\States\default_states\game_state\music_only" GUID="{DD7DE09D-9870-4432-A61A-9069428F6BE1}"/>
+						<State Id="2213237662" Name="underwater" ObjectPath="\States\default_states\game_state\underwater" GUID="{AC7EDE27-C1B0-4EC0-9B9C-A8DBD2E9977A}"/>
+						<State Id="3571424733" Name="underwater_combat" ObjectPath="\States\default_states\game_state\underwater_combat" GUID="{437C00F0-A515-413C-A6F7-A0C788F4260F}"/>
+						<State Id="3708995963" Name="underwater_focus" ObjectPath="\States\default_states\game_state\underwater_focus" GUID="{F9C5C984-CE39-413B-9657-A5CE1077AFF3}"/>
+						<State Id="3070007808" Name="underwater_combat_focus" ObjectPath="\States\default_states\game_state\underwater_combat_focus" GUID="{35332F27-D91E-4FA8-B71E-B331F1029533}"/>
+						<State Id="3092587493" Name="pause" ObjectPath="\States\default_states\game_state\pause" GUID="{0D444E7A-CE07-4F40-A49D-3537BCD0C006}"/>
+						<State Id="558715222" Name="gwent" ObjectPath="\States\default_states\game_state\gwent" GUID="{F51CEB9B-F18C-4F04-8104-6D2493127619}"/>
+						<State Id="1132214669" Name="interior" ObjectPath="\States\default_states\game_state\interior" GUID="{F9550DB5-C0BF-4401-B498-68A2030CC68B}"/>
+						<State Id="2607556080" Name="menu" ObjectPath="\States\default_states\game_state\menu" GUID="{01B2137E-11D8-445C-BBB2-36C0A4D6AEC6}"/>
+						<State Id="1801258597" Name="quest" ObjectPath="\States\default_states\game_state\quest" GUID="{B9C923FD-ED7E-4C81-AD1D-A296ABD1C719}"/>
+						<State Id="2901690114" Name="focus_combat" ObjectPath="\States\default_states\game_state\focus_combat" GUID="{158D313E-EA05-4728-8E37-5CA663C0721F}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2438777053" Name="mixing_state" ObjectPath="\States\default_states\mixing_state" GUID="{B0444D67-5A90-4374-BC38-C5C129E79935}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\default_states\mixing_state\None" GUID="{B8956582-1FB3-4871-A0DD-7C009972CF6A}"/>
+						<State Id="4079870254" Name="blackscreen" ObjectPath="\States\default_states\mixing_state\blackscreen" GUID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+						<State Id="2607556080" Name="menu" ObjectPath="\States\default_states\mixing_state\menu" GUID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+						<State Id="1091540455" Name="suspend" ObjectPath="\States\default_states\mixing_state\suspend" GUID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4209171010" Language="SFX" Hash="474861512">
+			<ObjectPath>\SoundBanks\Default Work Unit\ngcl_quest</ObjectPath>
+			<ShortName>ngcl_quest</ShortName>
+			<Path>ngcl_quest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1903583778" Name="play_ngcl_random_skates" ObjectPath="\Events\Default Work Unit\play_ngcl_random_skates">
+					<IncludedMemoryFiles>
+						<File Id="221642200" Language="SFX">
+							<ShortName>ngcl_ice_skates4.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates4_A8560E5F.wem</Path>
+						</File>
+						<File Id="546554155" Language="SFX">
+							<ShortName>ngcl_ice_skates5.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates5_A8560E5F.wem</Path>
+						</File>
+						<File Id="886627542" Language="SFX">
+							<ShortName>ngcl_ice_skates3.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates3_A8560E5F.wem</Path>
+						</File>
+						<File Id="922334810" Language="SFX">
+							<ShortName>ngcl_ice_skates1.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates1_A8560E5F.wem</Path>
+						</File>
+						<File Id="1056478187" Language="SFX">
+							<ShortName>ngcl_ice_skates2.wav</ShortName>
+							<Path>SFX\ngcl_ice_skates2_A8560E5F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9B1F72E-0E16-418C-A25A-F9EA16E32375}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D9B1F72E-0E16-418C-A25A-F9EA16E32375}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_ngcl_random_skates" ID="{F1186E08-D421-44C3-90C2-42D63691F347}">
+					<ChildrenList>
+						<Action Name="" ID="{0F521D45-7B70-4D4A-9BA3-E4A6B2200AD2}" ShortID="632106948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="random_skates_container" ID="{51384B9D-B16B-47D5-B38E-0C8A9286CBD9}" WorkUnitID="{396A0280-5D1F-467D-8A65-CF8A46D4FF91}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

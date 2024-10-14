@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="global_control" ID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="menu_volume_music" ID="{63D3A1F3-47F9-49B2-A222-3B15F1FF3F62}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="menu_volume_master" ID="{55A21057-CE2B-4549-8EAA-1750B9AA5AEA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="menu_volume_voiceovers" ID="{357E4C90-5EF6-4D1F-ADA7-1ACA956121C3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

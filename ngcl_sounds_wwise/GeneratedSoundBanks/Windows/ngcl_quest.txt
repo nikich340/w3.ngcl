@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1903583778	play_ngcl_random_skates			\Default Work Unit\play_ngcl_random_skates	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	221642200	ngcl_ice_skates4	D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\SFX\ngcl_ice_skates4_A8560E5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\random_skates_container\ngcl_ice_skates4		23346
+	546554155	ngcl_ice_skates5	D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\SFX\ngcl_ice_skates5_A8560E5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\random_skates_container\ngcl_ice_skates5		17423
+	886627542	ngcl_ice_skates3	D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\SFX\ngcl_ice_skates3_A8560E5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\random_skates_container\ngcl_ice_skates3		21527
+	922334810	ngcl_ice_skates1	D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\SFX\ngcl_ice_skates1_A8560E5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\random_skates_container\ngcl_ice_skates1		18307
+	1056478187	ngcl_ice_skates2	D:\w3.modding\redkit3Projects\w3.ngcl\ngcl_sounds_wwise\.cache\Windows\SFX\ngcl_ice_skates2_A8560E5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\random_skates_container\ngcl_ice_skates2		21159
+

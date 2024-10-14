@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F06BE1CE-4B9C-4B3F-A914-545C6E5B8EFA}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F06BE1CE-4B9C-4B3F-A914-545C6E5B8EFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{70486D42-903B-419D-B6A6-68BFC7DA5616}" ShortID="30796500">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="menu_volume_master" ID="{55A21057-CE2B-4549-8EAA-1750B9AA5AEA}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5BDF7C5C-38D7-44E7-957A-917F5D4AE34F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{922E3DC9-9BCC-4E65-8F26-B361BE821CD7}" WorkUnitID="{41017DA7-8F02-4824-A832-C25624AF3655}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Gameplay Master Bus" ID="{045CE4A7-F010-421C-B2F6-16E1E64BF932}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AE085476-D195-4DE3-B51E-D126DBF83F6A}" ShortID="793509420">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{78B29A26-712E-4F86-87E0-987DB346B0CB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="mixing_state" ID="{B0444D67-5A90-4374-BC38-C5C129E79935}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="menu" ID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+										<CustomState Name="" ID="{F2A26AB2-EE4F-410F-91EF-82470FC2C4E1}" ShortID="768624753">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="suspend" ID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+										<CustomState Name="" ID="{23BDE240-B5F3-4EAA-A355-D69A21DAC5D5}" ShortID="460509239"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="blackscreen" ID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+										<CustomState Name="" ID="{229F85C4-71E2-451E-ABC5-0E7663C179D9}" ShortID="1045058914"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Ambiences" ID="{E8B6DC4E-40A8-4927-8221-5AD81976DB78}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{C81E32BB-60AC-46F0-9D1D-8735BBC5D3A7}" ShortID="1011919083">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{27685ED8-6657-4A69-AB58-1751CA976014}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="mixing_state" ID="{B0444D67-5A90-4374-BC38-C5C129E79935}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="menu" ID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+										<CustomState Name="" ID="{C306882A-0EED-47A5-832E-73FF3292119C}" ShortID="553714263">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="suspend" ID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+										<CustomState Name="" ID="{7DA6CC05-360A-4273-BE88-889C7C26A160}" ShortID="974473402"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="blackscreen" ID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+										<CustomState Name="" ID="{25AAF5B4-B5D5-4202-912F-6E910A83F5E0}" ShortID="476665936">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="ENVIRONMENTAL Bus" ID="{E67CD217-1A0A-434B-B2F0-6EF17030FE94}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{781C1963-CB80-400F-ACBE-81804529AC16}" ShortID="425703372">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{593308F3-02CB-4231-ADC7-C1397EF15037}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Cutscenes" ID="{26B57320-ECEC-4967-AFCA-A54FB435DDEB}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B3FDA3E3-74D0-4B14-B42A-C62AC3B280BC}" ShortID="853751518">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{87DC6D62-000C-4895-8196-112187CDD7FE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="game_state" ID="{60805198-9349-49ED-B8C9-51416AC933DA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="combat" ID="{ED2193DA-D655-4103-AE75-90E3E4FB8B68}"/>
+										<CustomState Name="" ID="{D5F254BC-0E47-4067-AF33-D5310EF49D0F}" ShortID="222722940"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_focus" ID="{F9C5C984-CE39-413B-9657-A5CE1077AFF3}"/>
+										<CustomState Name="" ID="{FD078E8E-4DBE-4B87-82F6-CA3AD5B6DA86}" ShortID="685139380"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_combat" ID="{437C00F0-A515-413C-A6F7-A0C788F4260F}"/>
+										<CustomState Name="" ID="{D3BE0BB0-C274-405E-B42E-37377E6EBD96}" ShortID="461422964"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="dialog_scene_night" ID="{A7553800-798D-4317-A72D-5C7E4E874160}"/>
+										<CustomState Name="" ID="{738C5D12-42CF-4A03-ACDB-583F530E72B4}" ShortID="579905602"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="minigames" ID="{7C30DF19-7C47-4361-BBCA-4F492F092F6D}"/>
+										<CustomState Name="" ID="{AA2BB0A8-6F94-4CE8-B6F0-384D03227B30}" ShortID="994908663"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="interior" ID="{F9550DB5-C0BF-4401-B498-68A2030CC68B}"/>
+										<CustomState Name="" ID="{E323DD64-7955-4EF1-9A3E-4FBB9D288C4B}" ShortID="412152672"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="music_only" ID="{DD7DE09D-9870-4432-A61A-9069428F6BE1}"/>
+										<CustomState Name="" ID="{0C2E9012-7317-4252-9D82-217E9273ED44}" ShortID="426935793"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{01B2137E-11D8-445C-BBB2-36C0A4D6AEC6}"/>
+										<CustomState Name="" ID="{ED5B86AA-0DF5-414D-A228-EEC020F4CEC2}" ShortID="387166945"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="exploration_night" ID="{42AC560C-C819-448F-8DA5-8162CA8536A0}"/>
+										<CustomState Name="" ID="{FA6557A2-46D1-4630-BC93-B178BDC17E12}" ShortID="176548650"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="combat_monster_hunt" ID="{0B3B90CD-A1D7-4561-A492-D0112495B325}"/>
+										<CustomState Name="" ID="{F6BA576A-A8C6-46C2-AEE7-F21E4D911B77}" ShortID="668599490"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="exploration" ID="{00F16F86-FEE2-456B-A998-524A4AFD1DE4}"/>
+										<CustomState Name="" ID="{D4E85720-6C79-40D5-A4E8-FED137A7A372}" ShortID="988634727"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="dialog_scene" ID="{ED718861-AE1B-4650-A0E8-CFA6578C5F5F}"/>
+										<CustomState Name="" ID="{8ABE6E55-8F54-4900-AA05-83F33E22B28A}" ShortID="699747327"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boat" ID="{C5615F90-524E-46B4-B1A0-0BF18FCD1954}"/>
+										<CustomState Name="" ID="{C4CCE795-6362-43AC-A549-99C3E570A747}" ShortID="511254625"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_combat" ID="{158D313E-EA05-4728-8E37-5CA663C0721F}"/>
+										<CustomState Name="" ID="{509F17A1-F829-4250-A2F6-0C1EACD66FA5}" ShortID="983857022"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cutscene" ID="{471477FE-532A-4791-87DB-557C6314C516}"/>
+										<CustomState Name="" ID="{0D1293D1-ECB0-44D3-BE73-78AA2023DB28}" ShortID="755654595"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_exploration" ID="{80BCDD0F-1F04-47D6-B35B-E3559A573DC4}"/>
+										<CustomState Name="" ID="{1CC9D15E-4E98-4970-B778-D83AB6413219}" ShortID="559278863"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="movie" ID="{C1322D19-8058-49E3-89D4-F0531E092265}"/>
+										<CustomState Name="" ID="{2BAD34A7-52EF-4B41-AC81-ACDF0E805930}" ShortID="536471845">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="death" ID="{9C6791C4-7F8D-4BA7-9839-12D59B795006}"/>
+										<CustomState Name="" ID="{380393B6-3C4D-4579-95FA-EB983649140C}" ShortID="21792697"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="quest" ID="{B9C923FD-ED7E-4C81-AD1D-A296ABD1C719}"/>
+										<CustomState Name="" ID="{1F606FE0-F7A7-4751-814C-B59089859ECE}" ShortID="146411005"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_exploration_night" ID="{AF7C4A48-9840-4EB3-9E01-053B0FCF0392}"/>
+										<CustomState Name="" ID="{9F2030DA-FC35-4636-AF5B-1AD881BD7E85}" ShortID="256042751"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater" ID="{AC7EDE27-C1B0-4EC0-9B9C-A8DBD2E9977A}"/>
+										<CustomState Name="" ID="{1C684CEB-CEDD-448E-8F57-9AFEBE049FBB}" ShortID="4404310"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="gwent" ID="{F51CEB9B-F18C-4F04-8104-6D2493127619}"/>
+										<CustomState Name="" ID="{AD51A34A-B1FE-43A4-845A-F3B6628EBA5C}" ShortID="497281702"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pause" ID="{0D444E7A-CE07-4F40-A49D-3537BCD0C006}"/>
+										<CustomState Name="" ID="{4A4E43CC-0B5F-4382-BB34-9D32BA78850D}" ShortID="709082190"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_combat_focus" ID="{35332F27-D91E-4FA8-B71E-B331F1029533}"/>
+										<CustomState Name="" ID="{CC00CB86-E575-45A8-9FBB-54883A8FB9E4}" ShortID="660710727"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="GUI" ID="{628C3582-447E-4145-AD4C-3FEAC81E403E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{0693F0B8-60C0-4093-B223-B6F20F71A62D}" ShortID="733404177">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_sounds" ID="{2394BCAC-6044-46C8-80BD-356170604608}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4CB57CE0-AE82-4D46-A22E-C2E81AA02A34}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Music" ID="{D9FD2923-D9E6-4B27-A199-3C7765145A3C}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8AC19999-160C-499E-9E6C-77F8022E4625}" ShortID="244068819">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="menu_volume_music" ID="{63D3A1F3-47F9-49B2-A222-3B15F1FF3F62}" WorkUnitID="{12CEBA4C-08A0-4DE3-ACD0-4BA712FB28C3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{555200ED-599C-4442-ABFD-0DF2F4FA94B2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="mixing_state" ID="{B0444D67-5A90-4374-BC38-C5C129E79935}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="game_state" ID="{60805198-9349-49ED-B8C9-51416AC933DA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="combat" ID="{ED2193DA-D655-4103-AE75-90E3E4FB8B68}"/>
+										<CustomState Name="" ID="{9809FF3C-1542-437A-BF2C-F10C03C41C32}" ShortID="19470255"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_focus" ID="{F9C5C984-CE39-413B-9657-A5CE1077AFF3}"/>
+										<CustomState Name="" ID="{1A854223-2176-4DDF-B40B-B5936A23D536}" ShortID="643900694"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_combat" ID="{437C00F0-A515-413C-A6F7-A0C788F4260F}"/>
+										<CustomState Name="" ID="{1BF7FE9A-1906-404E-83CC-EE9B11B0AD7D}" ShortID="670423951"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="dialog_scene_night" ID="{A7553800-798D-4317-A72D-5C7E4E874160}"/>
+										<CustomState Name="" ID="{EA537628-CA1F-4D02-A83E-634C52B8C6A6}" ShortID="537598955">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-1"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="minigames" ID="{7C30DF19-7C47-4361-BBCA-4F492F092F6D}"/>
+										<CustomState Name="" ID="{B330A475-9B69-463E-A514-F94E0E0A2FAC}" ShortID="405544186"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+										<CustomState Name="" ID="{9A3396FE-384B-4250-A99E-A0311B59824E}" ShortID="494425582"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="interior" ID="{F9550DB5-C0BF-4401-B498-68A2030CC68B}"/>
+										<CustomState Name="" ID="{33221DAB-D008-4FB5-8792-CEE9515CBB5F}" ShortID="293425166"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="music_only" ID="{DD7DE09D-9870-4432-A61A-9069428F6BE1}"/>
+										<CustomState Name="" ID="{19F17E72-1603-42C3-926A-AB019D02A5D0}" ShortID="12358132"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="menu" ID="{01B2137E-11D8-445C-BBB2-36C0A4D6AEC6}"/>
+										<CustomState Name="" ID="{BEAC2F3C-CCE8-4F24-A7B8-EC8239DA5313}" ShortID="598497549">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="exploration_night" ID="{42AC560C-C819-448F-8DA5-8162CA8536A0}"/>
+										<CustomState Name="" ID="{43A51240-F7F6-479A-BA46-BCBBC4F5A691}" ShortID="68809436"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="combat_monster_hunt" ID="{0B3B90CD-A1D7-4561-A492-D0112495B325}"/>
+										<CustomState Name="" ID="{B99DD969-61CD-4B51-AF12-3E01E54E18AF}" ShortID="1006346153"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="exploration" ID="{00F16F86-FEE2-456B-A998-524A4AFD1DE4}"/>
+										<CustomState Name="" ID="{04FD876F-5CFA-4E21-8235-B53BCB7F7CBC}" ShortID="799818970"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="dialog_scene" ID="{ED718861-AE1B-4650-A0E8-CFA6578C5F5F}"/>
+										<CustomState Name="" ID="{1A1F0799-A6DB-427E-B791-19937566DFF2}" ShortID="1049277471">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-1"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="boat" ID="{C5615F90-524E-46B4-B1A0-0BF18FCD1954}"/>
+										<CustomState Name="" ID="{AEF9FC68-713C-4EA3-96E3-F5492BE107DD}" ShortID="329616101"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_combat" ID="{158D313E-EA05-4728-8E37-5CA663C0721F}"/>
+										<CustomState Name="" ID="{964D277C-B5F4-4040-94F0-C5D0CEEE09D9}" ShortID="336319313">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="cutscene" ID="{471477FE-532A-4791-87DB-557C6314C516}"/>
+										<CustomState Name="" ID="{D058F314-45EF-4FF5-A8D1-634B707F751E}" ShortID="428945636"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_exploration" ID="{80BCDD0F-1F04-47D6-B35B-E3559A573DC4}"/>
+										<CustomState Name="" ID="{5B857498-0C74-4E77-B1D4-896892EE744C}" ShortID="921615190">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="suspend" ID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+										<CustomState Name="" ID="{F1DCB23E-7529-4C67-A769-A6308198FEDA}" ShortID="793557292"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="movie" ID="{C1322D19-8058-49E3-89D4-F0531E092265}"/>
+										<CustomState Name="" ID="{FFC35AC6-AA92-4579-B99B-ECDC502CC76F}" ShortID="865640369">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="death" ID="{9C6791C4-7F8D-4BA7-9839-12D59B795006}"/>
+										<CustomState Name="" ID="{77F36787-C30C-4656-8785-0582E08FF9E1}" ShortID="293657023"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="quest" ID="{B9C923FD-ED7E-4C81-AD1D-A296ABD1C719}"/>
+										<CustomState Name="" ID="{7002F74D-1A79-48B1-8795-ECA2C662C18E}" ShortID="325899225"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="focus_exploration_night" ID="{AF7C4A48-9840-4EB3-9E01-053B0FCF0392}"/>
+										<CustomState Name="" ID="{62C74F85-4378-4B05-8BAF-F65EB665FA13}" ShortID="190209301">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater" ID="{AC7EDE27-C1B0-4EC0-9B9C-A8DBD2E9977A}"/>
+										<CustomState Name="" ID="{8217931E-D78A-4867-8F38-B71E8F8F7D64}" ShortID="783708180"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="blackscreen" ID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+										<CustomState Name="" ID="{D86F9F88-606D-4337-8748-7D1B1D1C5D90}" ShortID="98314522"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="gwent" ID="{F51CEB9B-F18C-4F04-8104-6D2493127619}"/>
+										<CustomState Name="" ID="{9B7F4363-E0FF-40C0-9B82-9186029ABC88}" ShortID="514485588"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="pause" ID="{0D444E7A-CE07-4F40-A49D-3537BCD0C006}"/>
+										<CustomState Name="" ID="{1706EA30-41A6-4D56-84A8-53C9410ED2FE}" ShortID="700210643">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="underwater_combat_focus" ID="{35332F27-D91E-4FA8-B71E-B331F1029533}"/>
+										<CustomState Name="" ID="{D1550AD9-BBD0-46F3-A508-21900B50C9AA}" ShortID="999984729"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Focus_DSP" ID="{116860FF-3C8F-446A-85F6-4B81B4D44580}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="VO" ID="{CB61B73A-D7AA-44EA-9019-6C59B42E882C}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="mixing_state" ID="{B0444D67-5A90-4374-BC38-C5C129E79935}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="menu" ID="{9EEEFA1E-2A2D-438C-A3B4-A2A5B1F86C28}"/>
+								<CustomState Name="" ID="{04F22A7D-56B7-4C0B-9475-46AC5996DEFE}" ShortID="369782916"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="suspend" ID="{D9D76993-075E-4891-8F12-EA9658D913F3}"/>
+								<CustomState Name="" ID="{02F0F2E6-BAF4-473C-B0D8-C83DB9F9577A}" ShortID="516547589">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="blackscreen" ID="{99BBEE51-152C-4EC9-8856-DF9CCACB432F}"/>
+								<CustomState Name="" ID="{E47E3B66-6802-4D8F-9A49-B56512C66E4C}" ShortID="98595193"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{922E3DC9-9BCC-4E65-8F26-B361BE821CD7}" WorkUnitID="{41017DA7-8F02-4824-A832-C25624AF3655}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

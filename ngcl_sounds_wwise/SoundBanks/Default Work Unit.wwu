@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{969231A3-F044-4F4C-B5FE-974B1264E54C}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{969231A3-F044-4F4C-B5FE-974B1264E54C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="ngcl_quest" ID="{1193634E-E849-4B8D-B1A3-C43CE292284C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_ngcl_random_skates" ID="{F1186E08-D421-44C3-90C2-42D63691F347}" WorkUnitID="{D9B1F72E-0E16-418C-A25A-F9EA16E32375}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

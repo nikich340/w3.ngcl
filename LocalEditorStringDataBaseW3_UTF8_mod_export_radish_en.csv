@@ -1,0 +1,908 @@
+;meta[language=en]
+;  id     |key(hex)|key(str)|text
+2119453002|00000000||I need help.
+2119453006|00000000||Hey Witcher! Come here.
+2119453008|00000000||Come here.
+2119453010|00000000||I sent my soldiers to patrol the forest east of Ursten.
+2119453012|00000000||I haven't had any news for several days.
+2119453014|00000000||Filling out contracts, that's what you witchers do for a living.
+2119453016|00000000||à vous les sorceleurs,
+2119453018|00000000||remplir des contrats.
+2119453020|00000000||Si c'est bien payé.
+2119453022|00000000||Tout dépend qui demande.
+2119453023|00000000||Si c'est bien payé.
+2119453025|00000000||Si c'est bien payé.
+2119453027|00000000||Tout dépend qui demande.
+2119453029|00000000||If it's well paid.
+2119453031|00000000||Why you asking me?
+2119453033|00000000||Hum... I will have a look.
+2119453035|00000000||The Redanian army is asking you.
+2119453037|00000000||That should be enough.
+2119453039|00000000||Money…
+2119453041|00000000||You'll be well paid if you unravel this mystery.
+2119453043|00000000||I can't imagine asking my superior for help because I've lost my troops.
+2119453045|00000000||You have a reputation for not being very talkative, so…
+2119453047|00000000||You find my boys, I pay you, and everyone's happy!
+2119453049|00000000||That's all you witchers ever talk about.
+2119453051|00000000||Perfect! Come and find me when you've cleared up this mess.
+2119453053|00000000||I need a help! Get over here.
+2119453058|fe0a024d|dlcngcl_name|MOD: A Witcher Can Hide Another
+2119453059|f5ed1dfa|dlcngcl_description|MOD: A Witcher Can Hide Another: is a new quest story about Geralt getting into trouble and getting help from an unexpected side.
+2119453060|00000000||Redanian Officer
+2119453061|00000000||A Witcher Can Hide Another
+2119453062|00000000||Geralt talked to a Redanian officer and accepted a quest to search for some lost soldiers.
+2119453063|00000000||Go to the woods where the soldiers went lost.
+2119453064|00000000||Find The Lost Soldiers
+2119453065|00000000||NGCL Quest
+2119453066|00000000||NGCL Test Test Title
+2119453068|00000000||Mysterious Disappearance
+2119453069|00000000||In search of a job, Geralt decided to check the noticeboard in Novigrad.<br>
+2119453070|00000000||Geralt found contract about disappeared squad of Redanians. The paper said that Redanian officer, who can provide more details, can be found on the bridge on Temple Isle.<br>
+2119453071|00000000||After receiving all the required information, Geralt went to investigate the area where redanian soldiers have probably vanished.<br>
+2119453072|00000000||A Witcher Can Hide Another
+2119453073|00000000||Check a noticeboard in Novigrad.
+2119453074|00000000||Talk to the redanian officer at day time.
+2119453075|00000000||Go to the woods where redanians got lost.
+2119453076|00000000||Use your Witcher Senses to find the lost soldiers.
+2119453077|00000000||Complete "A Poet Under Pressure" quest.
+2119453078|2f2fd2b0|item_name_ngcl_officer_contract|An Opportunity To Serve Redanian Army!
+2119453079|8119ee36|item_desc_ngcl_officer_contract|Mysterious request from the Redanian Army
+2119453080|81a9595c|item_name_ngcl_officer_contract_text|A mission of the highest importance is within your reach.<br>The Redanian army requests your services.<br>For more information, a Redanian officer awaits you on the way to the Temple of Eternal Fire during the day.<br>
+2119453082|00000000||I knew we couldn't rely on witchers.
+2119453084|00000000||Hey Witcher! Come here.
+2119453086|00000000||I need a help! Get over here.
+2119453088|00000000||Get out of my way.
+2119453090|00000000||I'm done with you.
+2119453099|00000000||Wait day time to encounter the redanian officer.
+2119453100|00000000||Follow redanian soldiers' footprints.
+2119453101|00000000||Investigate corpses.
+2119453102|00000000||Kill the elves.
+2119453103|00000000||Geralt found soldiers, their corpses were lying in the ravine near other bodies. Geralt has noticed that all of them had cyanotic skin and weirdly bent poses, probably died because of breathing failure. But what did cause this?<br>
+2119453104|00000000||Check out the body of the white-haired witcher.
+2119453105|00000000||Geralt went into elven ambush, intoxicated with an unknown poison, he have lost any control over his body. The help came in an unexpected way - another witcher in heavy armor hurried to help Geralt.<br>
+2119453111|00000000||Damn, they're dead.
+2119453116|00000000||Skin's unnaturally pale. No injuries. Hm...
+2119453119|00000000||Redanian soldier. Looks like he suffocated. Horrible way to die.
+2119453120|00000000||Redanian soldier. Body's strangely contorted…
+2119453160|00000000||Kill the bear in woods.
+2119453166|00000000||Bear prowled this area. But still, track's are clear. Lead into the woods.
+2119453168|00000000||They managed to avoid the bear, at least.
+2119453171|d7959801|ngcl_ulvbjorn|Ulvbjorn
+2119453174|00000000||Don't see any wounds, evidence of a fight.
+2119453176|00000000||Corpses look fresh. Curled out. Skin's unnaturally pale, but no blood loss.
+2119453178|00000000||Something happened, definitely, before they could attack.
+2119453180|00000000||Hmm, maybe… They were poisoned? In what way?
+2119453182|00000000||*Sniff* *sniff* Hm, odd smell.
+2119453189|00000000||Scoiataeles… What are they up to?
+2119453190|00000000||Akh akh ugh… Dammit, can't breathe.
+2119453192|00000000||What a catch, it's Vatt'ghern! And still breathing. Emilia will be happy to dissect his body.
+2119453194|00000000||I shall help this witcher.
+2119453196|00000000||Do you see any chance for my fellow comrade?
+2119453198|00000000||I don't know. We'll have to see. I need the main bomb component to be sure...
+2119453199|00000000||Find mitigating herbs near the hospital.
+2119453200|00000000||Find an antidote for the white-haired witcher.
+2119453201|00000000||Return the herbs to the medic.
+2119453202|d4486f81|item_name_skates|Skates
+2119453203|7e5778bb|item_desc_skates|A special thing to move over an ice
+2119453206|a4e52630|map_location_ngcl_elven_lab|Blue Mountains Valley
+2119453207|ac300daf|map_description_ngcl_elven_lab|The Blue Mountains are a large mountain range dividing the Northern Kingdoms from Haakland and Zerrikania. The mountains form a natural border for at least Lyria, Aedirn, and Kaedwen. Dol Blathanna, the Valley of Flowers, lies at the very foot of the mountains, and the river Yaruga's spring is hidden among the rocky heights. <br>The free elves have made their abode in the mountains.
+2119453210|d6b6a495|item_name_blue_mushroom|Blue mushroom
+2119453211|015fa61b|item_desc_blue_mushroom|Strange glowing mushroom
+2119453213|00000000||Ahh! There you are. You're white-haired friend is stable, you'll be pleased to hear.
+2119453215|00000000||Here are your herbs. I didn't expect to have to run around the entire hospital, to be honest.
+2119453217|00000000||Please, master witcher, get the healing herbs.
+2119453219|00000000||It is done.
+2119453221|00000000||Your friend will need to get an antidote though, and sooner rather than later.
+2119453223|00000000||Let's wait until the gas dissipates completely.
+2119453225|00000000||What kinds of elves, even scoia'tels, experiment with bombs nowadays?
+2119453227|00000000||Hmm… a letter with some instructions and a crystal. Will think about it later.
+2119453229|00000000||Another dh'oine. Kill him!
+2119453231|00000000||He is barely breathing. No any effect after white honey, but it will not help if it's a toxin.
+2119453233|00000000||Unusual poison, I have never seen like that. It smells… Some kind of mushrooms?
+2119453235|00000000||I can't do anything right now, need to get him to the hospital. It's in Novigrad.
+2119453236|00000000||Search elven bodies.
+2119453237|3b36903b|item_name_ngcl_elf_letter|Instructions about experiment
+2119453238|5fa54841|item_desc_ngcl_elf_letter|A letter written in an elegant female hand
+2119453239|7a825ab1|item_name_ngcl_elf_letter_text|This time, check out the blue mushroom based bombs.<br>I need to know the average time to breathing arrest on healthy individuals. The corpse of the one that lasts the longest - bring it to me for autopsy. Here's a new crystal to activate the portal to the west of the Coast of Wrecks as usual.<br><br>P.S. Just please no more dwarven corpses, I'm getting sick of their beards.
+2119453240|50915c58|item_name_ngcl_portal_crystal|Magic crystal
+2119453241|af38a15e|item_desc_ngcl_portal_crystal|A shiny crystal without flaws
+2119453243|00000000||Need to check this witcher. Maybe he's still alive.
+2119453244|00000000||Explore the surroundings.
+2119453245|00000000||Where am I?
+2119453247|00000000||This icy river is really slippery.
+2119453249|00000000||I should explore the surroundings.
+2119453251|00000000||Where am I?
+2119453254|00000000||Nothing really interesting here.
+2119453256|00000000||I should continue to follow this valley.
+2119453257|00000000||Explore the surroundings.
+2119453259|00000000||This icy river is really slippery.
+2119453261|00000000||Interesting these ice skates.
+2119453263|00000000||And... there's like a mushroom smell on this loot.
+2119453265|00000000||Even if it's less strong, this odour reminds me the fog's one that has paralyzed the witcher.
+2119453267|00000000||I should follow it.
+2119453269|00000000||Bear's odour covers that of mushrooms.
+2119453270|00000000||Follow mushrooms' odour.
+2119453271|00000000||Find back mushrooms' odour.
+2119453272|00000000||Inspect elves' loot.
+2119453274|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453276|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453278|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453280|00000000||I don't need this anymore.
+2119453282|00000000||I don't need this anymore.
+2119453284|00000000||A dead end. Yet there must be a passage.
+2119453286|00000000||This wall is an illusion. I should be able to pass through it.
+2119453287|00000000||Find a way inside.
+2119453288|00000000||Follow mushroom odour.
+2119453290|00000000||Head to the west coast.
+2119453292|00000000||What do you want?
+2119453294|00000000||I need help.
+2119453296|00000000||I sent my soldiers to patrol the forest east of Ursten.
+2119453298|00000000||I haven't had any news for several days.
+2119453300|00000000||Filling out contracts, that's what you witchers do for a living.
+2119453302|00000000||If it's well paid.
+2119453304|00000000||Why you asking me?
+2119453306|00000000||Sorry. Not interested.
+2119453308|00000000||Need to talk about how much I'll get paid, first.
+2119453310|00000000||The Redanian army is asking you.
+2119453312|00000000||That should be enough.
+2119453314|00000000||Money…
+2119453316|00000000||That's all you witchers ever talk about.
+2119453318|00000000||You'll be well paid if you unravel this mystery.
+2119453320|00000000||Why're you asking me?
+2119453322|00000000||I can't imagine asking my superior for help because I've lost my troops.
+2119453324|00000000||You have a reputation for not being very talkative, so…
+2119453326|00000000||You find my boys, I pay you, and everyone's happy!
+2119453328|00000000||Mhm. Guess I gotta investigate…
+2119453330|00000000||Perfect! Come and find me when you've cleared up this mess.
+2119453332|00000000||Not interested. Farewell.
+2119453336|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453338|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453340|00000000||Given the size of this frozen lake, these ice skates will come in handy.
+2119453342|00000000||I don't need this anymore.
+2119453347|00000000||No time for walking. I need to hurry up.
+2119453349|00000000||I shouldn't go there. I need to get to the Coast of Wrecks as soon as possible.
+2119453351|00000000||It must be a wrong direction. I need to get to the coast.
+2119453353|00000000||Is the coast this way? I need to hurry up.
+2119453355|00000000||Hmm... It seems I should go the other way.
+2119453357|00000000||Kill white bears.
+2119453359|00000000||The odour comes from this...
+2119453362|00000000||Well, well... There's a reason I spent so much time on the gravity trap.
+2119453364|00000000||So I'm a prisoner now.
+2119453366|00000000||The young-looking elven mage/sorceress tells him that he has been developing such weapon for a long time, which will change the course of decision in battles, even with the numerical superiority of the enemy. He is not Aen Saevherne, but Francesca herself taught him a bit. After several years of tedious work, he was able to obtain a particularly toxic mixture by mixing white-hot phosphorus crystals and Ergot seeds. He says that the witcher is very suitable for him to experiment.
+2119453367|00000000||Ride Crucian.
+2119453368|00000000|| 
+2119453369|91cac685|ngcl_cinematic_velen_text|West Velen
+2119453370|00000000||Crucian
+2119453372|00000000||I have a long way to go. Need to saddle Crucian.
+2119453374|00000000||It seems I'm there.
+2119453376|00000000||Insightful. Promising…
+2119453378|00000000||Who are you and what do you want?
+2119453380|00000000||Who are you and what do you want?
+2119453382|00000000||Set me free, you elf bastard!
+2119453384|00000000||Who are you and what do you want?
+2119453386|00000000||Set me free, you elven bastard!
+2119453388|00000000||And he's polite.
+2119453390|00000000||But he's rude.
+2119453392|00000000||It's of little interest, considering what lies ahead, but I'll answer your questions.
+2119453394|00000000||My name is Emilia.
+2119453396|00000000||Great elf witch.
+2119453398|00000000||Lower your insignificant tone, lab rat.
+2119453400|00000000||My name is Emilia.
+2119453402|00000000||Great sorceress of Aen Seidhe.
+2119453404|00000000||And maybe then I'll tell you what awaits you.
+2119453406|00000000||I was trained by Francesca Findabair, our Daisy of the Valleys. But now I'm improving myself in alchemy arts.
+2119453408|00000000||You see, I'm applying what I've learned to develop a substance that will enable elves to regain their rightful place.
+2119453410|00000000||After several years of tedious work, I was able to obtain a particularly mixture by mixing white-hot phosphorus crystals with ergot seeds.
+2119453412|00000000||However it's still not always mortal, and I need more subjects for experiments.
+2119453414|00000000||And that's where you come in, vatt'ghern. You are a godsend.
+2119453416|00000000||From what I've heard, witchers have a particular metabolism that I think will be very suitable for my experiments.
+2119453418|00000000||We will start with small doses to find out how your body copes with the poison, and I'll find a counter to it.
+2119453420|00000000||I've always been a supporter of the elves.
+2119453422|00000000||I always remain neutral about elves.
+2119453424|00000000||I hate elves.
+2119453426|00000000||This is a mistake, I always remain neutral about elves.
+2119453428|00000000||If you're not with us, you're against us.
+2119453430|00000000||This is a mistake, I've always been a supporter of the elves.
+2119453432|00000000||And I'm here to help another witcher named Geralt of Rivia.
+2119453434|00000000||He's been paralyzed from the attack of your henchmen, and won't survive long unless I bring back the ingredients to make an antidote.
+2119453436|00000000||So you are telling truth. If the witchers continue to side with us, it will be more useful than a dissection on my table.
+2119453438|00000000||I shall let you go.
+2119453440|00000000||Hurts to say this, but I have to find another body for my experiments.
+2119453442|00000000||But first, you have to sign this sort of non-disclosure agreement with your blood.
+2119453444|00000000||To make me sure you will never divulge what I'm up to here.
+2119453446|00000000||You say you're here to help Geralt of Rivia, but he's no friend of Aen Seidhe.
+2119453448|00000000||And the friends of my enemies are my enemies.
+2119453450|00000000||Don't get bored, I'll be back soon to test the new version of poison on you.
+2119453452|00000000||I'm gonna kill you!
+2119453454|00000000||Poor thing, sharp sword and stupid muscles won't help you. This cage could hold even a bear.
+2119453456|00000000||You didn't tie my hands.
+2119453458|00000000||You just called me an elven whore.
+2119453460|00000000||You can't be a friend of Aen Seidhe.
+2119453462|00000000||Gwynbleidd has helped Vernossiel.
+2119453464|00000000||Gwynbleidd has helped Iorveth.
+2119453466|00000000||Hate you all. I hope Dol Blatanna will die out completely soon.
+2119453468|00000000||That's not gonna happen. And for your filthy words, I'll cut out your tongue.
+2119453470|00000000||She underestimates witcher signs. Aard will help me get this door out.
+2119453471|00000000||Use the portal to return in Novigrad.
+2119453472|00000000||Use Aard to break the cage door.
+2119453473|00000000||Find any ingredients of the venom.
+2119453474|00000000||Defeat the golem.
+2119453475|00000000||Defeat Emilia.
+2119453476|00000000||Loot Emilia's body.
+2119453477|00000000||Use crystal to activate the portal.
+2119453478|00000000||Leave the laboratory.
+2119453480|00000000||I shouldn't go there. I have to explore the coast.
+2119453482|00000000||I should return to the coast. Some traces must be there.
+2119453484|00000000||Very well, you signed the oath.
+2119453486|00000000||Here's the antidote for one person, but it was made for an elf. I can't promise if it will help a witcher.
+2119453488|00000000||I've activated the portal near the lab exit, use it to get back.
+2119453490|00000000||What're you doing here, vagrant?!
+2119453492|00000000||No pass, no passage!
+2119453494|00000000||What kind of pass?
+2119453496|00000000||Get him out!
+2119453502|00000000||What do you want?
+2119453504|00000000||I need help.
+2119453506|00000000||I sent my soldiers to patrol the forest east of Ursten.
+2119453508|00000000||I haven't had any news for several days.
+2119453510|00000000||Filling out contracts, that's what you witchers do for a living.
+2119453512|00000000||If it's well paid.
+2119453514|00000000||Why you asking me?
+2119453516|00000000||Sorry. Not interested.
+2119453518|00000000||Need to talk about how much I'll get paid, first.
+2119453520|00000000||The Redanian army is asking you.
+2119453522|00000000||That should be enough.
+2119453524|00000000||Money…
+2119453526|00000000||That's all you witchers ever talk about.
+2119453528|00000000||You'll be well paid if you unravel this mystery.
+2119453530|00000000||Why're you asking me?
+2119453532|00000000||I can't imagine asking my superior for help because I've lost my troops.
+2119453534|00000000||You have a reputation for not being very talkative, so…
+2119453536|00000000||You find my boys, I pay you, and everyone's happy!
+2119453538|00000000||Mhm. Guess I gotta investigate…
+2119453540|00000000||Perfect! Come and find me when you've cleared up this mess.
+2119453542|00000000||Not interested. Farewell.
+2119453546|00000000||It was you who gave the contract to the witcher Geralt of Rivia?
+2119453548|00000000||It depends... what do you want from me?
+2119453550|00000000||I'm here for the reward.
+2119453552|00000000||What do you mean?
+2119453554|00000000||Your soldiers died in a Scoia'tael ambush.
+2119453556|00000000||Damn elves.
+2119453558|00000000||I saw the elves attack the witcher.
+2119453560|00000000||He's in bad shape, but he'll survive.
+2119453562|00000000||I've come to claim the reward, since you're interested in knowing what happened to your troops, not in who brought you the information.
+2119453564|00000000||You're right.
+2119453566|00000000||[Remain silent.]
+2119453568|00000000||It's all about the Scoia'tael from the Blue Mountains.
+2119453570|00000000||[Remain silent.]
+2119453572|00000000||Explain what the elves did. (not respecting the word given to Emilia)
+2119453574|00000000||Here's your reward.
+2119453576|00000000||That's not much.
+2119453578|00000000||That's enough of an investigation for any villager.
+2119453580|00000000||There's more.
+2119453582|00000000||Remain silent.
+2119453584|00000000||Explain what the elves did.
+2119453586|00000000||Remain silent.
+2119453588|00000000||Explain what the elves did. (not respecting Emilia's non disclosure agreement)
+2119453590|00000000||The Scoia'tael were carrying out experiments to develop a powerful neurotoxic poison.
+2119453592|00000000||I've neutralized the threat.
+2119453594|00000000||The elven sorceress who performed these experiments will no longer harm anyone.
+2119453596|00000000||Whether human or elf, sorceresses are all about scheming.
+2119453598|00000000||This valuable information deserves a good reward.
+2119453600|00000000||There's more.
+2119453602|00000000||It was a group of scoia'tael from Blue Mountains…
+2119453604|00000000||What's happening?
+2119453606|00000000||[Remain silent again.]
+2119453608|00000000||It's all about the Scoia'tael from the Blue Mountains.
+2119453610|00000000||[Remain silent again.]
+2119453612|00000000||It's all about the Scoia'tael from the Blue Mountains.
+2119453614|00000000||It was you who gave the contract to the witcher Geralt of Rivia?
+2119453616|00000000||It depends... what do you want from me?
+2119453618|00000000||I'm here for the reward.
+2119453620|00000000||What do you mean?
+2119453622|00000000||Your soldiers died in a Scoia'tael ambush.
+2119453624|00000000||Damn elves.
+2119453626|00000000||I saw the elves attack the witcher.
+2119453628|00000000||He's in bad shape, but he'll survive.
+2119453630|00000000||I've come to claim the reward, since you're interested in knowing what happened to your troops, not in who brought you the information.
+2119453632|00000000||You're right.
+2119453634|00000000||Remain silent.
+2119453636|00000000||Explain what the elves did.
+2119453638|00000000||Remain silent.
+2119453640|00000000||Explain what the elves did. (not respecting the word given to Emilia)
+2119453642|00000000||Here's your reward.
+2119453644|00000000||That's not much.
+2119453646|00000000||That's enough of an investigation for any villager.
+2119453648|00000000||There's more.
+2119453650|00000000||The Scoia'tael were carrying out experiments to develop a powerful neurotoxic poison.
+2119453652|00000000||I've neutralized the threat.
+2119453654|00000000||The elven sorceress who performed these experiments will no longer harm anyone.
+2119453656|00000000||Whether human or elf, sorceresses are all about scheming.
+2119453658|00000000||This valuable information deserves a good reward.
+2119453660|00000000||There's more.
+2119453662|00000000||The Scoia'tael were carrying out experiments to develop…
+2119453664|00000000||What's happening?
+2119453666|00000000||Remain silent again.
+2119453668|00000000||Explain what the elves did.
+2119453670|00000000||Remain silent again.
+2119453672|00000000||Explain what the elves did. (not respecting Emilia's non disclosure agreement)
+2119453674|00000000||There you are again.
+2119453676|00000000||I imagine you're here for the reward.
+2119453678|00000000||It was you who gave the contract to the witcher Geralt of Rivia?
+2119453680|00000000||It depends... what do you want from me?
+2119453682|00000000||I'm here for the reward.
+2119453684|00000000||What do you mean?
+2119453686|00000000||Your soldiers died in a Scoia'tael ambush.
+2119453688|00000000||Damn elves.
+2119453690|00000000||I saw the elves attack the witcher.
+2119453692|00000000||He's in bad shape, but he'll survive.
+2119453694|00000000||I've come to claim the reward, since you're interested in knowing what happened to your troops, not in who brought you the information.
+2119453696|00000000||You're right.
+2119453698|00000000||Remain silent.
+2119453700|00000000||Explain what the elves did.
+2119453702|00000000||Remain silent.
+2119453704|00000000||Explain what the elves did. (not respecting the word given to Emilia)
+2119453706|00000000||Here's your reward.
+2119453708|00000000||That's not much.
+2119453710|00000000||That's enough of an investigation for any villager.
+2119453712|00000000||There's more.
+2119453714|00000000||The Scoia'tael were carrying out experiments to develop a powerful neurotoxic poison.
+2119453716|00000000||I've neutralized the threat.
+2119453718|00000000||The elven sorceress who performed these experiments will no longer harm anyone.
+2119453720|00000000||Whether human or elf, sorceresses are all about scheming.
+2119453722|00000000||This valuable information deserves a good reward.
+2119453724|00000000||There's more.
+2119453726|00000000||The Scoia'tael were carrying out experiments to develop…
+2119453728|00000000||What's happening?
+2119453730|00000000||Remain silent again.
+2119453732|00000000||Explain what the elves did.
+2119453734|00000000||Remain silent again.
+2119453736|00000000||Explain what the elves did. (not respecting Emilia's non disclosure agreement)
+2119453738|00000000||You're back at last.
+2119453740|00000000||I imagine you're here for the reward.
+2119453742|00000000||It's possible.
+2119453744|00000000||Not really.
+2119453746|00000000||It's possible.
+2119453748|00000000||Then don't count on it.
+2119453750|00000000||Another witcher has already come and told me what I was interested in.
+2119453760|00000000||Good, because you wouldn't have had anything.
+2119453762|00000000||Another witcher has already come and told me what I was interested in.
+2119453764|00000000||By the way, if you're interested in hearing from him...
+2119453766|00000000||He literally burst into flames in front of me.
+2119453768|00000000||He must have upset someone he shouldn't have.
+2119453770|00000000||Now get out of my sight.
+2119453772|00000000||He took the reward and left.
+2119453774|00000000||And I have a feeling we won't be seeing him again any time soon.
+2119453776|00000000||Elves again...
+2119453778|00000000||So... Maybe I can find out where are they came from?
+2119453780|00000000||The tracks end here. What now?
+2119453782|00000000||Probably the Scoia'tael have done this. Poor thing.
+2119453784|00000000||Hmmm... Some kind of pass. I'll deal with it later.
+2119453785|00000000||Deal with Scoia'tael.
+2119453786|00000000||Search for traces.
+2119453789|00000000||removed
+2119453790|00000000||removed
+2119453793|00000000||Maybe we could make a deal?
+2119453795|00000000||Open the cage. Now.
+2119453797|00000000||In a few moments you will die by my sword.
+2119453800|00000000||I have quite a few orens. Take them, just let me go.
+2119453802|00000000||It's too late to bargain, you fool. I'll take your money anyway.
+2119453804|00000000||Open the cage. Now.
+2119453806|00000000||You're ridiculous. These little tricks are nothing compared to real magic.
+2119453808|00000000||All right.
+2119453811|00000000||Oh...
+2119453813|00000000||Use crystal to activate the teleport.
+2119453814|00000000||Explore the coast.
+2119453816|00000000||You... Managed to escape?!
+2119453818|00000000||Scared?
+2119453820|00000000||Hah! Not a chance. You shall die here, bloede dh'oine!
+2119453822|00000000||And you won't escape this time.
+2119453823|111880ec|item_name_ngcl_emilia_dairy|Emilia's dairy
+2119453824|e26030a0|item_name_ngcl_emilia_dairy_text|The combination of Cadfan's Grasp and Crifhau spells allows to create an alloy of substances with new properties. Although the technique needs to be improved, as the hot white phosphorus quickly ignites and turns into red phosphorus, which forms a non-toxic compound.<br>The average time to stop breathing of the subjects after inhaling the new toxic mixture:<br>  human, male - 32 seconds<br>  human, female - 29 seconds<br>  human, child - 12 seconds<br>  dwarf, male - 49 seconds.<br>However, single specimens demonstrate increased resistance, what is expressed in a reduction of breathing without complete stop. Unconsciousness lasts up to a day, after which death occurs. This drawback must be eliminated before the start of large-scale production of toxic bombs.<br><br>As a self-respecting sorceress, I also picked up an antidote in case of self-poisoning - Atropa belladonna extract in whale oil quickly relieves symptoms. However, an accurate calculation of the extract is necessary, since its overdose is also toxic.<br>
+2119453825|d4b94f72|item_desc_ngcl_emilia_dairy|Elegant dairy
+2119453827|00000000||It's lucky for me that Geralt has a reputation among the elves.
+2119453829|00000000||Last chance to give up.
+2119453831|00000000||She was ruined by her overconfidence.
+2119453833|00000000||Where am I?
+2119453835|00000000||I should explore the surroundings.
+2119453837|00000000||Nothing really interesting here.
+2119453839|00000000||I should continue to follow this valley.
+2119453841|00000000||This icy river is really slippery.
+2119453843|00000000||Interesting these ice skates.
+2119453845|00000000||And... there's like a mushroom smell on this loot.
+2119453847|00000000||Even if it's less strong, this odour reminds me the fog's one that has paralyzed the witcher.
+2119453849|00000000||I should follow it.
+2119453851|00000000||Bear's odour covers that of mushrooms.
+2119453853|00000000||A dead end. Yet there must be a passage.
+2119453855|00000000||This wall is an illusion. I should be able to pass through it.
+2119453857|00000000||Glowing mushrooms? Someone is growing them here.
+2119453859|00000000||She forgot that witchers have signs. Aard will help me get this door out.
+2119453861|00000000||It's lucky for me that Geralt has a reputation among the elves.
+2119453863|00000000||Last chance to give up.
+2119453865|00000000||She was ruined by her overconfidence.
+2119453867|00000000||Don't bother me.
+2119453869|00000000||Go away, witcher.
+2119453871|00000000||I'm Emilia. The sorceress of Aen Seidhe.
+2119453873|00000000||Let your flesh be frozen in the Blue Mountains.
+2119453875|00000000||Impossible! Aen Seidhe…
+2119453877|00000000||Bloede dh'oine! My elves will get you…
+2119453879|00000000||Ahaha! My magic will tear you apart!
+2119453881|00000000||Don't get your hopes up, you bastard!
+2119453883|00000000||Glowing mushrooms? Someone is growing them here.
+2119453884|00000000||Go back to Novigrad.
+2119453886|00000000||AAAARGHH!
+2119453887|00000000||Use teleport.
+2119453889|00000000||I...
+2119453891|00000000||Isn't he the witcher medic told about?
+2119453893|00000000||Escort him to Vilmerius Hospital.
+2119453897|00000000||Damn. I forgot about the pass.
+2119453899|00000000||Now it's time to return to Novigrad.
+2119453901|00000000||No time for walking. I need to bring the ingredients to the medic.
+2119453904|00000000||I shouldn't go there. White-haired witcher is waiting.
+2119453906|00000000||Is Novigrad this way? I don't have much time.
+2119453907|00000000||to self, noticing an illusion
+2119453908|00000000||Someone placed an illusion here.
+2119453909|00000000||to self, slightly startled by sth strange, wants to dispel the illusion
+2119453910|00000000||Nehaleni's Eye - oughta use it.
+2119453911|00000000||to self, notices an illusion
+2119453912|00000000||Hm… Something here. Where's that artifact Keira gave me?
+2119453913|00000000||to self, notices an illusion
+2119453914|00000000||There's something here. Need to use the Eye.
+2119453915|00000000||to self, notices an illusion
+2119453916|00000000||An illusion.
+2119453917|00000000||calming his horse
+2119453918|00000000||Calm down, Roach.
+2119453919|00000000||calming horse
+2119453920|00000000||There, there.
+2119453921|00000000||calming horse
+2119453922|00000000||Eeeasy.
+2119453923|00000000||calming horse
+2119453924|00000000||Everything's all right.
+2119453925|00000000||calming his horse
+2119453926|00000000||Now, now.
+2119453927|00000000||encouraging horse to go faster
+2119453928|00000000||Go! Go!
+2119453929|00000000||encouraging horse to go faster
+2119453930|00000000||Hey-yah!
+2119453931|00000000||encouraging horse to go faster
+2119453932|00000000||Run, Roach!
+2119453933|00000000||encouraging horse to go faster
+2119453934|00000000||Giddy-up!
+2119453935|00000000||encouraging horse to ride faster
+2119453936|00000000||Faster!
+2119453937|00000000||forcing horse to slow down
+2119453938|00000000||Whoaa!
+2119453939|00000000||forcing horse to slow down
+2119453940|00000000||Whoa there, Roach.
+2119453941|00000000||forcing horse to slow down
+2119453942|00000000||Slow, now.
+2119453943|00000000||forcing horse to slow down
+2119453944|00000000||Take it easy.
+2119453945|00000000||forcing horse to slow down
+2119453946|00000000||Prrrrrr.
+2119453947|00000000||forcing horse to slow down
+2119453948|00000000||Slower.
+2119453949|00000000||forcing horse to slow down
+2119453950|00000000||Come on, now…
+2119453951|00000000||forcing horse to slow down
+2119453952|00000000||Not so fast, Roach.
+2119453953|00000000||forcing horse to slow down
+2119453954|00000000||Slow now, whoa.
+2119453955|00000000||forcing horse to slow down
+2119453956|00000000||Hey there.
+2119453957|00000000||encouraging horse to go faster
+2119453958|00000000||C'mon, Roach!
+2119453959|00000000||encouraging horse to go faster
+2119453960|00000000||C'mon!
+2119453961|00000000||encouraging horse to go faster
+2119453962|00000000||Let's go!
+2119453963|00000000||encouraging horse to go faster
+2119453964|00000000||Move it!
+2119453965|00000000||encouraging horse to go faster
+2119453966|00000000||That's it, Roach!
+2119453967|00000000||to self, a tinge of disgust
+2119453968|00000000||Good size. Wonder if this piece of rot'll get me anything.
+2119453969|00000000||to self, thinking out loud
+2119453970|00000000||Might be a bounty for bringing in the trophy.
+2119453971|00000000||to self, thinking out loud
+2119453972|00000000||Maybe there's a bounty? Need a trophy.
+2119453973|00000000||to self, out loud
+2119453974|00000000||Someone'll pay for this trophy. No doubt about it.
+2119453975|00000000||to self, thinking
+2119453976|00000000||Trail's fresh…
+2119453977|00000000||to self
+2119453978|00000000||Hm… Definitely came through here.
+2119453979|00000000||to self
+2119453980|00000000||Went this way.
+2119453981|00000000||to self
+2119453982|00000000||Another track.
+2119453983|00000000||to himself: found a new sign of the monster, analyzing it
+2119453984|00000000||Blood hasn't even dried.
+2119453985|00000000||to himself, found an interesting monster track, interested, considering its significance
+2119453986|00000000||Hm. Might wanna look around some.
+2119453987|00000000||to himself, pensive, cautious
+2119453988|00000000||This is someone's home. Or something's.
+2119453989|00000000||to self, somber
+2119453990|00000000||Another victim.
+2119453991|00000000||to self
+2119453992|00000000||Wasn't a fair fight. Didn't stand a chance.
+2119453993|00000000||to self, thinking
+2119453994|00000000||Ground's splattered with blood for a few feet around. A lot of it.
+2119453995|00000000||to self, resigned
+2119453996|00000000||Can't go this way. Gotta find another route.
+2119453997|00000000||to himself - found a sign of the monster - not certain what kind - and is wondering what it indicates
+2119453998|00000000||Hm… Strange.
+2119453999|00000000||to himself - found a sign of the monster - not certain what kind - and is wondering what it indicates
+2119454000|00000000||Interesting.
+2119454001|00000000||to himself - found a sign of the monster - not certain what kind - and is wondering what it indicates
+2119454002|00000000||Wonder what this means…
+2119454003|00000000||cold-blooded, to opponent about its decision during combat
+2119454004|00000000||Bad idea.
+2119454005|00000000||cold-blooded, egging opponent on during battle
+2119454006|00000000||C'mon, come closer.
+2119454007|00000000||irritated, during battle
+2119454008|00000000||Argh!
+2119454009|00000000||with effort, during fight
+2119454010|00000000||Ugh!
+2119454011|00000000||challenging opponent
+2119454012|00000000||Well, c'mon!
+2119454013|00000000||dismissive about opponent, during combat
+2119454014|00000000||You'll never learn.
+2119454015|00000000||swearing during battle
+2119454016|00000000||Shit!
+2119454017|00000000||cold, to opponent during combat
+2119454018|00000000||Not your lucky day.
+2119454019|00000000||with contempt about opponent's move during battle
+2119454020|00000000||Mistake.
+2119454021|00000000||cold, to opponents during battle
+2119454022|00000000||Let's end this.
+2119454023|00000000||to self
+2119454024|00000000||It's clearing up.
+2119454025|00000000||to self
+2119454026|00000000||Looks like rain.
+2119454027|00000000||to self
+2119454028|00000000||A storm, dammit.
+2119454029|00000000||to self
+2119454030|00000000||Wind's howling.
+2119454031|00000000||to self, complaining
+2119454032|00000000||Ugh. Now snow.
+2119454033|00000000||to self
+2119454034|00000000||Gotten cold.
+2119454035|00000000||to self
+2119454036|00000000||Pretty damn hot.
+2119454037|00000000||to self
+2119454038|00000000||Storm's coming.
+2119454039|00000000||to self
+2119454040|00000000||Raining again…
+2119454041|00000000||to self, notices while traveling
+2119454042|00000000||Medallion's humming. Place of Power, it's gotta be.
+2119454043|00000000||to self, notices during travels
+2119454044|00000000||Place of Power. Should draw from it.
+2119454045|00000000||to self, notices during travels
+2119454046|00000000||Hm, magic… A Place of Power.
+2119454047|00000000||to self, swearing, something went wrong
+2119454048|00000000||Shit.
+2119454049|00000000||to self, swearing, something when wrong, different intonation
+2119454050|00000000||Dammit.
+2119454051|00000000||to self, swearing, something went wrong
+2119454052|00000000||Dammit.
+2119454053|00000000||to self, sarcastic - something's wrong
+2119454054|00000000||Just wonderful.
+2119454055|00000000||to self, sarcastic - something went wrong
+2119454056|00000000||Great.
+2119454057|00000000||to self, notices during investigation
+2119454058|00000000||Strange place. Keira's lamp worth a try?
+2119454059|00000000||to self, notices during investigation, confident
+2119454060|00000000||Hm… Magic lamp's worth a try here.
+2119454061|00000000||to self, notices during investigation
+2119454062|00000000||Let’s try Keira's lamp.
+2119454063|00000000||to self, statement during investigation
+2119454064|00000000||Clear magic lamp situation. I'll have to remember to thank Keira.
+2119454065|00000000||to self, statement during investigation
+2119454066|00000000||Magic lamp - that's what I need to use.
+2119454067|00000000||cold, to monster during battle
+2119454068|00000000||Damn, you're ugly.
+2119454069|00000000||issuing challenge to monster during battle
+2119454070|00000000||Come on.
+2119454071|00000000||something went wrong during battle
+2119454072|00000000||Dammit!
+2119454073|00000000||condescending to monster
+2119454074|00000000||Not bad.
+2119454075|00000000||challenge to monster during battle
+2119454076|00000000||What now, you piece of filth?
+2119454077|00000000||wants to finish off monster, during battle
+2119454078|00000000||Die.
+2119454079|00000000||about to finish off monster during battle
+2119454080|00000000||Time to end this.
+2119454081|00000000||effort during powerful attack during combat
+2119454082|00000000||Ugh!
+2119454083|00000000||effort during powerful attack in combat
+2119454084|00000000||Ehh!
+2119454085|00000000||effort during powerful attack in combat
+2119454086|00000000||Argh!
+2119454087|00000000||to self, notices monster nest
+2119454088|00000000||Gotta blow this up if I want to get rid of the endregas.
+2119454089|00000000||to self, notices harpy nest
+2119454090|00000000||Harpies got their nest here.
+2119454091|00000000||to self, notices monster nest
+2119454092|00000000||Ghoul nest. Oughta just destroy it.
+2119454093|00000000||to self, notices a nest of monsters
+2119454094|00000000||Draconid nest. Need to destroy it.
+2119454095|00000000||to self, notices a nest of monsters
+2119454096|00000000||Drowners're coming out of there. Best blow it up.
+2119454097|00000000||to self, examining body
+2119454098|00000000||Dead. Just dead.
+2119454099|00000000||to self, notices nest of monsters
+2119454100|00000000||Nekkers surface here. Dig their way out.
+2119454101|00000000||to self, notices monster nest
+2119454102|00000000||Rotfiend nest. Needs to be destroyed.
+2119454103|00000000||to self, notices monster nest
+2119454104|00000000||Siren den. Gotta ruin it for them.
+2119454105|00000000||to self, notices monster nest
+2119454106|00000000||Wyverns lay their eggs here. Gotta be destroyed.
+2119454107|00000000||to self, notices monster nest
+2119454108|00000000||Monster nest. Best destroyed with a Dancing Star or Grapeshot.
+2119454109|00000000||to self, under breath, intrigued
+2119454110|00000000||A letter.
+2119454111|00000000||shrugging indifferent
+2119454112|00000000||Nothing interesting.
+2119454113|00000000||to self, shrugs his shoulders, dismissive
+2119454114|00000000||Nothing here.
+2119454115|00000000||to self, neutral, non-specific weather
+2119454116|00000000||Perfect weather for a voyage.
+2119454117|00000000||to self, a tinge lofty
+2119454118|00000000||Hmm… Turn back or go forth?
+2119454119|00000000||to self, fatigued
+2119454120|00000000||Time to move on.
+2119454121|00000000||to self
+2119454122|00000000||Argh, could use a portal about now.
+2119454123|00000000||to self, pensive about trip
+2119454124|00000000||Hm. Long way…
+2119454125|00000000||to self
+2119454126|00000000||I'm too old for treks that long.
+2119454127|00000000||to self, grumbling
+2119454128|00000000||Any shortcuts?
+2119454129|00000000||to self
+2119454130|00000000||Long trek…
+2119454131|00000000||to self
+2119454132|00000000||Miles and miles and miles…
+2119454133|00000000||to self, Easter egg
+2119454134|00000000||A long trek requires a fellowship. Oughta cobble one together.
+2119454135|00000000||to self, complaining under breath
+2119454136|00000000||Damn. Got a feeling I'm forgetting about something.
+2119454137|00000000||to self
+2119454138|00000000||Should glance at the map…
+2119454139|00000000||to self
+2119454140|00000000||Maybe oughta turn around?
+2119454141|00000000||to self, heavy sigh, remorseful
+2119454142|00000000||Argh, could use Triss with one of her portals.
+2119454143|00000000||to self, somber
+2119454144|00000000||Let's go.
+2119454145|00000000||to self
+2119454146|00000000||Hm. Might wanna look at the map…
+2119454147|00000000||to self, grumbling
+2119454148|00000000||Ugh, I'm too old to wander the world.
+2119454149|00000000||to self
+2119454150|00000000||That's a chunk of distance.
+2119454151|00000000||to self, complaining
+2119454152|00000000||Too far afield, this…
+2119454153|00000000||to self
+2119454154|00000000||The women'll be restless.
+2119454155|00000000||to self, heavy sigh, remorseful
+2119454156|00000000||Argh, could use Yennefer and one of her portals.
+2119454157|00000000||to self
+2119454158|00000000||Hm. Nothing interesting here.
+2119454159|00000000||to self, coughing in deadly cloud of cheese stink
+2119454160|00000000||Akh kha akh…
+2119454161|00000000||to self
+2119454162|00000000||Hm… Definitely came through here.
+2119454163|00000000||Geralt addressing Roach after she has been transformed into a demonic mare. Here: demon Roach is spooked.
+2119454164|00000000||calm, but also somber - Roach is possessed by a demon, G doesn't quite trust her
+2119454165|00000000||Easy. Easy!
+2119454166|00000000||Geralt addressing Roach after she has been transformed into a demonic mare. Here: demon Roach is spooked.
+2119454167|00000000||calming his horse, but also a bit grim - Roach is possessed by a demon, G doesn't quite trust her
+2119454168|00000000||Stop. Enough.
+2119454169|00000000||Geralt addressing Roach after she has been transformed into a demonic mare. Here: demon Roach is spooked.
+2119454170|00000000||Roach is possessed by a demon, looks like a hell stallion, G surprised she still is scared of monsters, a tinge impatient, a tinge encouraging
+2119454171|00000000||You oughta be spooking them. C'mon!
+2119454172|00000000||Geralt addressing Roach after she has been transformed into a demonic mare. Here: demon Roach was spooked, has started to calm down.
+2119454173|00000000||calming his horse, but also a bit wary - Roach is possessed by a demon, G doesn't quite trust her
+2119454174|00000000||All over now.
+2119454175|00000000||Geralt is addressing Roach after she has been transformed into a demonic mare. Here: demon Roach was spooked, has started to calm down.
+2119454176|00000000||calming Roach, but also a bit somber - Roach is possessed by a demon, G doesn't quite trust her
+2119454177|00000000||Hey… It's nothing, it's fine.
+2119454178|00000000||Roach is in demon form. G gives the command for her to slow down.
+2119454179|00000000||to horse, a bit mistrustful - Roach has been possessed by a demon
+2119454180|00000000||Whooaaa, devil's spawn.
+2119454182|00000000||Perfect weather for a voyage.
+2119454184|00000000||Bloody weather.
+2119454186|00000000||Ugly bastard!
+2119454188|00000000||A nest. Should destroy the area if I wanna get rid of them for good.
+2119454190|00000000||What? Lost your nerve?
+2119454192|00000000||Argh!
+2119454194|00000000||How you like that silver?
+2119454196|00000000||Not good.
+2119454198|00000000||Not your lucky day.
+2119454200|00000000||Time to end this.
+2119454202|00000000||Ever fight a witcher?
+2119454204|00000000||Ugly bastard!
+2119454206|00000000||Eeeasy.
+2119454208|00000000||Go! Go!
+2119454210|00000000||Hey there.
+2119454212|00000000||Trail's… Came through here.
+2119454214|00000000||Hm, magic… A Place of Power.
+2119454216|00000000||Akh kha akh…
+2119454218|00000000||Hm… Strange.
+2119454220|00000000||Interesting.
+2119454222|00000000||Wonder what this means…
+2119454225|00000000||Dol gynvael en'leass dearme!
+2119454227|00000000||Request the reward at day time.
+2119454228|00000000||Come back to the redanian officer at day time.
+2119454230|00000000||...well, you know everything now, as quickly as I could tell you.
+2119454232|00000000||I'll need the main bomb component.
+2119454234|00000000||Given what you've described, it's probably a neurotoxin of mycelial origin.
+2119454236|00000000||But his condition is worsening as we speak, witcher. Can you please quickly fetch some medical herbs for a simple antitoxine for me? I will boil some water and observe him.
+2119454238|00000000||They should be easy to find all around the hospital.
+2119454240|00000000||What is it? Will he get better?
+2119454242|00000000||I'm not sure. The effect was mitigated, yes, but I fear I'll have to be less conservative to save him.
+2119454244|00000000||Do the procedure.
+2119454246|00000000||Sounds like some conclusion.
+2119454248|00000000||What kind of procedure is this?
+2119454250|00000000||Tell me, what did you find?
+2119454252|00000000||The universal antidote I applied just now, and all the other quick actions I could take, only addressed surface effects.
+2119454254|00000000||The underlying problem is that our friend here is battling a strong paralytic poison that disrupts the conduction of nerve impulses.
+2119454256|00000000||What kind of procedure are you suggesting?
+2119454258|00000000||I will intubate his trachea. His upper airway is about to close due to spasms of the vocal muscles, which leads to suffocation.
+2119454260|00000000||To prevent this, I will open his throat and insert a small tube so that air can still flow into his lungs in case he experiences cramps.
+2119454262|00000000||Lean the patient's head back to expose his neck, this might take a little while...
+2119454264|00000000||It is done. We have some time now.
+2119454266|00000000||Master witcher, you told me about those elves before. We should track them down and find out who built that bomb.
+2119454268|00000000||Agreed. Wherever they are, they will likely have an antidote or provide us with some clues about how to craft it.
+2119454270|00000000||But you surely know that I can't take you with me. I will go, and you take care of our friend here.
+2119454272|00000000||I expected you to say that. Well, it was just a fleeting thought anyway. Goodbye, Witcher. I hope to see you again.
+2119454274|00000000||Godspeed.
+2119454276|00000000||Do your procedure, then.
+2119454278|00000000||Give it to me, hurry up!
+2119454280|00000000||Alright, let's see... rub it between your hands, for three heartbeats in hot water and then ten beneath the nose... Hmm...
+2119454282|00000000||I have to perform a dangerous procedure to give us some time, Ulvbjorn.
+2119454284|00000000||Where am I?
+2119454286|00000000||I should explore the surroundings.
+2119454288|00000000||Nothing really interesting here.
+2119454290|00000000||I should continue to follow this valley.
+2119454292|00000000||This icy river is really slippery.
+2119454294|00000000||Interesting these ice skates.
+2119454296|00000000||And... there's like a smell on this loot.
+2119454298|00000000||Even if it's less strong, this odour reminds me the fog's one that has paralyzed the witcher.
+2119454300|00000000||I should follow it.
+2119454302|00000000||Bear's odour covers that of mushrooms.
+2119454304|00000000||A dead end. Yet there must be a passage.
+2119454306|00000000||This wall is an illusion. I should be able to pass through it.
+2119454308|00000000||The odour comes from this...
+2119454310|00000000||Glowing mushrooms? Someone is growing them here.
+2119454312|00000000||She underestimates witcher signs. Aard will help me get this door out.
+2119454314|00000000||It's lucky for me that Geralt has a reputation among the elves.
+2119454316|00000000||Last chance to give up.
+2119454318|00000000||She was ruined by her overconfidence.
+2119454320|00000000||I'm going to check out this redanian officer.
+2119454322|00000000||After all, I deserve this reward.
+2119454324|00000000||...well, you know everything now,  as quick as I could tell you.
+2119454326|00000000||Do you see any chance for my fellow comrade?
+2119454328|00000000||I don't know. We will have to see. I'll need the main bomb component to be sure..
+2119454330|00000000||Given what you've described, it's probably a neurotoxin of mycelial origin.
+2119454332|00000000||But his condition is worsening as we speak, witcher, can you please quickly fetch some medical herbs for a simple antitoxine for me? I will boil some water and observe him.
+2119454334|00000000||They should be easily findable all around the house.
+2119454336|00000000||You seem to have recovered sufficiently now.
+2119454338|00000000||If you want to find the witcher who rescued you, I understand he went to meet the redanian officer who gave you the contract.
+2119454340|00000000||Thanks.
+2119454341|00000000||Ulvbjorn
+2119454342|00000000||Ulvbjorn, a witcher from the Bear School, rescued Geralt from a bad situation, and went to the Novigrad hospital for help.<br>
+2119454343|00000000||He managed to make a pact with the elven sorceress who held him captive, and obtained from her the ingredient needed to make the antidote.<br>
+2119454344|00000000||He managed to escape, killed the elven sorceress holding him captive, and found the ingredient needed to make the antidote.<br>
+2119454345|00000000||But the poor fool didn't respect the pact he'd made with the elven sorceress, and when he began to reveal her plans, he instantly burst into flames before the stunned eyes of the Redanian officer.<br>
+2119454346|00000000||Ulvbjorn only partially revealed what was going on.<br>He took the meagre reward offered by the Redanian officer, and never appeared again.<br>
+2119454347|00000000||Ulvbjorn revealed the elf sorceress's plans to the Redanian officer, and was rewarded handsomely.<br>Then he left, never to return.<br>
+2119454348|00000000||Emilia
+2119454349|00000000||What have you done?<br>I sealed our agreement.
+2119454350|00000000||He began by retrieving the ingredients needed to temporarily stabilize Geralt's health, then continued his investigations until he found himself trapped in an elven laboratory.
+2119454351|00000000||Ulvbjorn went to claim the reward from the Redanian officer who had given Geralt the contract.
+2119454353|00000000||What have you done?
+2119454355|00000000||I sealed our agreement. Don't try to tell anyone what you've learned here.
+2119454357|00000000||Very well, you signed the oath.
+2119454359|00000000||This is evident in the repeated spasms all over the body, as you can see. His vocal muscles are also contracting, which is why we have to perform the tracheostomy.
+2119454361|00000000||But in the end, the body's muscles won't have any resource to keep this up. Then all the muscles will stop working, including the respiratory ones, such as the diaphragm and intercostal muscles.
+2119454364|00000000||What is deadly, even for a witcher.
+2119454366|00000000||Why did you call it dangerous?
+2119454368|00000000||During the incision, I could damage the thyroid vessels, causing him to bleed out, or the recurrent nerve, which would result in him losing his voice.
+2119454370|00000000||Although, as my teacher Von Gratz used to say, it's better to be mute than to be dead.
+2119454374|00000000||Your body will remain here forever!
+2119454375|00000000||I can't wait to dissect yout body!
+2119454376|00000000||Die, witcher!
+2119454377|00000000||I'll use your remains in my experiments!
+2119454378|00000000||I'll kill you, vatt'ghern!
+2119454380|00000000||One more thing before you go. Do you know who this witcher is?
+2119454382|00000000||Sure. It's Geralt of Rivia.
+2119454384|00000000||Absolutely not.
+2119454386|00000000||Sure. It's Geralt of Rivia.
+2119454388|00000000||Even though I'm from the Bear School, the famous White Wolf is no stranger to me.
+2119454390|00000000||Very good. I was just wondering if you knew.
+2119454392|00000000||Absolutely not. Someone from the Wolf School, I suppose?
+2119454394|00000000||It's Geralt of Rivia, the famous White Wolf.
+2119454396|00000000||He may be famous, but not among the Bear School.
+2119454398|00000000||However, I'm going to do my best to find an antidote for him.
+2119454399|6db5178b|item_desc_medic_herbs|Special relaxing herbs
+2119454400|67cd6c85|item_name_medic_herbs|Curare herbs
+2119454406|00000000||...well, you know everything now, as quick as I could tell you.
+2119454408|00000000||Do you see any chance for my fellow comrade?
+2119454410|00000000||I don't know. We'll have to see. I need the main bomb component to be sure..
+2119454412|00000000||Given what you've described, it's probably a neurotoxin of mycelial origin.
+2119454414|00000000||But his condition is worsening as we speak, witcher, can you please quickly fetch some medical herbs for a simple antitoxine for me? I will boil some water and observe him.
+2119454416|00000000||They should be easily findable all around the house.
+2119454418|00000000||All right.
+2119454420|00000000||Glad to see you again, witcher. I hope you've brought something new. Geralt's body is running low.
+2119454422|00000000||Yeah, I found out something. But I made an oath that I wouldn't talk about it. Here's one dose of the antidote, but it's meant for an elf.
+2119454424|00000000||An elf? And you have made an oath? Curious, witcher, I wish I had gone with you.
+2119454426|00000000||But enough talking. I have to finalize the antidote quickly to make it suitable for a witcher's body.
+2119454428|00000000||Yeah, it was the Scoia'tael who started it all. They were led by a sorceress named Emilia, who was creating a deadly poison from mushrooms.
+2119454430|00000000||I'm not sure that's true, witcher. Do you have anything to prove your theory?
+2119454432|00000000||Yes, a sample of the mushrooms she grew in the cave, along with her notes.
+2119454434|00000000||Hmm... Elvish handwriting, no doubt. I didn't think they'd resort to such things, though.
+2119454436|00000000||You obviously don't know the Scoia'tael well.
+2119454438|00000000||Enough chatter. I must concentrate and synthesize an antidote based on the sample.
+2119454440|00000000||I need time and silence, Ulvbjorn.
+2119454442|00000000||Already disappearing.
+2119454444|00000000||The antidote works! His muscle tone has returned to normal. He even regained consciousness for a short time. Now, he's just sleeping.
+2119454446|00000000||Impressive result. It's an unknown poison. How did you figure out the proportions?
+2119454448|00000000||Performed a series of complex calculations… Extrapolated some data… Made simulations…
+2119454450|00000000||Meaning you guessed?
+2119454452|00000000||Mhm. By the way, he thanked you for the rescue and said the reward for the contract is now yours.
+2119454454|00000000||Go see the redanian officer on the temple island.
+2119454456|00000000||I will. If we never meet again, tell him I wish good luck on his Path. And thank you for your help.
+2119454463|00000000||I shouldn't go there. There are several elves to deal with.
+2119454465|00000000||No time. I should check that witcher. Maybe he's still alive.
+2119454467|00000000||While unconscious after an elf attack, Geralt was rescued by a witcher from the Bear School.<br>After providing the Novigrad doctor with the ingredients needed to stabilize Geralt, the witcher named Ulvbjorn set out to track down the elves in the hope of finding an antidote.<br>
+2119454468|00000000||He finally found the portal that led him to the Blue Mountains, where he found himself the prisoner of an elven sorceress.<br>She was conducting experiments to develop a weapon for the Scoia'tael.<br>
+2119454469|00000000||Ulvbjorn made a pact with the sorceress, and obtained a dose of antidote from her, which he promptly took to the doctor at Novigrad hospital.<br>
+2119454470|00000000||Ulvbjorn managed to escape, and he defeated the sorceress.<br>Searching the laboratory, he found the main ingredient needed to make the antidote, which he took back to the doctor in Novigrad.<br>
+2119454471|00000000||The witcher felt he deserved the reward promised by the original contract, and went to claim it from the Redanian officer.<br>But he did not respect the agreement he had made with the sorceress. Just as he was about to reveal the elves' intentions, he caught fire instantly and died.<br>
+2119454472|00000000||The witcher felt he deserved the reward promised by the original contract, and went to claim it from the Redanian officer.<br>After collecting the reward, he left. No one knows what became of him.<br>
+2119454475|00000000||I've got the antidote, but I can't elaborate.
+2119454477|00000000||It's all about the Scoia'tael from the Blue Mountains.
+2119454479|00000000||So long.
+2119454481|00000000||Witcher?..
+2119454483|00000000||I need to see the redanian officer on the temple island.
+2119454485|00000000||I shouldn't go there. I need to see the redanian officer on the temple island.
+2119454487|00000000||And watch out the guards. I suppose you have no pass. You might get into trouble.
+2119454489|00000000||Snow, mountains, elves... Looks like Blue Mountains.
+2119454491|00000000||Snow, mountains, elves... Looks like Blue Mountains.
+2119454493|00000000||Snow, mountains, elves... Looks like Blue Mountains.
+2119454495|00000000||What the hell is happening?
+2119454496|00000000||Talk to medic.
+2119454497|00000000||Ulvbjorn
+2119454498|00000000||Ulvbjorn, a witcher from the Bear School, rescued Geralt from a bad situation, and went to the Novigrad hospital for help.<br>
+2119454499|00000000||He managed to make a pact with the elven sorceress who held him captive, and obtained from her the ingredient needed to make the antidote.<br>
+2119454500|00000000||He managed to escape, killed the elven sorceress holding him captive, and found the ingredient needed to make the antidote.<br>
+2119454501|00000000||But the poor fool didn't respect the pact he'd made with the elven sorceress, and when he began to reveal her plans, he instantly burst into flames before the stunned eyes of the Redanian officer.<br>
+2119454502|00000000||Ulvbjorn only partially revealed what was going on.<br>He took the meagre reward offered by the Redanian officer, and never appeared again.<br>
+2119454503|00000000||Ulvbjorn revealed the elf sorceress's plans to the Redanian officer, and was rewarded handsomely.<br>Then he left, never to return.<br>
+2119454504|00000000||He began by retrieving the ingredients needed to temporarily stabilize Geralt's health, then continued his investigations until he found himself trapped in an elven laboratory.
+2119454505|00000000||Ulvbjorn went to claim the reward from the Redanian officer who had given Geralt the contract.
+2119454506|00000000||polite
+2119454507|00000000||Health! I wish you health!
+2119454508|00000000||polite, with attention
+2119454509|00000000||Yes?
+2119454510|00000000||noticing G, anxious
+2119454511|00000000||Oh my, a witcher. He's like to keep us busy…
+2119454512|00000000||noticing G, winking
+2119454513|00000000||You cut, we sew…
+2119454514|00000000||polite
+2119454515|00000000||Congratulations on your win in the tourney, witcher.
+2119454516|00000000||irritated, reprimand
+2119454517|00000000||Watch it!
+2119454518|00000000||can't believe, frightened, offended
+2119454519|00000000||How can you…?!
+2119454521|00000000||Greetings. Needs something to cut out?
+2119454523|00000000||Sometimes the body heals itself. You just have to give it time.
+2119454525|00000000||I hope you don't need stitches. I haven't slept in two nights…
+2119454527|00000000||We're tying up violent patients!
+2119454529|00000000||Can't you see me? You have cat eyesight!
+2119454531|00000000||Glowing iris, irregular pupil, two swords… Diagnosis: witcher.
+2119454532|81c17209|ngcl_skating_tutorial_text|Welcome to Skating tutorial!<br>Press <font color="#330099">[W]</font> or <font color="#003300">[Forward]</font>: Move<br>Press <font color="#330099">[Left Mouse Button]</font> or <font color="#003300">[SQUARE]</font>: Attack<br>Hold <font color="#330099">[Shift]</font> or <font color="#003300">[CROSS]</font> while moving: Sprint<br>Hold <font color="#330099">[Control + W]</font> or <font color="#003300">[TRIANGLE + Forward]</font>: Slide<br>Hold <font color="#330099">[Control + A/D]</font> or <font color="#003300">[TRIANGLE + Left/Right]</font>: Drift<br>Hold <font color="#330099">[Control + S]</font> or <font color="#003300">[TRIANGLE + Back]</font>: Stop<br>Press <font color="#330099">[Alt]</font> or <font color="#003300">[RightTrigger]</font>: Boost<br>Press <font color="#330099">[E]</font> or <font color="#003300">[CROSS]</font>: Reset Skating<br>

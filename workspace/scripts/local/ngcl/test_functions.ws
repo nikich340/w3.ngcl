@@ -219,6 +219,16 @@ exec function music(bankName, eventName : String) {
 	theSound.SoundEvent(eventName);
 }
 
+
+exec function sound(bankName, eventName : String) {
+	if ( !theSound.SoundIsBankLoaded(bankName) ) {
+		theSound.SoundLoadBank(bankName, false);
+		NGCL_Notify_Shared("SoundLoadBank -> " + bankName);
+	}
+	NGCL_Notify_Shared("SoundEvent -> " + eventName);
+	thePlayer.SoundEvent(eventName);
+}
+
 exec function NGCL_TestSkating(enable : bool)
 {
 	if (enable)

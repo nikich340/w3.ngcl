@@ -174,7 +174,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453883;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05a_gp_ulvbjorn.w2scene""";Line text;GRLT_NGCL_2119453883;;;;Светящиеся грибы? Кто-то выращивает их здесь.;;;;;;;;;;Glowing mushrooms? Someone is growing them here.;;;;
 2119453884;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Вернуться в Новиград.;;;;;;;;;;Go back to Novigrad.;;;;
 2119453885;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453886;;;;АAAAAAAA!;;;;;;;;;;AAAARGHH!;;;;
+2119453886;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119453886;;;;АAAAAAAA!;;;;;;;;;;AAAARGHH!;;;;
 2119453887;"CJournalResource ""dlc\dlcngcl\journal\quests\witchercanhideanother.journal""";Journal;;;;;Использовать телепорт.;;;;;;;;;;Use teleport.;;;;
 2119453888;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_05z_06d_gate_guards.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 1202623;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_gp_geralt_oneliners.w2scene""";Line text;GRLT_NGCL_01202623;;;;;;;;;;;;;;;;;;
@@ -773,7 +773,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119454474;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
 2119454475;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line;;;;;У меня есть противоядие, но я не могу рассказать, откуда.;;;;;;;;;;I've got the antidote, but I can't elaborate.;;;;
 2119454476;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;
-2119454477;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Choice line;;;;;Всё из-за скоя'таэлей с Синих гор.;;;;;;;;;;It's all about the Scoia'tael from the Blue Mountains.;;;;
+2119454477;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Choice line;;;;;Всё из-за скоя'таэлей с Синих гор.;;;;;;;;;;It's all about the Scoia'tael from the Blue Mountains.;;;;
 2119454478;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119454479;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119454479;;;;Бывай.;;;;;;;;;;So long.;;;;
 2119454480;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06z_to_07_gp_ulvbjorn.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
@@ -1399,7 +1399,7 @@ ID;RESOURCE;PROPERTY;VOICEOVER;KEY;BR;CZ;RU;AR;TR;CN;PL;IT;FR;DE;ZH;ESMX;EN;KR;E
 2119453599;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453600;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453600;;;;Есть ещё кое-что.;;;;;;;;;;There's more.;;;;
 2119453601;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
-2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Это были скоя'таэли с Синих гор…;;;;;;;;;;It was a group of scoia'tael from Blue Mountains…;;;;
+2119453602;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_06a_ulvbjorn_returns.w2scene""";Line text;GRLT_NGCL_2119453602;;;;Это были скоя'таэли с Синих гор…;;;;;;;;;;It was a group of scoia'tael from Blue Mountains…;;;;
 2119453603;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line comment;;;;;;;;;;;;;;;;;;;
 2119453604;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Line text;NGCLROF_NGCL_2119453604;;;;Что такое?;;;;;;;;;;What's happening?;;;;
 2119453605;"CStoryScene ""dlc\dlcngcl\data\scenes\ngcl_07a_ulvbjorn_ask_for_reward.w2scene""";Choice line comment;;;;;;;;;;;;;;;;;;;

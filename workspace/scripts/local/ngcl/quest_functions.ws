@@ -27,7 +27,7 @@ latent quest function NGCL_SwitchToBearWitcher_Q() {
 	{
 		if ( inv.IsItemMounted(ids[i]) )
 			inv.UnmountItem(ids[i]);
-		inv.RemoveItem(ids[i], -1);
+		inv.RemoveItem(ids[i], 1);
 	}
 	ids.Clear();
 	ids = inv.AddAnItem('NGCL Ulvbjorn hair', 1);
@@ -83,7 +83,7 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	{
 		if ( inv.IsItemMounted(ids[i]) )
 			inv.UnmountItem(ids[i]);
-		inv.RemoveItem(ids[i], -1);
+		inv.RemoveItem(ids[i], 1);
 	}
 	ids.Clear();
 	// TODO - use saved hair on Geralt NPC
@@ -95,7 +95,7 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 		ids = inv.GetItemsByName( equipmentItemNames[i] );
 		if ( ids.Size() > 0 ) {
 			thePlayer.UnequipItem( ids[0] );
-			inv.RemoveItem( ids[0] );
+			inv.RemoveItem( ids[0], 1 );
 		}
 	}
 	

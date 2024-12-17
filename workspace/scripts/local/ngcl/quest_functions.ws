@@ -93,9 +93,9 @@ latent quest function NGCL_SwitchToGeralt_Q() {
 	for (i = 0; i < equipmentItemNames.Size(); i += 1) {
 		ids.Clear();
 		ids = inv.GetItemsByName( equipmentItemNames[i] );
-		if ( ids.Size() > 0 ) {
-			thePlayer.UnequipItem( ids[0] );
-			inv.RemoveItem( ids[0], 1 );
+		for ( j = 0; j < ids.Size(); j += 1 ) {
+			thePlayer.UnequipItem( ids[j] );
+			inv.RemoveItem( ids[j], 1 );
 		}
 	}
 	

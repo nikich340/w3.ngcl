@@ -10,6 +10,7 @@
     "workshopId": 0,
     "succesfullyCooked": false,
     "dependencies": [],
+    "useLooseScripts": false,
     "excludedDlc": [
         "dlc1",
         "dlc2",

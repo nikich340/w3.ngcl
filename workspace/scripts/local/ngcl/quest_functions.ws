@@ -258,3 +258,7 @@ quest function NGCL_UnequipAllHorseItems() {
 	GetWitcherPlayer().GetHorseManager().UnequipItem(EES_HorseBlinders);
 	GetWitcherPlayer().GetHorseManager().UnequipItem(EES_HorseBag);
 }
+
+quest function NGCL_ShowSkatingWarning() {
+	theGame.GetGuiManager().ShowNotification( GetLocStringByKeyExt( "ngcl_modio_warning" ), 30 * 1000.f, false );
+}

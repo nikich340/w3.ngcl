@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>			
 	<res alias="ngcl_ulvbjorn_player" path="dlc\dlcngcl\data\entities\ngcl_ulvbjorn_player.w2ent" />
 	<res alias="ngcl_emilia_projectile" path="dlc\dlcngcl\data\entities\items\magic\emilia_arcane_missile.w2ent

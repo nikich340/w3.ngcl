@@ -1,4 +1,4 @@
-// CExplorationStateSkateSlide
+﻿// CExplorationStateSkateSlide
 //------------------------------------------------------------------------------------------------------------------
 // Eduard Lopez Plans	( 11/02/2014 )	 
 

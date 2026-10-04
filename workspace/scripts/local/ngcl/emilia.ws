@@ -1,4 +1,4 @@
-statemachine class NGCL_EmiliaNPC extends CNewNPC {
+﻿statemachine class NGCL_EmiliaNPC extends CNewNPC {
 	protected editable var shieldEffectName : name;
 	protected editable var shieldBreakEffectName : name;
 	protected editable var shieldActivateInterval : float;
@@ -7,7 +7,7 @@ statemachine class NGCL_EmiliaNPC extends CNewNPC {
 	protected var savedInteractionPriority : EInteractionPriority;
 	
 	default shouldUseShield = true;
-	default shieldActivateInterval = 20.f;
+	default shieldActivateInterval = 15.f;
 	default shieldEffectName = 'quen_lasting_shield';
 	default shieldBreakEffectName = 'quen_electric_explode_bear_abl2';
 	
@@ -55,13 +55,16 @@ statemachine class NGCL_EmiliaNPC extends CNewNPC {
 			PlayEffect(shieldBreakEffectName);
 		StopEffect(shieldEffectName);
 		RemoveBuffImmunity_AllNegative('MagicShield');
-		SetImmortalityMode( AIM_None, AIC_Default );
-		SetImmortalityMode( AIM_None, AIC_Combat );
 		SetCanPlayHitAnim( true );
 		SetUnstoppable( false );
 		SetInteractionPriority( savedInteractionPriority );
 		combatStorage = (CHumanAICombatStorage)GetScriptStorageObject('CombatData');
 		combatStorage.SetProtectedByQuen(false);
+	}
+	
+	timer function DeactivateShield2(delta : float, id : int) {
+		SetImmortalityMode( AIM_None, AIC_Default );
+		SetImmortalityMode( AIM_None, AIC_Combat );
 	}
 	
 	public function ReactToBeingHit(damageAction : W3DamageAction, optional buffNotApplied : bool) : bool {
@@ -80,7 +83,8 @@ statemachine class NGCL_EmiliaNPC extends CNewNPC {
 			}
 			if ( !damageAction.IsDoTDamage() && !damageAction.WasDodged() ) {
 				DeactivateShield(true);
-				AddTimer('ActivateShield', shieldActivateInterval * (1.f + RandRangeF(0.2, -0.2)), /*repeats*/ false);
+				AddTimer('DeactivateShield2', 3.f, /*repeats*/ false);
+				AddTimer('ActivateShield', shieldActivateInterval * (1.f - 0.3f * (1.f - GetHealthPercents()) + RandRangeF(0.2, -0.2)), /*repeats*/ false);
 			}
 			damageAction.ClearDamage();
 			damageAction.ClearEffects();

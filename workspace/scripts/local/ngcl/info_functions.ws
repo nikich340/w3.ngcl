@@ -1,4 +1,4 @@
-quest function NGCL_Notify(message : String) {
+﻿quest function NGCL_Notify(message : String) {
 	NGCL_Notify_Shared(message);
 }
 

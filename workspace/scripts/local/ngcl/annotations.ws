@@ -1,4 +1,4 @@
-@wrapMethod(CScriptSoundSystem)
+﻿@wrapMethod(CScriptSoundSystem)
 function InitializeAreaMusic( worldArea : EAreaName ) {
 	wrappedMethod( worldArea );
 	// NGCL_Notify_Shared("InitializeAreaMusic: worldArea = " + worldArea + ", skellige loaded = " + theSound.SoundIsBankLoaded("music_skellige.bnk"));

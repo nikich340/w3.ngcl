@@ -1,0 +1,4481 @@
+{
+  "_type": "CR2W",
+  "_extension": "",
+  "_imports": [
+    {
+      "_className": "CEntityTemplate",
+      "_depotPath": "dlc\\dlcngcl\\data\\entities\\ngcl_geralt_npc.w2ent",
+      "_flags": 4
+    },
+    {
+      "_className": "CEntityTemplate",
+      "_depotPath": "dlc\\dlcngcl\\data\\entities\\ngcl_ulvbjorn_player.w2ent",
+      "_flags": 4
+    }
+  ],
+  "_properties": [
+    {
+      "Property": {
+        "className": 0,
+        "classFlags": 0,
+        "propertyName": 0,
+        "propertyFlags": 0,
+        "hash": 0
+      }
+    }
+  ],
+  "_buffers": [],
+  "_embedded": [],
+  "_chunks": {
+    "CStoryScene #0": {
+      "_type": "CStoryScene",
+      "_key": "CStoryScene #0",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "controlParts": {
+          "_type": "array:2,0,ptr:CStorySceneControlPart",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneControlPart",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneInput #1"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneControlPart",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneSection #2"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneControlPart",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneOutput #3"
+                }
+              }
+            }
+          ]
+        },
+        "sections": {
+          "_type": "array:2,0,ptr:CStorySceneSection",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneSection",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneSection #2"
+                }
+              }
+            }
+          ]
+        },
+        "graph": {
+          "_type": "ptr:CStorySceneGraph",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraph #26"
+            }
+          }
+        },
+        "elementIDCounter": {
+          "_type": "Uint32",
+          "_value": 8
+        },
+        "sectionIDCounter": {
+          "_type": "Uint32",
+          "_value": 1
+        },
+        "sceneId": {
+          "_type": "Uint32",
+          "_value": 94524965
+        },
+        "sceneTemplates": {
+          "_type": "array:2,0,ptr:CStorySceneActor",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneActor",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneActor #38"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneActor",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneActor #39"
+                }
+              }
+            }
+          ]
+        },
+        "dialogsetInstances": {
+          "_type": "array:2,0,ptr:CStorySceneDialogsetInstance",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneDialogsetInstance",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneDialogsetInstance #40"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CStorySceneInput #1": {
+      "_type": "CStorySceneInput",
+      "_key": "CStorySceneInput #1",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 0,
+      "_vars": {
+        "nextLinkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSection #2"
+            }
+          }
+        },
+        "voicetagMappings": {
+          "_type": "array:2,0,CStorySceneVoicetagMapping",
+          "_elements": [
+            {
+              "_type": "CStorySceneVoicetagMapping",
+              "_vars": {}
+            },
+            {
+              "_type": "CStorySceneVoicetagMapping",
+              "_vars": {
+                "voicetag": {
+                  "_type": "CName",
+                  "_value": "DUDU GERALT"
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneVoicetagMapping",
+              "_vars": {
+                "voicetag": {
+                  "_type": "CName",
+                  "_value": "GERALT"
+                }
+              }
+            }
+          ]
+        },
+        "isGameplay": {
+          "_type": "Bool",
+          "_value": false
+        }
+      }
+    },
+    "CStorySceneSection #2": {
+      "_type": "CStorySceneSection",
+      "_key": "CStorySceneSection #2",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 0,
+      "_vars": {
+        "linkedElements": {
+          "_type": "array:2,0,ptr:CStorySceneLinkElement",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneLinkElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneInput #1"
+                }
+              }
+            }
+          ]
+        },
+        "nextLinkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneOutput #3"
+            }
+          }
+        },
+        "nextVariantId": {
+          "_type": "Uint32",
+          "_value": 1
+        },
+        "defaultVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        },
+        "variants": {
+          "_type": "array:2,0,ptr:CStorySceneSectionVariant",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneSectionVariant",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneSectionVariant #4"
+                }
+              }
+            }
+          ]
+        },
+        "sceneElements": {
+          "_type": "array:2,0,ptr:CStorySceneElement",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStoryScenePauseElement #5"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneLine #6"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStoryScenePauseElement #7"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneLine #8"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStoryScenePauseElement #9"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneLine #10"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStoryScenePauseElement #11"
+                }
+              }
+            }
+          ]
+        },
+        "eventsInfo": {
+          "_type": "array:2,0,ptr:CStorySceneEventInfo",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #12"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #13"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #14"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #15"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #16"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #17"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #18"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #19"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #20"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #21"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #22"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #23"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #24"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneEventInfo",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneEventInfo #25"
+                }
+              }
+            }
+          ]
+        },
+        "sectionId": {
+          "_type": "Uint32",
+          "_value": 1
+        },
+        "sectionName": {
+          "_type": "String",
+          "_value": " check_geralt"
+        },
+        "dialogsetChangeTo": {
+          "_type": "CName",
+          "_value": "dialogset_1"
+        },
+        "sceneEventElements": {
+          "_type": "array:0,0,CVariantSizeType",
+          "_elements": [
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventCustomCamera",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "CustomCamera"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #5"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "x831oc7340GS7OrCs637mQ=="
+                    },
+                    "linkChildrenGUID": {
+                      "_type": "array:2,0,CGUID",
+                      "_elements": [
+                        {
+                          "_type": "CGUID",
+                          "_value": "RcBLf0xwREiD6fZVt3O9Ag=="
+                        },
+                        {
+                          "_type": "CGUID",
+                          "_value": "TaaiekT+FES9EPbozBFq3w=="
+                        },
+                        {
+                          "_type": "CGUID",
+                          "_value": "CcZcZuNMl06jg+fs69h0Kg=="
+                        },
+                        {
+                          "_type": "CGUID",
+                          "_value": "KbVp3eJgdkefnuZboZ5ABg=="
+                        }
+                      ]
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "_Camera"
+                    },
+                    "cameraTranslation": {
+                      "_type": "Vector",
+                      "_vars": {
+                        "X": {
+                          "_type": "Float",
+                          "_value": 1.75195313
+                        },
+                        "Y": {
+                          "_type": "Float",
+                          "_value": 1.1574707
+                        },
+                        "Z": {
+                          "_type": "Float",
+                          "_value": 0.62167263
+                        },
+                        "W": {
+                          "_type": "Float",
+                          "_value": 1.0
+                        }
+                      }
+                    },
+                    "cameraRotation": {
+                      "_type": "EulerAngles",
+                      "_vars": {
+                        "Pitch": {
+                          "_type": "Float",
+                          "_value": 356.800079
+                        },
+                        "Yaw": {
+                          "_type": "Float",
+                          "_value": 119.1042
+                        },
+                        "Roll": {
+                          "_type": "Float",
+                          "_value": 0.0
+                        }
+                      }
+                    },
+                    "cameraZoom": {
+                      "_type": "Float",
+                      "_value": 3.0
+                    },
+                    "cameraFov": {
+                      "_type": "Float",
+                      "_value": 40.0
+                    },
+                    "cameraDefinition": {
+                      "_type": "StorySceneCameraDefinition",
+                      "_vars": {
+                        "cameraName": {
+                          "_type": "CName",
+                          "_value": "CustomCamera"
+                        },
+                        "cameraTransform": {
+                          "_type": "EngineTransform",
+                          "_vars": {
+                            "Pitch": {
+                              "_type": "Float",
+                              "_value": 0.0
+                            },
+                            "Yaw": {
+                              "_type": "Float",
+                              "_value": 356.800079
+                            },
+                            "Roll": {
+                              "_type": "Float",
+                              "_value": 119.1042
+                            },
+                            "X": {
+                              "_type": "Float",
+                              "_value": 1.75195313
+                            },
+                            "Y": {
+                              "_type": "Float",
+                              "_value": 1.1574707
+                            },
+                            "Z": {
+                              "_type": "Float",
+                              "_value": 0.62167263
+                            }
+                          }
+                        },
+                        "cameraZoom": {
+                          "_type": "Float",
+                          "_value": 3.0
+                        },
+                        "cameraFov": {
+                          "_type": "Float",
+                          "_value": 35.0
+                        },
+                        "cameraAdjustVersion": {
+                          "_type": "Uint8",
+                          "_value": 2
+                        }
+                      }
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "0"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventLookAtDuration",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "Lookat"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #5"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "RcBLf0xwREiD6fZVt3O9Ag=="
+                    },
+                    "linkParentGUID": {
+                      "_type": "CGUID",
+                      "_value": "x831oc7340GS7OrCs637mQ=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.lookats"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 1.0
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "bodyTarget": {
+                      "_type": "CName",
+                      "_value": "DUDU GERALT"
+                    },
+                    "bodyInstant": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "usesNewTransition": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "eyesEnabled": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "eyesInstant": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "1"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "mq1060_geralt_dead_being_possessed"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.910556257
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #6"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "b6mt4WJV5kiClV7KLNDpcw=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "DUDU GERALT.animations"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 16.8666649
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "DUDU GERALT"
+                    },
+                    "blendIn": {
+                      "_type": "Float",
+                      "_value": 0.7
+                    },
+                    "blendOut": {
+                      "_type": "Float",
+                      "_value": 0.0
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 16.8666649
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 16.8666649
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "mq1060_geralt_dead_being_possessed"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Unconscious"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.0296442714
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.9703557
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "2"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventFade",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "Fade"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #11"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "bL2q+ihxX0KeW9+4uHa0JA=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "_Camera"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 1.0
+                    },
+                    "in": {
+                      "_type": "Bool",
+                      "_value": false
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "3"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "take"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #5"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "TaaiekT+FES9EPbozBFq3w=="
+                    },
+                    "linkParentGUID": {
+                      "_type": "CGUID",
+                      "_value": "x831oc7340GS7OrCs637mQ=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.animations"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 4.08430338
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "blendIn": {
+                      "_type": "Float",
+                      "_value": 0.0
+                    },
+                    "clipFront": {
+                      "_type": "Float",
+                      "_value": 1.58236313
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 5.66666651
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 5.66666651
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_gesture_take"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "friendlyName": {
+                      "_type": "String",
+                      "_value": "take"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "4"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventFade",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "Fade"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #5"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "CcZcZuNMl06jg+fs69h0Kg=="
+                    },
+                    "linkParentGUID": {
+                      "_type": "CGUID",
+                      "_value": "x831oc7340GS7OrCs637mQ=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "_Camera"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 0.8
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "5"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAdditiveAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "explain 01"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.0120786857
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #8"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "2ccsCiFyF0WNIJoXLy5ykw=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.additives"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 4.33333349
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 4.33333349
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 4.33333349
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_gesture_explain_01"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "friendlyName": {
+                      "_type": "String",
+                      "_value": "explain 01"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "6"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAdditiveAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "question 01"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.6425534
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #8"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "BNB3DlZEUkmvYK3Da/cakg=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.additives"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 2.0666666
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 2.0666666
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 2.0666666
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_gesture_question_1"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "friendlyName": {
+                      "_type": "String",
+                      "_value": "question 01"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "7"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAdditiveAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "explain 02"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.9290258
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #9"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "Rnnl3RWa9EOvA5R49Rmmow=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.additives"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 3.3
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 3.3
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 3.3
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_gesture_explain_02"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "friendlyName": {
+                      "_type": "String",
+                      "_value": "explain 02"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.5
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "8"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAdditiveAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "question 03"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.474145055
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #6"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "1vim5d8t60SCkDLT0ziSTg=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.additives"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 4.0666666
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 4.0666666
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 4.0666666
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_gesture_question_03"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "friendlyName": {
+                      "_type": "String",
+                      "_value": "question 03"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.21126762
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.7887324
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "9"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventLookAtDuration",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "Lookat"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.2274052
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #9"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "kF6b+BScRkysiJ7WA6oUlw=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.lookats"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 1.0
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "bodyStaticPointWS": {
+                      "_type": "Vector",
+                      "_vars": {
+                        "X": {
+                          "_type": "Float",
+                          "_value": 2.0
+                        },
+                        "Y": {
+                          "_type": "Float",
+                          "_value": 0.45
+                        },
+                        "Z": {
+                          "_type": "Float",
+                          "_value": 0.05
+                        },
+                        "W": {
+                          "_type": "Float",
+                          "_value": 1.0
+                        }
+                      }
+                    },
+                    "type": {
+                      "_type": "EDialogLookAtType",
+                      "_value": "DLT_StaticPoint"
+                    },
+                    "usesNewTransition": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "eyesTarget": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "eyesEnabled": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "eyesStaticPointWS": {
+                      "_type": "Vector",
+                      "_vars": {
+                        "X": {
+                          "_type": "Float",
+                          "_value": 2.0
+                        },
+                        "Y": {
+                          "_type": "Float",
+                          "_value": 0.45
+                        },
+                        "Z": {
+                          "_type": "Float",
+                          "_value": 0.05
+                        },
+                        "W": {
+                          "_type": "Float",
+                          "_value": 1.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "10"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "high_kneeling_determined_to_high_standing_determined"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.719233334
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #10"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "msZVx+C9r020L+erHmhXLA=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.animations"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 4.4
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "blendOut": {
+                      "_type": "Float",
+                      "_value": 0.0
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 4.4
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 4.4
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "high_kneeling_determined_to_high_standing_determined"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Kneeling"
+                    },
+                    "typeName": {
+                      "_type": "CName",
+                      "_value": "Gesture"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.11363636
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.8863636
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "11"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventLookAtDuration",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "Lookat"
+                    },
+                    "startPosition": {
+                      "_type": "Float",
+                      "_value": 0.5342012
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStorySceneLine #10"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "aWkbiOA+M0mQZlxj9RNPkA=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "GERALT.lookats"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 1.0
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "bodyTarget": {
+                      "_type": "CName",
+                      "_value": "DUDU GERALT"
+                    },
+                    "usesNewTransition": {
+                      "_type": "Bool",
+                      "_value": true
+                    },
+                    "eyesTarget": {
+                      "_type": "CName",
+                      "_value": "GERALT"
+                    },
+                    "eyesEnabled": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "12"
+                }
+              }
+            },
+            {
+              "_type": "CVariantSizeType",
+              "_vars": {
+                "_variant": {
+                  "_type": "CStorySceneEventAnimation",
+                  "_vars": {
+                    "eventName": {
+                      "_type": "String",
+                      "_value": "mq1060_geralt_dead_being_possessed"
+                    },
+                    "sceneElement": {
+                      "_type": "ptr:CStorySceneElement",
+                      "_vars": {
+                        "_reference": {
+                          "_type": "string",
+                          "_value": "CStoryScenePauseElement #5"
+                        }
+                      }
+                    },
+                    "GUID": {
+                      "_type": "CGUID",
+                      "_value": "KbVp3eJgdkefnuZboZ5ABg=="
+                    },
+                    "linkParentGUID": {
+                      "_type": "CGUID",
+                      "_value": "x831oc7340GS7OrCs637mQ=="
+                    },
+                    "trackName": {
+                      "_type": "String",
+                      "_value": "DUDU GERALT.additives"
+                    },
+                    "duration": {
+                      "_type": "Float",
+                      "_value": 7.52619457
+                    },
+                    "actor": {
+                      "_type": "CName",
+                      "_value": "DUDU GERALT"
+                    },
+                    "blendIn": {
+                      "_type": "Float",
+                      "_value": 0.0
+                    },
+                    "blendOut": {
+                      "_type": "Float",
+                      "_value": 0.7
+                    },
+                    "clipFront": {
+                      "_type": "Float",
+                      "_value": 1.420167
+                    },
+                    "clipEnd": {
+                      "_type": "Float",
+                      "_value": 8.946362
+                    },
+                    "cachedAnimationDuration": {
+                      "_type": "Float",
+                      "_value": 16.8666649
+                    },
+                    "animationName": {
+                      "_type": "CName",
+                      "_value": "mq1060_geralt_dead_being_possessed"
+                    },
+                    "status": {
+                      "_type": "CName",
+                      "_value": "High"
+                    },
+                    "emotionalState": {
+                      "_type": "CName",
+                      "_value": "Determined"
+                    },
+                    "poseName": {
+                      "_type": "CName",
+                      "_value": "Unconscious"
+                    },
+                    "weightCurve": {
+                      "_type": "SCurveData",
+                      "_vars": {
+                        "Curve Values": {
+                          "_type": "array:147,0,SCurveDataEntry",
+                          "_elements": [
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.0296442714
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 0.9703557
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "lue": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            },
+                            {
+                              "_type": "SCurveDataEntry",
+                              "_vars": {
+                                "me": {
+                                  "_type": "Float",
+                                  "_value": 1.0
+                                },
+                                "ntrolPoint": {
+                                  "_type": "Vector",
+                                  "_vars": {
+                                    "X": {
+                                      "_type": "Float",
+                                      "_value": -0.1
+                                    },
+                                    "Y": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    },
+                                    "Z": {
+                                      "_type": "Float",
+                                      "_value": 0.1
+                                    },
+                                    "W": {
+                                      "_type": "Float",
+                                      "_value": 0.0
+                                    }
+                                  }
+                                },
+                                "rveTypeL": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                },
+                                "rveTypeR": {
+                                  "_type": "Uint16",
+                                  "_value": 1
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "value type": {
+                          "_type": "ECurveValueType",
+                          "_value": "CVT_Float"
+                        },
+                        "type": {
+                          "_type": "ECurveBaseType",
+                          "_value": "CT_Segmented"
+                        },
+                        "is looped": {
+                          "_type": "Bool",
+                          "_value": false
+                        }
+                      }
+                    },
+                    "supportsMotionExClipFront": {
+                      "_type": "Bool",
+                      "_value": true
+                    }
+                  }
+                },
+                "_name": {
+                  "_type": "string",
+                  "_value": "13"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CStorySceneOutput #3": {
+      "_type": "CStorySceneOutput",
+      "_key": "CStorySceneOutput #3",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 0,
+      "_vars": {
+        "linkedElements": {
+          "_type": "array:2,0,ptr:CStorySceneLinkElement",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneLinkElement",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneSection #2"
+                }
+              }
+            }
+          ]
+        },
+        "endsWithBlackscreen": {
+          "_type": "Bool",
+          "_value": true
+        }
+      }
+    },
+    "CStorySceneSectionVariant #4": {
+      "_type": "CStorySceneSectionVariant",
+      "_key": "CStorySceneSectionVariant #4",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "id": {
+          "_type": "Uint32",
+          "_value": 0
+        },
+        "localeId": {
+          "_type": "Uint32",
+          "_value": 2
+        },
+        "events": {
+          "_type": "array:2,0,CGUID",
+          "_elements": [
+            {
+              "_type": "CGUID",
+              "_value": "x831oc7340GS7OrCs637mQ=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "RcBLf0xwREiD6fZVt3O9Ag=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "b6mt4WJV5kiClV7KLNDpcw=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "bL2q+ihxX0KeW9+4uHa0JA=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "TaaiekT+FES9EPbozBFq3w=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "CcZcZuNMl06jg+fs69h0Kg=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "2ccsCiFyF0WNIJoXLy5ykw=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "BNB3DlZEUkmvYK3Da/cakg=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "Rnnl3RWa9EOvA5R49Rmmow=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "1vim5d8t60SCkDLT0ziSTg=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "kF6b+BScRkysiJ7WA6oUlw=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "msZVx+C9r020L+erHmhXLA=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "aWkbiOA+M0mQZlxj9RNPkA=="
+            },
+            {
+              "_type": "CGUID",
+              "_value": "KbVp3eJgdkefnuZboZ5ABg=="
+            }
+          ]
+        },
+        "elementInfo": {
+          "_type": "array:2,0,CStorySceneSectionVariantElementInfo",
+          "_elements": [
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "PauseElement_8"
+                },
+                "approvedDuration": {
+                  "_type": "Float",
+                  "_value": 0.730155945
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "Line_1"
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "PauseElement_6"
+                },
+                "approvedDuration": {
+                  "_type": "Float",
+                  "_value": 0.432562828
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "Line_3"
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "PauseElement_5"
+                },
+                "approvedDuration": {
+                  "_type": "Float",
+                  "_value": 0.6308365
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "Line_4"
+                }
+              }
+            },
+            {
+              "_type": "CStorySceneSectionVariantElementInfo",
+              "_vars": {
+                "elementId": {
+                  "_type": "String",
+                  "_value": "PauseElement_7"
+                },
+                "approvedDuration": {
+                  "_type": "Float",
+                  "_value": 1.0
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CStoryScenePauseElement #5": {
+      "_type": "CStoryScenePauseElement",
+      "_key": "CStoryScenePauseElement #5",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "PauseElement_8"
+        },
+        "duration": {
+          "_type": "Float",
+          "_value": 0.730155945
+        }
+      }
+    },
+    "CStorySceneLine #6": {
+      "_type": "CStorySceneLine",
+      "_key": "CStorySceneLine #6",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "Line_1"
+        },
+        "voicetag": {
+          "_type": "CName",
+          "_value": "GERALT"
+        },
+        "comment": {
+          "_type": "LocalizedString",
+          "_value": 2119453230
+        },
+        "speakingTo": {
+          "_type": "CName",
+          "_value": "DUDU GERALT"
+        },
+        "dialogLine": {
+          "_type": "LocalizedString",
+          "_value": 2119453231
+        },
+        "voiceFileName": {
+          "_type": "String",
+          "_value": "GRLT_NGCL_2119453231"
+        },
+        "overriddenLipsyncFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\lipsync\\GRLT_NGCL_2119453231.re"
+        },
+        "overriddenAudioFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\audio\\GRLT_NGCL_2119453231.wem"
+        }
+      }
+    },
+    "CStoryScenePauseElement #7": {
+      "_type": "CStoryScenePauseElement",
+      "_key": "CStoryScenePauseElement #7",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "PauseElement_6"
+        },
+        "duration": {
+          "_type": "Float",
+          "_value": 0.432562828
+        }
+      }
+    },
+    "CStorySceneLine #8": {
+      "_type": "CStorySceneLine",
+      "_key": "CStorySceneLine #8",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "Line_3"
+        },
+        "voicetag": {
+          "_type": "CName",
+          "_value": "GERALT"
+        },
+        "comment": {
+          "_type": "LocalizedString",
+          "_value": 2119453232
+        },
+        "speakingTo": {
+          "_type": "CName",
+          "_value": "DUDU GERALT"
+        },
+        "dialogLine": {
+          "_type": "LocalizedString",
+          "_value": 2119453233
+        },
+        "voiceFileName": {
+          "_type": "String",
+          "_value": "GRLT_NGCL_2119453233"
+        },
+        "overriddenLipsyncFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\lipsync\\GRLT_NGCL_2119453233.re"
+        },
+        "overriddenAudioFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\audio\\GRLT_NGCL_2119453233.wem"
+        }
+      }
+    },
+    "CStoryScenePauseElement #9": {
+      "_type": "CStoryScenePauseElement",
+      "_key": "CStoryScenePauseElement #9",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "PauseElement_5"
+        },
+        "duration": {
+          "_type": "Float",
+          "_value": 0.6308365
+        }
+      }
+    },
+    "CStorySceneLine #10": {
+      "_type": "CStorySceneLine",
+      "_key": "CStorySceneLine #10",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "Line_4"
+        },
+        "voicetag": {
+          "_type": "CName",
+          "_value": "GERALT"
+        },
+        "comment": {
+          "_type": "LocalizedString",
+          "_value": 2119453234
+        },
+        "speakingTo": {
+          "_type": "CName",
+          "_value": "DUDU GERALT"
+        },
+        "dialogLine": {
+          "_type": "LocalizedString",
+          "_value": 2119453235
+        },
+        "voiceFileName": {
+          "_type": "String",
+          "_value": "GRLT_NGCL_2119453235"
+        },
+        "overriddenLipsyncFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\lipsync\\GRLT_NGCL_2119453235.re"
+        },
+        "overriddenAudioFilePath": {
+          "_type": "String",
+          "_value": "speech\\en\\audio\\GRLT_NGCL_2119453235.wem"
+        }
+      }
+    },
+    "CStoryScenePauseElement #11": {
+      "_type": "CStoryScenePauseElement",
+      "_key": "CStoryScenePauseElement #11",
+      "_parentKey": "CStorySceneSection #2",
+      "_flags": 0,
+      "_vars": {
+        "elementID": {
+          "_type": "String",
+          "_value": "PauseElement_7"
+        },
+        "duration": {
+          "_type": "Float",
+          "_value": 1.0
+        }
+      }
+    },
+    "CStorySceneEventInfo #12": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #12",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "x831oc7340GS7OrCs637mQ=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #13": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #13",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "RcBLf0xwREiD6fZVt3O9Ag=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #14": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #14",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "b6mt4WJV5kiClV7KLNDpcw=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #15": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #15",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "bL2q+ihxX0KeW9+4uHa0JA=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #16": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #16",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "TaaiekT+FES9EPbozBFq3w=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #17": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #17",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "CcZcZuNMl06jg+fs69h0Kg=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #18": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #18",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "2ccsCiFyF0WNIJoXLy5ykw=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #19": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #19",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "BNB3DlZEUkmvYK3Da/cakg=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #20": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #20",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "Rnnl3RWa9EOvA5R49Rmmow=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #21": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #21",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "1vim5d8t60SCkDLT0ziSTg=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #22": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #22",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "kF6b+BScRkysiJ7WA6oUlw=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #23": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #23",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "msZVx+C9r020L+erHmhXLA=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #24": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #24",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "aWkbiOA+M0mQZlxj9RNPkA=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneEventInfo #25": {
+      "_type": "CStorySceneEventInfo",
+      "_key": "CStorySceneEventInfo #25",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "eventGuid": {
+          "_type": "CGUID",
+          "_value": "KbVp3eJgdkefnuZboZ5ABg=="
+        },
+        "sectionVariantId": {
+          "_type": "Uint32",
+          "_value": 0
+        }
+      }
+    },
+    "CStorySceneGraph #26": {
+      "_type": "CStorySceneGraph",
+      "_key": "CStorySceneGraph #26",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 0,
+      "_vars": {
+        "graphBlocks": {
+          "_type": "array:2,0,ptr:CGraphBlock",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphBlock",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneOutputBlock #27"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CGraphBlock",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneSectionBlock #30"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CGraphBlock",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneInputBlock #34"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "CStorySceneOutputBlock #27": {
+      "_type": "CStorySceneOutputBlock",
+      "_key": "CStorySceneOutputBlock #27",
+      "_parentKey": "CStorySceneGraph #26",
+      "_flags": 0,
+      "_vars": {
+        "sockets": {
+          "_type": "array:2,0,ptr:CGraphSocket",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphSocket",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneGraphSocket #28"
+                }
+              }
+            }
+          ]
+        },
+        "position": {
+          "_type": "Vector",
+          "_vars": {
+            "X": {
+              "_type": "Float",
+              "_value": 368.0
+            },
+            "Y": {
+              "_type": "Float",
+              "_value": 57.0
+            },
+            "Z": {
+              "_type": "Float",
+              "_value": 0.0
+            },
+            "W": {
+              "_type": "Float",
+              "_value": 1.0
+            }
+          }
+        },
+        "output": {
+          "_type": "ptr:CStorySceneOutput",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneOutput #3"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneGraphSocket #28": {
+      "_type": "CStorySceneGraphSocket",
+      "_key": "CStorySceneGraphSocket #28",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "block": {
+          "_type": "ptr:CGraphBlock",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneOutputBlock #27"
+            }
+          }
+        },
+        "name": {
+          "_type": "CName",
+          "_value": "In"
+        },
+        "connections": {
+          "_type": "array:2,0,ptr:CGraphConnection",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphConnection",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CGraphConnection #29"
+                }
+              }
+            }
+          ]
+        },
+        "flags": {
+          "_type": "Uint32",
+          "_value": 111
+        },
+        "color": {
+          "_type": "Color",
+          "_vars": {
+            "Red": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Green": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Blue": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Alpha": {
+              "_type": "Uint8",
+              "_value": 255
+            }
+          }
+        },
+        "linkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneOutput #3"
+            }
+          }
+        }
+      }
+    },
+    "CGraphConnection #29": {
+      "_type": "CGraphConnection",
+      "_key": "CGraphConnection #29",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "source": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #28"
+            }
+          }
+        },
+        "destination": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #31"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneSectionBlock #30": {
+      "_type": "CStorySceneSectionBlock",
+      "_key": "CStorySceneSectionBlock #30",
+      "_parentKey": "CStorySceneGraph #26",
+      "_flags": 0,
+      "_vars": {
+        "sockets": {
+          "_type": "array:2,0,ptr:CGraphSocket",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphSocket",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneGraphSocket #32"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CGraphSocket",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneGraphSocket #31"
+                }
+              }
+            }
+          ]
+        },
+        "position": {
+          "_type": "Vector",
+          "_vars": {
+            "X": {
+              "_type": "Float",
+              "_value": 150.0
+            },
+            "Y": {
+              "_type": "Float",
+              "_value": 50.0
+            },
+            "Z": {
+              "_type": "Float",
+              "_value": 0.0
+            },
+            "W": {
+              "_type": "Float",
+              "_value": 1.0
+            }
+          }
+        },
+        "section": {
+          "_type": "ptr:CStorySceneSection",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSection #2"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneGraphSocket #31": {
+      "_type": "CStorySceneGraphSocket",
+      "_key": "CStorySceneGraphSocket #31",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "block": {
+          "_type": "ptr:CGraphBlock",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSectionBlock #30"
+            }
+          }
+        },
+        "name": {
+          "_type": "CName",
+          "_value": "Out"
+        },
+        "connections": {
+          "_type": "array:2,0,ptr:CGraphConnection",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphConnection",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CGraphConnection #37"
+                }
+              }
+            }
+          ]
+        },
+        "flags": {
+          "_type": "Uint32",
+          "_value": 110
+        },
+        "placement": {
+          "_type": "ELinkedSocketPlacement",
+          "_value": "LSP_Right"
+        },
+        "color": {
+          "_type": "Color",
+          "_vars": {
+            "Red": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Green": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Blue": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Alpha": {
+              "_type": "Uint8",
+              "_value": 255
+            }
+          }
+        },
+        "direction": {
+          "_type": "ELinkedSocketDirection",
+          "_value": "LSD_Output"
+        },
+        "linkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSection #2"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneGraphSocket #32": {
+      "_type": "CStorySceneGraphSocket",
+      "_key": "CStorySceneGraphSocket #32",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "block": {
+          "_type": "ptr:CGraphBlock",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSectionBlock #30"
+            }
+          }
+        },
+        "name": {
+          "_type": "CName",
+          "_value": "In"
+        },
+        "connections": {
+          "_type": "array:2,0,ptr:CGraphConnection",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphConnection",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CGraphConnection #33"
+                }
+              }
+            }
+          ]
+        },
+        "flags": {
+          "_type": "Uint32",
+          "_value": 111
+        },
+        "color": {
+          "_type": "Color",
+          "_vars": {
+            "Red": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Green": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Blue": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Alpha": {
+              "_type": "Uint8",
+              "_value": 255
+            }
+          }
+        },
+        "linkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneSection #2"
+            }
+          }
+        }
+      }
+    },
+    "CGraphConnection #33": {
+      "_type": "CGraphConnection",
+      "_key": "CGraphConnection #33",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "source": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #32"
+            }
+          }
+        },
+        "destination": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #35"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneInputBlock #34": {
+      "_type": "CStorySceneInputBlock",
+      "_key": "CStorySceneInputBlock #34",
+      "_parentKey": "CStorySceneGraph #26",
+      "_flags": 0,
+      "_vars": {
+        "sockets": {
+          "_type": "array:2,0,ptr:CGraphSocket",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphSocket",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneGraphSocket #35"
+                }
+              }
+            }
+          ]
+        },
+        "position": {
+          "_type": "Vector",
+          "_vars": {
+            "X": {
+              "_type": "Float",
+              "_value": -69.0
+            },
+            "Y": {
+              "_type": "Float",
+              "_value": 56.0
+            },
+            "Z": {
+              "_type": "Float",
+              "_value": 0.0
+            },
+            "W": {
+              "_type": "Float",
+              "_value": 1.0
+            }
+          }
+        },
+        "input": {
+          "_type": "ptr:CStorySceneInput",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneInput #1"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneGraphSocket #35": {
+      "_type": "CStorySceneGraphSocket",
+      "_key": "CStorySceneGraphSocket #35",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "block": {
+          "_type": "ptr:CGraphBlock",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneInputBlock #34"
+            }
+          }
+        },
+        "name": {
+          "_type": "CName",
+          "_value": "Out"
+        },
+        "connections": {
+          "_type": "array:2,0,ptr:CGraphConnection",
+          "_elements": [
+            {
+              "_type": "ptr:CGraphConnection",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CGraphConnection #36"
+                }
+              }
+            }
+          ]
+        },
+        "flags": {
+          "_type": "Uint32",
+          "_value": 110
+        },
+        "placement": {
+          "_type": "ELinkedSocketPlacement",
+          "_value": "LSP_Right"
+        },
+        "color": {
+          "_type": "Color",
+          "_vars": {
+            "Red": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Green": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Blue": {
+              "_type": "Uint8",
+              "_value": 0
+            },
+            "Alpha": {
+              "_type": "Uint8",
+              "_value": 255
+            }
+          }
+        },
+        "direction": {
+          "_type": "ELinkedSocketDirection",
+          "_value": "LSD_Output"
+        },
+        "linkElement": {
+          "_type": "ptr:CStorySceneLinkElement",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneInput #1"
+            }
+          }
+        }
+      }
+    },
+    "CGraphConnection #36": {
+      "_type": "CGraphConnection",
+      "_key": "CGraphConnection #36",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "source": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #35"
+            }
+          }
+        },
+        "destination": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #32"
+            }
+          }
+        }
+      }
+    },
+    "CGraphConnection #37": {
+      "_type": "CGraphConnection",
+      "_key": "CGraphConnection #37",
+      "_parentKey": "",
+      "_flags": 0,
+      "_vars": {
+        "source": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #31"
+            }
+          }
+        },
+        "destination": {
+          "_type": "ptr:CGraphSocket",
+          "_vars": {
+            "_reference": {
+              "_type": "string",
+              "_value": "CStorySceneGraphSocket #28"
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneActor #38": {
+      "_type": "CStorySceneActor",
+      "_key": "CStorySceneActor #38",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 8,
+      "_vars": {
+        "id": {
+          "_type": "CName",
+          "_value": "DUDU GERALT"
+        },
+        "actorTags": {
+          "_type": "TagList",
+          "_vars": {
+            "tags": {
+              "_type": "CBufferVLQInt32:CName",
+              "_elements": [
+                {
+                  "_type": "CName",
+                  "_value": "ngcl_geralt_npc"
+                }
+              ]
+            }
+          }
+        },
+        "entityTemplate": {
+          "_type": "soft:CEntityTemplate",
+          "_vars": {
+            "_className": {
+              "_type": "string",
+              "_value": "CEntityTemplate"
+            },
+            "_depotPath": {
+              "_type": "string",
+              "_value": "dlc\\dlcngcl\\data\\entities\\ngcl_geralt_npc.w2ent"
+            },
+            "_flags": {
+              "_type": "uint16",
+              "_value": 4
+            }
+          }
+        },
+        "dontSearchByVoicetag": {
+          "_type": "Bool",
+          "_value": true
+        }
+      }
+    },
+    "CStorySceneActor #39": {
+      "_type": "CStorySceneActor",
+      "_key": "CStorySceneActor #39",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 8,
+      "_vars": {
+        "id": {
+          "_type": "CName",
+          "_value": "GERALT"
+        },
+        "actorTags": {
+          "_type": "TagList",
+          "_vars": {
+            "tags": {
+              "_type": "CBufferVLQInt32:CName",
+              "_elements": [
+                {
+                  "_type": "CName",
+                  "_value": "PLAYER"
+                }
+              ]
+            }
+          }
+        },
+        "entityTemplate": {
+          "_type": "soft:CEntityTemplate",
+          "_vars": {
+            "_className": {
+              "_type": "string",
+              "_value": "CEntityTemplate"
+            },
+            "_depotPath": {
+              "_type": "string",
+              "_value": "dlc\\dlcngcl\\data\\entities\\ngcl_ulvbjorn_player.w2ent"
+            },
+            "_flags": {
+              "_type": "uint16",
+              "_value": 4
+            }
+          }
+        },
+        "dontSearchByVoicetag": {
+          "_type": "Bool",
+          "_value": true
+        }
+      }
+    },
+    "CStorySceneDialogsetInstance #40": {
+      "_type": "CStorySceneDialogsetInstance",
+      "_key": "CStorySceneDialogsetInstance #40",
+      "_parentKey": "CStoryScene #0",
+      "_flags": 0,
+      "_vars": {
+        "name": {
+          "_type": "CName",
+          "_value": "dialogset_1"
+        },
+        "slots": {
+          "_type": "array:2,0,ptr:CStorySceneDialogsetSlot",
+          "_elements": [
+            {
+              "_type": "ptr:CStorySceneDialogsetSlot",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneDialogsetSlot #41"
+                }
+              }
+            },
+            {
+              "_type": "ptr:CStorySceneDialogsetSlot",
+              "_vars": {
+                "_reference": {
+                  "_type": "string",
+                  "_value": "CStorySceneDialogsetSlot #42"
+                }
+              }
+            }
+          ]
+        },
+        "placementTag": {
+          "_type": "TagList",
+          "_vars": {
+            "tags": {
+              "_type": "CBufferVLQInt32:CName",
+              "_elements": [
+                {
+                  "_type": "CName",
+                  "_value": "ngcl_ap_geralt_npc_possessed"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "CStorySceneDialogsetSlot #41": {
+      "_type": "CStorySceneDialogsetSlot",
+      "_key": "CStorySceneDialogsetSlot #41",
+      "_parentKey": "CStorySceneDialogsetInstance #40",
+      "_flags": 0,
+      "_vars": {
+        "slotName": {
+          "_type": "CName",
+          "_value": "geralt_npc"
+        },
+        "actorName": {
+          "_type": "CName",
+          "_value": "DUDU GERALT"
+        },
+        "actorStatus": {
+          "_type": "CName",
+          "_value": ""
+        },
+        "actorEmotionalState": {
+          "_type": "CName",
+          "_value": ""
+        },
+        "actorPoseName": {
+          "_type": "CName",
+          "_value": "Unconscious"
+        },
+        "actorMimicsEmotionalState": {
+          "_type": "CName",
+          "_value": "NO ANIMATION"
+        },
+        "actorMimicsLayer_Eyes": {
+          "_type": "CName",
+          "_value": "NO ANIMATION"
+        },
+        "actorMimicsLayer_Pose": {
+          "_type": "CName",
+          "_value": "NO ANIMATION"
+        },
+        "actorMimicsLayer_Animation": {
+          "_type": "CName",
+          "_value": "NO ANIMATION"
+        },
+        "forceBodyIdleAnimation": {
+          "_type": "CName",
+          "_value": "mq1060_geralt_dead_being_possessed"
+        },
+        "ID": {
+          "_type": "CGUID",
+          "_value": "NJ2EhP6gTU6l/Vpt7QP0Vw=="
+        }
+      }
+    },
+    "CStorySceneDialogsetSlot #42": {
+      "_type": "CStorySceneDialogsetSlot",
+      "_key": "CStorySceneDialogsetSlot #42",
+      "_parentKey": "CStorySceneDialogsetInstance #40",
+      "_flags": 0,
+      "_vars": {
+        "slotNumber": {
+          "_type": "Uint32",
+          "_value": 2
+        },
+        "slotName": {
+          "_type": "CName",
+          "_value": "ulvbjorn"
+        },
+        "slotPlacement": {
+          "_type": "EngineTransform",
+          "_vars": {
+            "Pitch": {
+              "_type": "Float",
+              "_value": 0.0
+            },
+            "Yaw": {
+              "_type": "Float",
+              "_value": 0.0
+            },
+            "Roll": {
+              "_type": "Float",
+              "_value": 282.4
+            },
+            "X": {
+              "_type": "Float",
+              "_value": -0.82
+            },
+            "Y": {
+              "_type": "Float",
+              "_value": -0.35
+            },
+            "Z": {
+              "_type": "Float",
+              "_value": 0.0
+            }
+          }
+        },
+        "actorName": {
+          "_type": "CName",
+          "_value": "GERALT"
+        },
+        "actorPoseName": {
+          "_type": "CName",
+          "_value": "Kneeling"
+        },
+        "ID": {
+          "_type": "CGUID",
+          "_value": "vKeFGbcaPUGDQjnD7cWl6g=="
+        }
+      }
+    }
+  }
+}

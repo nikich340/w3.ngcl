@@ -1,4 +1,4 @@
-// if CPC replacer active (nr_player_type > 1): first call ChangePlayerQuest( EQRE_Geralt )
+﻿// if CPC replacer active (nr_player_type > 1): first call ChangePlayerQuest( EQRE_Geralt )
 latent quest function NGCL_SwitchToBearWitcher_Q() {
 	var inv : CInventoryComponent;
 	var ids : array<SItemUniqueId>;

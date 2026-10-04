@@ -1,4 +1,4 @@
-function SkateReset()
+﻿function SkateReset()
 {
 	thePlayer.GotoState('Exploration');
 	

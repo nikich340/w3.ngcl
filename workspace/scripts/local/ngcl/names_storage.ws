@@ -1,4 +1,4 @@
-class CNGCL_LocalizedStringStorage extends CEntity {
+﻿class CNGCL_LocalizedStringStorage extends CEntity {
 	editable var stringValues	: array<LocalizedString>;
 	editable var stringIds		: array<int>;
 
